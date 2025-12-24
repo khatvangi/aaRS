@@ -1,0 +1,29 @@
+Reading parm file (ligand.prmtop)
+title:
+LIG                                                                             
+	mm_options:  e_debug=2
+	mm_options:  gb=5
+	mm_options:  rgbmax=25.000000
+	mm_options:  gbsa=0
+	mm_options:  surften=0.007200
+	mm_options:  cut=999.000000
+	mm_options:  epsext=78.300000
+	mm_options:  kappa=0.127315
+Processing ASCII trajectory (_MMPBSA_ligand.mdcrd.0)
+
+Processing frame 1
+      iter    Total       bad      vdW     elect   nonpolar   genBorn      frms
+/home/conda/feedstock_root/build_artifacts/ambertools_1740173742210/work/AmberTools/src/sff/eff.c(2675) enb14 -->     3.076
+/home/conda/feedstock_root/build_artifacts/ambertools_1740173742210/work/AmberTools/src/sff/eff.c(2676) eel14 -->    16.354
+/home/conda/feedstock_root/build_artifacts/ambertools_1740173742210/work/AmberTools/src/sff/eff.c(2734) enb -->    -0.434
+/home/conda/feedstock_root/build_artifacts/ambertools_1740173742210/work/AmberTools/src/sff/eff.c(2735) eel -->   -12.685
+/home/conda/feedstock_root/build_artifacts/ambertools_1740173742210/work/AmberTools/src/sff/eff.c(2736) e_gb -->    -7.284
+/home/conda/feedstock_root/build_artifacts/ambertools_1740173742210/work/AmberTools/src/sff/eff.c(2737) esurf -->     0.000
+/home/conda/feedstock_root/build_artifacts/ambertools_1740173742210/work/AmberTools/src/sff/eff.c(2738) evdwnp -->     0.000
+ff:     0      4.11      5.09      2.64      3.67      0.00     -7.28  1.98e+00
+ BOND    =        0.2967  ANGLE   =        2.0325  DIHED      =        2.7594
+ VDWAALS =       -0.4344  EEL     =      -12.6848  EGB        =       -7.2844
+ 1-4 VDW =        3.0755  1-4 EEL =       16.3542  RESTRAINT  =        0.0000
+ ESURF   =        0.0000
+
+MM/GBSA processing done!

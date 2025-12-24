@@ -1,0 +1,133 @@
+# ===== DATA FILES (use Git LFS for these if needed) =====
+# Structure files
+*.cif
+*.pdb
+*.mmcif
+*.ent
+*.ent.gz
+
+# Sequence files
+*.fasta
+*.fa
+*.fna
+*.faa
+*.fastq
+*.fq
+
+# Alignment files
+*.aln
+*.afa
+*.phy
+*.phylip
+*.nex
+*.nexus
+*.stockholm
+*.sto
+
+# Tree files
+*.newick
+*.nwk
+*.tree
+*.treefile
+
+# Binary/compressed data
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# Compressed files
+*.gz
+*.bz2
+*.xz
+*.zip
+*.tar
+*.tgz
+
+# Tabular data (large)
+*.csv
+*.tsv
+
+# Images (generated)
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.tif
+
+# ===== AF3 OUTPUT DATA (large JSON files) =====
+*_data.json
+af3_output/
+
+# Large AF3 input JSONs (contain embedded structure data >100MB)
+phase2/af3_ligand_inputs/*.json
+
+# ===== ANCESTRAL RECONSTRUCTION =====
+*.state
+
+# ===== RFAM DATABASE =====
+*.cm
+*.i1f
+*.i1i
+*.i1m
+*.i1p
+
+# ===== MOLECULAR DYNAMICS =====
+*.inpcrd
+*.prmtop
+*.mol2
+*.frcmod
+*.nc
+*.rst
+*.pqr
+*.AC
+*.AC0
+*.INF
+
+# ===== PYMOL SESSIONS =====
+*.pse
+
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ===== TOOL OUTPUTS =====
+# Claude Code
+.claude/
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== EXCEPTIONS (track these) =====
+# Keep small config/metadata JSON files
+!**/config.json
+!**/species_list.txt
+!**/*_evaluation.json
+!**/*_report.txt
+!**/*_progress.txt
+!**/*_summary.json
+
+# Keep .gitkeep for directory structure
+!.gitkeep
+!**/.gitkeep

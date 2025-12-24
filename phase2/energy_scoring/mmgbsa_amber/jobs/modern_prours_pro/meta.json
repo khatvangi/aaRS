@@ -1,0 +1,24 @@
+{
+  "input_cif": "../../outputs/modern_prours_pro/modern_prours_pro/modern_prours_pro_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "C",
+  "ligand_original_resname": "PRO",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      500,
+      4074
+    ],
+    [
+      "B",
+      76,
+      1589
+    ],
+    [
+      "C",
+      1,
+      8
+    ]
+  ]
+}

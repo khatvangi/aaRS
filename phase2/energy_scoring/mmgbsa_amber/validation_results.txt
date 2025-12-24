@@ -1,0 +1,29 @@
+======================================================================
+Validation: Gasteiger vs AM1-BCC charges
+======================================================================
+
+
+anc_thrrs_cat_zn_THR (THR):
+  ✓ anc_thrrs_cat_zn_THR gasteiger: ΔG = -11.11 kcal/mol
+  ✗ anc_thrrs_cat_zn_THR am1bcc: tleap failed
+
+anc_thrrs_cat_zn_SER (SER):
+  ✓ anc_thrrs_cat_zn_SER gasteiger: ΔG = -1.68 kcal/mol
+  ✗ anc_thrrs_cat_zn_SER am1bcc: tleap failed
+
+modern_thrrs_ecoli_zn_THR (THR):
+  ✓ modern_thrrs_ecoli_zn_THR gasteiger: ΔG = 19.03 kcal/mol
+  ✗ modern_thrrs_ecoli_zn_THR am1bcc: tleap failed
+
+modern_thrrs_ecoli_zn_SER (SER):
+  ✓ modern_thrrs_ecoli_zn_SER gasteiger: ΔG = 2.35 kcal/mol
+  ✗ modern_thrrs_ecoli_zn_SER am1bcc: tleap failed
+
+modern_thrrs_ecoli_THR_zinc (THR):
+  ✓ modern_thrrs_ecoli_THR_zinc gasteiger: ΔG = 19.03 kcal/mol
+  ✗ modern_thrrs_ecoli_THR_zinc am1bcc: tleap failed
+
+======================================================================
+Validation Results:
+======================================================================
+No results - jobs may not be ready yet. Wait for main batch to complete.

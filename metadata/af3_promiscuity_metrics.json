@@ -1,0 +1,6 @@
+[
+  {"label": "LUCA-Pro",    "metrics_dir": "phase2/af3_output_full/fulllength_deep_pro"},
+  {"label": "LUCA-Thr",    "metrics_dir": "phase2/af3_output_full/fulllength_deep_thr"},
+  {"label": "Modern-Pro",  "metrics_dir": "phase2/af3_output_full/fulllength_shallow_pro"},
+  {"label": "Modern-Thr",  "metrics_dir": "phase2/af3_output_full/fulllength_shallow_thr"}
+]

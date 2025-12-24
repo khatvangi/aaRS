@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../af3_gaps/af3_output/modern_ecoli_full_pro/modern_ecoli_full_pro_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "PRO",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      572,
+      4482
+    ],
+    [
+      "B",
+      1,
+      8
+    ]
+  ]
+}

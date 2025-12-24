@@ -1,0 +1,29 @@
+{
+  "input_cif": "../../af3_modern_matrix/af3_output/COMPETITION_modern_thrrs_THR_vs_SER/COMPETITION_modern_thrrs_THR_vs_SER_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "THR",
+  "zn_count": 1,
+  "chains": [
+    [
+      "A",
+      401,
+      3278
+    ],
+    [
+      "B",
+      1,
+      8
+    ],
+    [
+      "C",
+      1,
+      7
+    ],
+    [
+      "D",
+      1,
+      1
+    ]
+  ]
+}

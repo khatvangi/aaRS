@@ -1,0 +1,24 @@
+{
+  "input_cif": "../../af3_output/fulllength_shallow_thr_full/fulllength_shallow_thr_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "C",
+  "ligand_original_resname": "THR",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      1908,
+      14961
+    ],
+    [
+      "B",
+      76,
+      1589
+    ],
+    [
+      "C",
+      1,
+      8
+    ]
+  ]
+}

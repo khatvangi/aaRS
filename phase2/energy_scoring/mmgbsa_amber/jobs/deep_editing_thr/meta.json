@@ -1,0 +1,24 @@
+{
+  "input_cif": "../../outputs/deep_editing_thr/deep_editing_thr/deep_editing_thr_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "C",
+  "ligand_original_resname": "THR",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      300,
+      2344
+    ],
+    [
+      "B",
+      76,
+      1589
+    ],
+    [
+      "C",
+      1,
+      8
+    ]
+  ]
+}

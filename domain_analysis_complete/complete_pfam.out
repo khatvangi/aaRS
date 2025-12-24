@@ -1,0 +1,921 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             all_sequences.fasta
+# target HMM database:             ../phase1/data/Pfam-A.hmm
+# per-seq hits tabular output:     complete_summary.tbl
+# per-dom hits tabular output:     complete_domains.tbl
+# profile reporting threshold:     E-value <= 0.01
+# domain reporting threshold:      E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Deep_LUCA_ProRS  [L=2037]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+   2.2e-123  411.6   0.0   4.2e-123  410.7   0.0    1.5  1  tRNA-synt_1c     tRNA synthetases class I (E and Q), catalyti
+   8.4e-114  372.0  59.6    8.6e-23   80.6   4.6    7.1  6  WHEP-TRS         WHEP-TRS domain
+      4e-18   65.9   1.7    8.7e-18   64.8   0.0    2.6  1  tRNA-synt_1c_C   tRNA synthetases class I (E and Q), anti-cod
+    6.8e-18   65.0   1.1    1.9e-17   63.6   1.1    1.9  1  ProRS-C_1        Prolyl-tRNA synthetase, C-terminal
+    3.7e-15   56.9   0.0    8.1e-15   55.8   0.0    1.5  1  tRNA-synt_2b     tRNA synthetase class II core domain (G, H, 
+    1.2e-14   54.6   1.0    8.6e-14   51.9   0.0    3.0  1  HGTP_anticodon   Anticodon binding domain
+    5.4e-11   43.1   0.1    1.4e-10   41.7   0.1    1.7  1  tRNA_edit        Aminoacyl-tRNA editing domain
+    1.2e-10   42.4   0.0    5.8e-10   40.1   0.0    2.4  1  tRNA-synt_1c_C2  tRNA synthetases class I (E and Q), anti-cod
+    3.3e-05   24.5   1.3     0.0002   21.9   0.3    3.0  1  GST_C            Glutathione S-transferase, C-terminal domain
+    0.00019   22.1   0.0    0.00047   20.9   0.0    1.6  1  Arc1p_N_like     Nuclear-export cofactor Arc1p
+
+
+Domain annotation for each model (and alignments):
+>> tRNA-synt_1c  tRNA synthetases class I (E and Q), catalytic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  410.7   0.0  1.7e-126  4.2e-123       1     313 [.     216     520 ..     216     521 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 410.7 bits;  conditional E-value: 1.7e-126
+                      S-EEEE---SSSS-BHHHHHHHHHHHHHHHHTT-EEEEEE-TTSTTT--HHHHHHHHHHHHHTT---SSEEEEGGGGHHHHHHHHHHHHHTTSE CS
+     tRNA-synt_1c   1 kVrtRfaPePtGyLHiGhakaallnylfAkannGklilRieDTdperekeeaeesiledlkwlgikwdekptyqsdrfdelkkyaeeLikkGkA 94 
+                      kV+tR++Pe++GyLHiGhakaalln++++ +++Gkli+R++DT+p++eke++e+ iledl++l+ik+ +++ty+sd+f+ + kyae+Lik+GkA
+  Deep_LUCA_ProRS 216 KVTTRYPPEASGYLHIGHAKAALLNQYYQLNFKGKLIMRFDDTNPAKEKEDFEKVILEDLALLHIKP-DQFTYTSDYFELILKYAEKLIKEGKA 308
+                      79*****************************************************************.77************************ PP
+
+                      EEE-STHHHHHHHHHHCCHTT-TTTTS-HHHHHHHHHHHHHTTHSTTTS-EEEESSBTTSC.CCCCCTEEEEEEECCCCSBTTTBTSTSEEE-H CS
+     tRNA-synt_1c  95 YvcectkeeleeereeqeklgskerdrydeenlklfeeemkkgkaegekavvRlkideess.vefrDlvrgriklepqeihdrvivksdiyPtY 187
+                      Yv+++++e++   r    +++sk+r++++e+nl+l+ eem kg+++g+k+++R+kid++s+  ++r+++ +r+k+ep   h+r+++k+++yPtY
+  Deep_LUCA_ProRS 309 YVDDTPAEKMTLRRTV--RVESKHRKNSVEKNLQLW-EEMAKGSESGQKCCLRAKIDMSSPnGCLRNPTLYRCKIEP---HPRTGNKYNVYPTY 396
+                      ***********99977..99999*************.99**************************************...************** PP
+
+                      HHHHHHHHHHTT-SEEEEEGGGGTTHHHHHHHHHHTT-S.-EEEEEE-EEEETSSB-SHHHHHHHHHTTSSSSTT-TTSHBHHHHHHTTB-HHH CS
+     tRNA-synt_1c 188 dfavvidDaleeithvlrteefldntpkyiwllealglevppfiheylrlnlektklSKRklsllvdeklvkewddlreallnflrrlGwtpeg 281
+                      dfa++i+Da+e++th+lrt+e++d++++++wl+ealgl+ +p+i+ey+rlnl++t+lSKRkl+++vde lv++wdd+r+++++++ r+G+t+eg
+  Deep_LUCA_ProRS 397 DFACPIVDAIEGVTHALRTTEYHDRDEQFYWLIEALGLR-KPYIWEYSRLNLNNTVLSKRKLTWFVDEGLVDGWDDPRFPTVRGVLRRGMTVEG 489
+                      ***************************************.****************************************************** PP
+
+                      HHHHHHHHHHHSSS.CCCCHHHHHHHHHHHHH CS
+     tRNA-synt_1c 282 erelftreeviksfdvnresksleafdkkkLe 313
+                      ++e+++++++++s+ v +e+++++af+kk+++
+  Deep_LUCA_ProRS 490 LKEFIAAQGSSRSV-VFMEWDKIWAFNKKVID 520
+                      **************.**************997 PP
+
+>> WHEP-TRS  WHEP-TRS domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.6   4.6   3.5e-26   8.6e-23       1      52 [.     761     812 ..     761     813 .. 0.97
+   2 !   60.0   0.1     9e-20   2.2e-16       1      53 []     835     887 ..     835     887 .. 0.98
+   3 !   73.6   3.5   5.2e-24   1.3e-20       1      52 [.     909     960 ..     909     961 .. 0.97
+   4 !   72.1   6.3   1.5e-23   3.8e-20       1      51 [.     990    1040 ..     990    1042 .. 0.96
+   5 !   47.1   7.1   9.8e-16   2.4e-12       3      52 ..    1067    1116 ..    1065    1117 .. 0.96
+   6 !   64.5   2.9   3.7e-21   9.1e-18       1      47 [.    1139    1185 ..    1139    1188 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 80.6 bits;  conditional E-value: 3.5e-26
+         WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaa 52 
+                      L ++I +QGdlVR+LK++ka k++id aVkkLLaLKa+yk++tGkd+kpg++
+  Deep_LUCA_ProRS 761 LDSQISQQGDLVRDLKSKKAAKDQIDVAVKKLLALKADYKSATGKDWKPGQT 812
+                      789**********************************************986 PP
+
+  == domain 2  score: 60.0 bits;  conditional E-value: 9e-20
+         WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaap 53 
+                      L+++++ QGdlVR L  + a    idaaVk+LL+LKa+yke+tG++ykpg++p
+  Deep_LUCA_ProRS 835 LYARVAVQGDLVRPLSGKFATAPSIDAAVKQLLELKAEYKEKTGQEYKPGNPP 887
+                      899***********************************************997 PP
+
+  == domain 3  score: 73.6 bits;  conditional E-value: 5.2e-24
+         WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaa 52 
+                      L+++++aQG++VRkLKaeka+k+++d+aV+ LL+LKa+yke+tGkdy pg++
+  Deep_LUCA_ProRS 909 LYNEVAAQGEVVRKLKAEKAPKAKVDEAVECLLSLKAEYKEKTGKDYLPGQT 960
+                      89***********************************************986 PP
+
+  == domain 4  score: 72.1 bits;  conditional E-value: 1.5e-23
+         WHEP-TRS    1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpga 51  
+                       L +k++ QG++VRkLKaeka+k+ +daaVk+LL+LKa+yk+ltG +ykpg+
+  Deep_LUCA_ProRS  990 LLDKVASQGEVVRKLKAEKAEKDLVDAAVKELLQLKAEYKSLTGLEYKPGT 1040
+                       679**********************************************97 PP
+
+  == domain 5  score: 47.1 bits;  conditional E-value: 9.8e-16
+         WHEP-TRS    3 ekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaa 52  
+                       +kI+aQGd+ +k K++ka k++id++Vk+LLaLK +yk+l Gkd++p ++
+  Deep_LUCA_ProRS 1067 SKIQAQGDKDKKKKEKKAAKNVIDPEVKTLLALKGEYKTLSGKDWTPENK 1116
+                       79*********************************************875 PP
+
+  == domain 6  score: 64.5 bits;  conditional E-value: 3.7e-21
+         WHEP-TRS    1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdy 47  
+                       L+++I aQG++VR+ K +ka ke+ida+V+kLLaLKa+yke+tG+d+
+  Deep_LUCA_ProRS 1139 LTQEINAQGEKVRAAKGNKAAKEVIDAEVAKLLALKAKYKEVTGTDF 1185
+                       89*******************************************98 PP
+
+>> tRNA-synt_1c_C  tRNA synthetases class I (E and Q), anti-codon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.8   0.0   3.5e-21   8.7e-18       1      90 [.     523     613 ..     523     614 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 64.8 bits;  conditional E-value: 3.5e-21
+   tRNA-synt_1c_C   1 ApRymaVldpvkvtienlp.gkeeeaevplhpknpelgtrkvpfskeiyiereDakrlkpgeevrLmdlynikveeve.dedgevtelklty 90 
+                      ApRy+a l++  v ++ +p  kee  ev++hpk+p+lg + v+++++++ie +Da++lk+ge v++ +++ni +++++ d+dg++t+l++++
+  Deep_LUCA_ProRS 523 APRYVALLKKEVVPVN-VPgAKEERKEVAKHPKDPDLGLKPVWYGPKVFIEGADAETLKEGELVTFINWGNILITKIHkDADGKITSLDAKL 613
+                      9*******99999998.88559********************************************************999******98876 PP
+
+>> ProRS-C_1  Prolyl-tRNA synthetase, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.6   1.1   7.8e-21   1.9e-17       2      71 .]    1933    2036 ..    1932    2036 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 63.6 bits;  conditional E-value: 7.8e-21
+                       HHHHHHHHTT...EEEEEESSGHHHHHHHHHHH.............S-EEEEEESSS-.............B..SSGTTSB-T..TT-SB-S CS
+        ProRS-C_1    2 eefkealeekg..fvlapWcgeeecEekIkeet.............gatslcipfeqe.............k.eeeeeetkCi..vCgkpak 62  
+                       eefkea+ee+g  f++a++cg+++cE++Ikeet             gat++c+pfeq+             + ++e+ee++C+   Cg+   
+  Deep_LUCA_ProRS 1933 EEFKEAIEENGgkFARAYHCGDKACERRIKEETkrdedgepgapamGATTRCVPFEQPaaaraaselegerEfYAEPEEGQCVnpRCGERPS 2024
+                       8******99999*******************************************************998747889*******998987655 PP
+
+                       ...EEEEEE-B- CS
+        ProRS-C_1   63 ...kwvlfarsY 71  
+                          k+v+far+Y
+  Deep_LUCA_ProRS 2025 aygKRVIFARAY 2036
+                       5889*******9 PP
+
+>> tRNA-synt_2b  tRNA synthetase class II core domain (G, H, P, S and T)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.8   0.0   3.3e-18   8.1e-15       6     176 ..    1348    1741 ..    1342    1744 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 3.3e-18
+                       TTSEEEEE-SSSHHHHHHHHHHHEEEBGG.SSEEEEEEEEEEBTTTSTBCTTTB-SEEE.EEEEEEEES.GGGHHHHHHHHHHHHHHHHHHT CS
+                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxx RF
+     tRNA-synt_2b    6 eneeelaLkPtneegivelfreevlrskd.LPlklaeigtcfRnEasdlrGLlRvrqfh.qddahifva.eekvkdeledliklieevyerl 94  
+                       e ee la++Pt+e+ i ++ ++++  s++ LPl l + g + R E + +r+ lR  +f  ++++h  +a  e++ +e++ ++ +i+  + r+
+  Deep_LUCA_ProRS 1348 ELEEPLAVRPTSETIIGHMWSKWIKLSYRdLPLLLNQWGNVVRWEMRHTRPFLRTSEFSlWQEGHTAHAtREEAEEEVRRMLHDIYARFARE 1439
+                       56889*****************97788888****************************779********889*******************9 PP
+
+                       T.SCEEEEEECTTSC.......................................................................BTTSEE CS
+                       xxxxxxxxxxxxxxx.......................................................................xxxxxx RF
+     tRNA-synt_2b   95 glevrvvrlltsdls.......................................................................afagkk 115 
+                        l   v++    +++                                                                       a   ++
+  Deep_LUCA_ProRS 1440 YLAIPVIKGRKTEKEiggslshefllpaelgedalllceecayaanlekveleaeeeekplekvtpdvktieellkfageadlgrtA--VYT 1529
+                       998777777755444567888999999999999999999999988888888888888888888888888888888888888888443..444 PP
+
+                       EEEEEEETT................................................................................... CS
+                       xxxxxxxxx................................................................................... RF
+     tRNA-synt_2b  116 ldfevvfes................................................................................... 124 
+                       + +e+++++                                                                                   
+  Deep_LUCA_ProRS 1530 YTIEAMMKKaeeggeelvlvlvrgdreldeeklekplgklaphyegapelelatpeeellelgvklplgflgplgldyiatnkevaegevkl 1621
+                       44444444466999999999999999999999999999999999999999999999************************************ PP
+
+                       ...........................................................TSEEEEEEEEEEEETHHHHHTTE.......EEE CS
+                       ...........................................................xxxxxxxxxxxxxxxxxxxxxxx.......xxx RF
+     tRNA-synt_2b  125 ...........................................................lgkalqigtiqndgdrlserldi.......rvk 150 
+                                                                                     alq gt + +g+++++++di        + 
+  Deep_LUCA_ProRS 1622 lldealglknfvvganepdlhllnlngrdleleellvdlavregdrpcpecgegpladgKHWALQAGTSHYLGQNFARAFDIkfdvylhPTQ 1713
+                       *********************************************************77777889*****************7766655334 PP
+
+                       CTTS..SEEEEEEEEEEEEHHHHHHHHH CS
+                       xxxx..xxxxxxxxxxxxxxxxxxxxxx RF
+     tRNA-synt_2b  151 deen..kekevimihaalgveRllaail 176 
+                       d ++  k+k v+++  +l+v+R+++ai+
+  Deep_LUCA_ProRS 1714 DRDTpgKRKYVHTTSWGLSVTRFIGAII 1741
+                       5555559*******************98 PP
+
+>> HGTP_anticodon  Anticodon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.9   0.0   3.5e-17   8.6e-14       1      79 [.    1760    1856 ..    1760    1862 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 51.9 bits;  conditional E-value: 3.5e-17
+                       SEEEEESSSS...........HHHHHHHHHHHHHHHHCTT....SEEEEES..SSSTHHHHHHHHHHTT-SEEEEE-HHHHHH.TEEEEEET CS
+   HGTP_anticodon    1 qvvviplgek...........aeeleeyakklaeeLreag....irveldd..snesigkkirradlkgipfavvvGekelee.gtvtvrrr 74  
+                       qvv++p+ ++           +e++ e a+ la++Lr++     +rv+ldd  ++ ++g+k+++++lkg+p+++++G+++le+ g+v v +r
+  Deep_LUCA_ProRS 1760 QVVIVPIWKTvqlkalkdeeeREQVLEAAEGLAAALRAQVpqlgLRVHLDDrdNHTTPGYKFNDWELKGVPVRIELGPRDLESpGQVVVASR 1851
+                       89999999999999999999855566777777777776634444*******756689*********************************** PP
+
+                       TTCEE CS
+   HGTP_anticodon   75 dtgeq 79  
+                       dtg +
+  Deep_LUCA_ProRS 1852 DTGGK 1856
+                       **955 PP
+
+>> tRNA_edit  Aminoacyl-tRNA editing domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   0.1   5.7e-14   1.4e-10       1     115 [.    1504    1645 ..    1504    1652 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 41.7 bits;  conditional E-value: 5.7e-14
+        tRNA_edit    1 hepaktieelaealg.......vppeqiaKtlvlkd..kkgk..yvlvvvrgdrevdlkklakllg........akklrlasee.eleell. 71  
+                       ++++ktieel +++g          + ++ +++ k+  +  +  +vlv+vrgdre+d+ kl+k lg        a +l+la++e el+el  
+  Deep_LUCA_ProRS 1504 TPDVKTIEELLKFAGeadlgrtAVYTYTIEAMMKKAeeG--GeeLVLVLVRGDRELDEEKLEKPLGklaphyegAPELELATPEeELLELGv 1593
+                       6899**********9744443333333466666666544..456**********************9999998779*****76516666656 PP
+
+        tRNA_edit   72 gvepGgvtPfglk.........akgvpvllDeslkdspdvvvgagendatlrl 115 
+                       +++ G+++P+gl          + +v++llDe+l   +++vvga+e+d +l +
+  Deep_LUCA_ProRS 1594 KLPLGFLGPLGLDyiatnkevaEGEVKLLLDEALGL-KNFVVGANEPDLHLLN 1645
+                       7899******************9*********9976.66*********98865 PP
+
+>> tRNA-synt_1c_C2  tRNA synthetases class I (E and Q), anti-codon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.1   0.0   2.4e-13   5.8e-10       3      69 .]     627     701 ..     625     701 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 40.1 bits;  conditional E-value: 2.4e-13
+  tRNA-synt_1c_C2   3 hWvsa....keavpaevrlYdrLfk.....eeddedfllnpdslkvleeglaEpalanlkegdivQFeReGYfrvd 69 
+                      +W++     +   pa ++ Y++L++     +++d+++++ ++s+ + e +l++pal++lk+gdi+Q++R+G+f++d
+  Deep_LUCA_ProRS 627 TWLAVedtpALYPPALCVYYEHLITkpvlgKDEDFKQYIGKKSKDE-ELMLGDPALKDLKKGDIIQLQRRGFFICD 701
+                      6776633222224568899****774666333355777*****998.99*************************98 PP
+
+>> GST_C  Glutathione S-transferase, C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.9   0.3   8.3e-08    0.0002      33      93 .]     105     166 ..      88     166 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 21.9 bits;  conditional E-value: 8.3e-08
+                      HHHHHHHHHHHTSSSSSTTSSCHHHHHHHHHHHHHHHHTTTTTTTTSH.HHHHHHHHHHTSH CS
+            GST_C  33 kvlsaleeelkgktylvGdkltlADialvealdwleelklallrekfP.nlkawferiaarp 93 
+                       +l+ l++ l+ +tylvG+kltlAD++l + l+  ++    l+++k P ++k+wf  ++a+p
+  Deep_LUCA_ProRS 105 WALNELDKCLALRTYLVGNKLTLADLCLWAELKGRAAWYEFLKQKKLPvHVKRWFGLLEAQP 166
+                      57888999999*********************944444444444666669999998888776 PP
+
+>> Arc1p_N_like  Nuclear-export cofactor Arc1p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   0.0   1.9e-07   0.00047      12      78 ..      98     163 ..      93     166 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 1.9e-07
+                      HHTT-TGGGHHHHHHHHHH-SSTTS-S--HHHHHHHHHHHHHHH..HHHT-SSHHHHTHHHHHHHHHHH CS
+     Arc1p_N_like  12 skrlqekesleeLNesLrdktfilgtkpteaDvtvfeavlplak..klsssedvkakyrHilRWvdllq 78 
+                      s+  + +  l+eL++ L  +t+++g+k t aD+ ++ ++   a   ++ +++++    +H+ RW+ ll+
+  Deep_LUCA_ProRS  98 SSADDLTWALNELDKCLALRTYLVGNKLTLADLCLWAELKGRAAwyEFLKQKKL---PVHVKRWFGLLE 163
+                      5556667789*****************************988884566666655...9*******9986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (2037 residues searched)
+Target model(s):                       24736  (3976475 nodes)
+Passed MSV filter:                      1068  (0.0431759); expected 494.7 (0.02)
+Passed bias filter:                      725  (0.0293095); expected 494.7 (0.02)
+Passed Vit filter:                        64  (0.00258732); expected 24.7 (0.001)
+Passed Fwd filter:                        15  (0.000606404); expected 0.2 (1e-05)
+Initial search space (Z):              24736  [actual number of targets]
+Domain search space  (domZ):              10  [number of targets reported over threshold]
+# CPU time: 0.66u 0.27s 00:00:00.93 Elapsed: 00:00:05.87
+# Mc/sec: 1378.26
+//
+Query:       Deep_LUCA_ThrRS  [L=1017]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+      1e-36  127.1   0.0    1.9e-34  119.7   0.0    2.4  1  tRNA-synt_2b    tRNA synthetase class II core domain (G, H, P
+    8.5e-28   96.8   0.9      3e-27   95.0   0.4    2.2  1  HGTP_anticodon  Anticodon binding domain
+    4.1e-12   46.4   0.0      8e-12   45.5   0.0    1.5  1  TGS             TGS domain
+    2.7e-08   34.1   0.0    1.6e-07   31.7   0.0    2.2  1  tRNA_SAD        Threonyl and Alanyl tRNA synthetase second ad
+    0.00093   19.0   2.7     0.0025   17.7   2.7    1.8  1  RUBY_RBDX       Rubrerythrin, rubredoxin-like domain
+
+
+Domain annotation for each model (and alignments):
+>> tRNA-synt_2b  tRNA synthetase class II core domain (G, H, P, S and T)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.7   0.0   3.8e-38   1.9e-34       7     179 .]     600     878 ..     596     878 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 119.7 bits;  conditional E-value: 3.8e-38
+                      TSEEEEE-SSSHHHHHHHHHHHEEEBGG.SSEEEEEEEEE.EBTTTS.TBCTTTB-SEEEEEEEEEEESG.GGHHHHHHHHHHHHHHHHHHT.T CS
+                      xxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxx.xxxxxx.xxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxx.x RF
+     tRNA-synt_2b   7 neeelaLkPtneegivelfreevlrskd.LPlklaeigtc.fRnEas.dlrGLlRvrqfhqddahifvae.ekvkdeledliklieevyerl.g 95 
+                      +eee+ LkP+n++ +++++     rs++ LPl+lae+gt+ +R+E+s +l+GL+Rvr+f+qddahif+ + +++k e+ +++ l+  v++   g
+  Deep_LUCA_ThrRS 600 EEEEYLLKPMNCPHHIRIYASLRPRSYRdLPLRLAEFGTVsYRYEQSgELHGLTRVRGFTQDDAHIFCRPlDQIKGEFLGVLDLVLLVFKLTfG 693
+                      479*****************7767**888**********87*****99*********************77******************97647 PP
+
+                      .SC......EEEEEE.CTTSC......................................................................... CS
+                      xxx......xxxxxx.xxxxx......................................................................... RF
+     tRNA-synt_2b  96 lev......rvvrll.tsdls......................................................................... 109
+                      l+       + vr   ++++s                                                                         
+  Deep_LUCA_ThrRS 694 LNGddyrarIGVRDKvNDPKSgkyvvsyvcrncgyriegargtdiecpvchshdlegdeenwalaerqikeaveeyknevcglpgnytiepgda 787
+                      7776665542233223444449999999999999999********************************************************* PP
+
+                      BTTSEEEEEEEEETTTSEEEEEEEEEEEETHHHHHTTE...............EEECTTSS............EEEEEEEEEE.EE.HHHHHHH CS
+                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...............xxxxxxxx............xxxxxxxxxx.xx.xxxxxxx RF
+     tRNA-synt_2b 110 afagkkldfevvfeslgkalqigtiqndgdrlserldi...............rvkdeenk............ekevimihaa.lg.veRllaa 174
+                      af+g+kldf v +  lg+++q+gtiq d  +l+er+d+               +      +            e++++mih+a +g +eR++++
+  Deep_LUCA_ThrRS 788 AFYGPKLDFVVKDA-LGREWQLGTIQVD-YNLPERFDLtyvgglnnnnnnnnnN------EeindnnedgqelEHRPVMIHRApFGsIERFIGI 873
+                      **********9999.*************.9********4444433322222110......1111221222222358****************** PP
+
+                      HHHHH CS
+                      xxxxx RF
+     tRNA-synt_2b 175 ilenn 179
+                      ++e++
+  Deep_LUCA_ThrRS 874 LIEHY 878
+                      ***97 PP
+
+>> HGTP_anticodon  Anticodon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.0   0.4   6.1e-31     3e-27       1      93 [.     898     993 ..     898     994 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 95.0 bits;  conditional E-value: 6.1e-31
+                      SEEEEESSSSHHHHHHHHHHHHHHHHCTTSEEEEES.SSSTHHHHHHHHHHTT-SEEEEE-HHHHHHTEEEEEETTTCEE.....EEEETTHHH CS
+   HGTP_anticodon   1 qvvviplgekaeeleeyakklaeeLreagirveldd.snesigkkirradlkgipfavvvGekeleegtvtvrrrdtgeq.....ervsleelv 88 
+                      qvvvip+++   ++++ya++++e+L+eag+r+e+d+ ++e++++kir+a+l++ip+++vvG+ke+e+g+v+vrrr+ g+      + v+l+e++
+  Deep_LUCA_ThrRS 898 QVVVIPISD---KHNDYAREVRERLKEAGLRAEVDLdRSERMQAKIRDAELQKIPYMLVVGDKEQEAGEVSVRRRKGGDLgtmlpKGVPLDEFL 988
+                      9********...9**************************************************************9988867777899*****9 PP
+
+                      HHHHH CS
+   HGTP_anticodon  89 eklke 93 
+                      ekl e
+  Deep_LUCA_ThrRS 989 EKLLE 993
+                      99987 PP
+
+>> TGS  TGS domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.5   0.0   1.6e-15     8e-12       4      59 ..     179     239 ..     175     240 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 45.5 bits;  conditional E-value: 1.6e-15
+                      EETTSSEEEEETT.B-HHHHHHHHSCCHHHCEEEEEETS.EEEETTSBB-...SSEEEEEE CS
+              TGS   4 ylPdGkvvdlpkg.atveDfAyaIhtelakkfiyAkVnG.qlvgldhpLe...dgdvveIv 59 
+                      ylPdGk+++l+++ at+ D+A+aI+++la+++++A+VnG +l++l +pL    +g++v+++
+  Deep_LUCA_ThrRS 179 YLPDGKQLELQEWgATALDVAKAIGPGLAQDALGATVNGeELYDLMKPLSlsgEGAKVTLI 239
+                      66*******9996266***********************99*******9644466666666 PP
+
+>> tRNA_SAD  Threonyl and Alanyl tRNA synthetase second additional domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.7   0.0   3.1e-11   1.6e-07       1      41 [.     395     461 ..     395     467 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 31.7 bits;  conditional E-value: 3.1e-11
+                      EEEEEETT.......EEEEESS---SBGGGC...-SEEEE.................CCECCCTCEE CS
+         tRNA_SAD   1 vrvvsigd......fdvelCgGtHvpnTgeI...gafkil.................kgesknkglr 41 
+                      ++++++gd       +++lC+G+H+p+Tg+I   + +k+                  +g++k+++l+
+  Deep_LUCA_ThrRS 395 ITFYHQGDeaygelCFTDLCRGPHLPSTGKInpeEEVKLEelapksfkltsvagaywRGDEKRPMLQ 461
+                      689*****9**********************888888888999999999999999999999999987 PP
+
+>> RUBY_RBDX  Rubrerythrin, rubredoxin-like domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   2.7     5e-07    0.0025       1      23 [.     721     744 ..     721     747 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 5e-07
+        RUBY_RBDX   1 WrCtvCGyihegdeaPe.kCPvCg 23 
+                      ++C++CGy  eg    + +CPvC+
+  Deep_LUCA_ThrRS 721 YVCRNCGYRIEGARGTDiECPVCH 744
+                      79***************99****8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1017 residues searched)
+Target model(s):                       24736  (3976475 nodes)
+Passed MSV filter:                      1021  (0.0412759); expected 494.7 (0.02)
+Passed bias filter:                      882  (0.0356565); expected 494.7 (0.02)
+Passed Vit filter:                       102  (0.00412354); expected 24.7 (0.001)
+Passed Fwd filter:                        11  (0.000444696); expected 0.2 (1e-05)
+Initial search space (Z):              24736  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.39u 0.19s 00:00:00.58 Elapsed: 00:00:04.79
+# Mc/sec: 843.16
+//
+Query:       Shallow_Euk_ProThrRS  [L=1908]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+     5e-128  426.9   0.5   9.2e-128  426.0   0.5    1.5  1  tRNA-synt_1c     tRNA synthetases class I (E and Q), catalyti
+   1.1e-120  394.0  60.8    1.4e-23   83.0   2.3    6.7  6  WHEP-TRS         WHEP-TRS domain
+    6.9e-20   71.4   0.1    1.8e-19   70.1   0.1    1.8  1  ProRS-C_1        Prolyl-tRNA synthetase, C-terminal
+      2e-19   70.0   1.7    4.7e-19   68.8   0.0    2.6  1  tRNA-synt_1c_C   tRNA synthetases class I (E and Q), anti-cod
+    4.6e-15   56.6   0.0      2e-14   54.5   0.0    2.1  1  tRNA-synt_2b     tRNA synthetase class II core domain (G, H, 
+      1e-13   52.2   0.0    3.9e-13   50.3   0.0    2.1  1  tRNA-synt_1c_C2  tRNA synthetases class I (E and Q), anti-cod
+    1.6e-13   51.0   0.1    2.8e-12   47.1   0.0    2.9  1  HGTP_anticodon   Anticodon binding domain
+    1.7e-06   28.7   0.1    5.1e-06   27.2   0.1    1.8  1  Arc1p_N_like     Nuclear-export cofactor Arc1p
+    0.00014   22.5   1.0    0.00047   20.8   0.0    2.5  1  GST_C            Glutathione S-transferase, C-terminal domain
+
+
+Domain annotation for each model (and alignments):
+>> tRNA-synt_1c  tRNA synthetases class I (E and Q), catalytic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  426.0   0.5  3.4e-131  9.2e-128       1     313 [.     211     515 ..     211     516 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 426.0 bits;  conditional E-value: 3.4e-131
+                           S-EEEE---SSSS-BHHHHHHHHHHHHHHHHTT-EEEEEE-TTSTTT--HHHHHHHHHHHHHTT---SSEEEEGGGGHHHHHHHHHHHH CS
+          tRNA-synt_1c   1 kVrtRfaPePtGyLHiGhakaallnylfAkannGklilRieDTdperekeeaeesiledlkwlgikwdekptyqsdrfdelkkyaeeLi 89 
+                           kV++Rf+Pe++GyLHiGhakaalln++++ +++Gkli+R++DT+pe+eke++e+ iled+++l+ik+ +++ty+sd+f++++kyae+Li
+  Shallow_Euk_ProThrRS 211 KVTVRFPPEASGYLHIGHAKAALLNQHYQVNFKGKLIMRFDDTNPEKEKEDFEKVILEDVAMLHIKP-DQFTYTSDHFETIMKYAEKLI 298
+                           79*****************************************************************.77******************* PP
+
+                           HTTSEEEE-STHHHHHHHHHHCCHTT-TTTTS-HHHHHHHHHHHHHTTHSTTTS-EEEESSBTTSC.CCCCCTEEEEEEECCCCSBTTT CS
+          tRNA-synt_1c  90 kkGkAYvcectkeeleeereeqeklgskerdrydeenlklfeeemkkgkaegekavvRlkideess.vefrDlvrgriklepqeihdrv 177
+                           ++GkAYv+++++e++++ere+  +++sk+r++++e+nl+++ eemkkg++ g+++++R+kid++s+  ++rD++ +r+k++p   h+r+
+  Shallow_Euk_ProThrRS 299 QEGKAYVDDTPAEQMKAEREQ--RIESKHRKNSVEKNLQMW-EEMKKGSQFGQSCCLRAKIDMSSNnGCMRDPTLYRCKIQP---HPRT 381
+                           *********************..99999*************.9***********************9***************...**** PP
+
+                           BTSTSEEE-HHHHHHHHHHHTT-SEEEEEGGGGTTHHHHHHHHHHTT-S.-EEEEEE-EEEETSSB-SHHHHHHHHHTTSSSSTT-TTS CS
+          tRNA-synt_1c 178 ivksdiyPtYdfavvidDaleeithvlrteefldntpkyiwllealglevppfiheylrlnlektklSKRklsllvdeklvkewddlre 266
+                           ++k+++yPtYdfa++i+D++e++th+lrt+e++d++++++w++ealg++ +p+i+ey+rlnl++t+lSKRkl+++v+e lv++wdd+r+
+  Shallow_Euk_ProThrRS 382 GNKYNVYPTYDFACPIVDSIEGVTHALRTTEYHDRDEQFYWIIEALGIR-KPYIWEYSRLNLNNTVLSKRKLTWFVNEGLVDGWDDPRF 469
+                           *************************************************.*************************************** PP
+
+                           HBHHHHHHTTB-HHHHHHHHHHHHHHSSS.CCCCHHHHHHHHHHHHH CS
+          tRNA-synt_1c 267 allnflrrlGwtpegerelftreeviksfdvnresksleafdkkkLe 313
+                           ++++++ r+G+t+eg++++++++++++s+ vn+e+++++af+kk+++
+  Shallow_Euk_ProThrRS 470 PTVRGVLRRGMTVEGLKQFIAAQGSSRSV-VNMEWDKIWAFNKKVID 515
+                           *****************************.**************997 PP
+
+>> WHEP-TRS  WHEP-TRS domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.7   4.6   2.9e-26     8e-23       1      52 [.     756     807 ..     756     808 .. 0.97
+   2 !   83.0   2.3   5.3e-27   1.4e-23       1      53 []     830     882 ..     830     882 .. 0.98
+   3 !   72.8   3.0   8.4e-24   2.3e-20       1      52 [.     904     955 ..     904     956 .. 0.97
+   4 !   77.7   3.0   2.4e-25   6.6e-22       1      51 [.     985    1035 ..     985    1037 .. 0.97
+   5 !   45.5   6.0   2.8e-15   7.6e-12       3      52 ..    1062    1111 ..    1060    1112 .. 0.96
+   6 !   64.6   2.9   3.1e-21   8.5e-18       1      47 [.    1134    1180 ..    1134    1183 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 80.7 bits;  conditional E-value: 2.9e-26
+              WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaa 52 
+                           L ++I +QGdlVR+LK++ka k++id aVkkLLaLKa+yk++tGkd+kpg++
+  Shallow_Euk_ProThrRS 756 LDSQISQQGDLVRDLKSKKAAKDQIDVAVKKLLALKADYKSATGKDWKPGQT 807
+                           789**********************************************986 PP
+
+  == domain 2  score: 83.0 bits;  conditional E-value: 5.3e-27
+              WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaap 53 
+                           L+++++ QGd+VR+LKa+ka+ke+idaaVk+LL+LKa+yke+tG++ykpg++p
+  Shallow_Euk_ProThrRS 830 LYSRVAVQGDVVRELKAKKAPKEDIDAAVKQLLSLKAEYKEKTGQEYKPGNPP 882
+                           899***********************************************997 PP
+
+  == domain 3  score: 72.8 bits;  conditional E-value: 8.4e-24
+              WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaa 52 
+                           L+++++aQG++VRkLKaeka+k+++ +aV+ LL+LKa+yke+tGkdy pg++
+  Shallow_Euk_ProThrRS 904 LYNEVAAQGEVVRKLKAEKAPKAKVNEAVECLLSLKAEYKEKTGKDYVPGQT 955
+                           89***********************************************986 PP
+
+  == domain 4  score: 77.7 bits;  conditional E-value: 2.4e-25
+              WHEP-TRS    1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpga 51  
+                            L++k++ QG++VRkLK+eka+k+++d+aV++LL+LKaqyk+ltG +ykpg+
+  Shallow_Euk_ProThrRS  985 LFDKVASQGEVVRKLKTEKASKDQVDSAVQELLQLKAQYKSLTGVEYKPGT 1035
+                            899**********************************************97 PP
+
+  == domain 5  score: 45.5 bits;  conditional E-value: 2.8e-15
+              WHEP-TRS    3 ekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaa 52  
+                            +kI+aQGd+ +k K++ a k++id++Vk+LLaLK +yk+l Gkd++p+++
+  Shallow_Euk_ProThrRS 1062 SKIQAQGDKDKKKKEKEAAKNVIDPEVKTLLALKGEYKTLSGKDWTPDNK 1111
+                            79*********************************************986 PP
+
+  == domain 6  score: 64.6 bits;  conditional E-value: 3.1e-21
+              WHEP-TRS    1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdy 47  
+                            L+++I aQG++VR+ K +ka ke+ida+V+kLLaLKa+yke+tG+d+
+  Shallow_Euk_ProThrRS 1134 LTQEINAQGEKVRAAKGNKAAKEVIDAEVAKLLALKAKYKEVTGTDF 1180
+                            89*******************************************98 PP
+
+>> ProRS-C_1  Prolyl-tRNA synthetase, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.1   0.1   6.5e-23   1.8e-19       1      71 []    1823    1908 .]    1823    1908 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 70.1 bits;  conditional E-value: 6.5e-23
+                            HHHHHHHHHTT.EEEEEESSGHHHHHHHHHHH.............S-EEEEEESSS-B..SSGTTSB-T..TT.-SB-SEEEEEE-B CS
+             ProRS-C_1    1 weefkealeekgfvlapWcgeeecEekIkeet.............gatslcipfeqek.eeeeeetkCi..vC.gkpakkwvlfars 70  
+                            +e+f+++l+++++v++p+cge +cE+ Ik+ t             ga+slcipf+     e + ++kC+   C ++pak ++lf+rs
+  Shallow_Euk_ProThrRS 1823 LEDFQKVLDSGKIVQIPFCGEIDCEDWIKKTTardqdvepgapsmGAKSLCIPFN--PlCELQPGAKCVnpSCgKNPAKFYTLFGRS 1907
+                            599***************************************************9..557889******99772579********** PP
+
+                            - CS
+             ProRS-C_1   71 Y 71  
+                            Y
+  Shallow_Euk_ProThrRS 1908 Y 1908
+                            * PP
+
+>> tRNA-synt_1c_C  tRNA synthetases class I (E and Q), anti-codon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.8   0.0   1.7e-22   4.7e-19       1      90 [.     518     608 ..     518     609 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 68.8 bits;  conditional E-value: 1.7e-22
+        tRNA-synt_1c_C   1 ApRymaVldpvkvtienlp.gkeeeaevplhpknpelgtrkvpfskeiyiereDakrlkpgeevrLmdlynikveeve.dedgevtelk 87 
+                           ApRy+a l++  v ++ +p  +ee  ev++hpknp++g + v++s++++ie +Da+++++ge+v++ +++ni++++++ ++dg++t+l+
+  Shallow_Euk_ProThrRS 518 APRYVALLKKEVVPVN-VPdAQEEMKEVAKHPKNPDVGLKPVWYSPKVFIEGADAETFSEGEMVTFINWGNINITKIHkNADGKITSLD 605
+                           9*******99999998.87569********************************************************999******98 PP
+
+        tRNA-synt_1c_C  88 lty 90 
+                           +++
+  Shallow_Euk_ProThrRS 606 AKL 608
+                           876 PP
+
+>> tRNA-synt_2b  tRNA synthetase class II core domain (G, H, P, S and T)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.5   0.0   7.3e-18     2e-14       8     176 ..    1329    1645 ..    1320    1648 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 54.5 bits;  conditional E-value: 7.3e-18
+                            SEEEEE-SSSHHHHH.HHHHHHEEEBGG.SSEEEEEEEEEEBTTTSTBCTTTB-SEEEEEEEEEEES.GGGHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxx.xxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx RF
+          tRNA-synt_2b    8 eeelaLkPtneegiv.elfreevlrskd.LPlklaeigtcfRnEasdlrGLlRvrqfhqddahifva.eekvkdeledliklieevy 91  
+                             e  a++Pt+ee+++  ++ ++ ++s + LP++l + + + R E +  ++ lR r+f ++++h+  a  e++ +e+ +++ l+++vy
+  Shallow_Euk_ProThrRS 1329 AEPIAIRPTSEETVMyPAYAKW-VQSHRdLPIRLNQWCNVVRWEFKHPQPFLRTREFLWQEGHSAFAtMEEAAEEVLQILDLYARVY 1414
+                            56789*****998761566655.999555*****************99***************97775899**************** PP
+
+                            HHTT..SCEEEEEECTTSC.................................................BTTSEEEEEEEEETT.... CS
+                            xxxxx.xxxxxxxxxxxxx.................................................xxxxxxxxxxxxxxx.... RF
+          tRNA-synt_2b   92 erlgl.evrvvrlltsdls.................................................afagkkldfevvfes.... 124 
+                            e+l+  +v + r++ ++++                                                 a++++++ + ++ +s    
+  Shallow_Euk_ProThrRS 1415 EELLAiPVVKGRKDAGEIGgtlshewqlpdlgedrlllcpgclatekekalsypkeldetlevsvlyfAGGDYTTTICAYYPSnrvl 1501
+                            **97536555555555444899999999999999999999999999999999999999999999988888888888888888899** PP
+
+                            ......................................................................................T CS
+                            ......................................................................................x RF
+          tRNA-synt_2b  125 ......................................................................................l 125 
+                                                                                                                  +
+  Shallow_Euk_ProThrRS 1502 epkflqnelpdldldsildlsefnhdlstrlvrlldsrlssrskfpdfplsnflnrsllttltdlplvlaqegeicpeceeafisaS 1588
+                            *************************************************************************************** PP
+
+                            SEEEEEEEEEEEETHHHHHTTE....EEECTTS..SEEEEEEEEEEEEHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxx....xxxxxxx..xxxxxxxxxxxxxxxxxxxxxx RF
+          tRNA-synt_2b  126 gkalqigtiqndgdrlserldi....rvkdeen..kekevimihaalgveRllaail 176 
+                            g+a+q +t + +g+++s+ ++i     + d ++  ++++ +    +l v+R++++++
+  Shallow_Euk_ProThrRS 1589 GRAIQGATSHHLGQNFSKMFEIvfdvPTEDPKTpgEKQFAYQNSWGLTVTRTIGVMV 1645
+                            *********************988443444444446777777777799*****9987 PP
+
+>> tRNA-synt_1c_C2  tRNA synthetases class I (E and Q), anti-codon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.3   0.0   1.4e-16   3.9e-13       1      69 []     620     696 ..     620     696 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 50.3 bits;  conditional E-value: 1.4e-16
+       tRNA-synt_1c_C2   1 iihWvsa....keavpaevrlYdrLfk.....eeddedfllnpdslkvleeglaEpalanlkegdivQFeReGYfrvd 69 
+                           +i+W++     + ++pa +++Y++L++     +++d+++++n++s+++ e +l++p l++lk+gdi+Q++R+G+f++d
+  Shallow_Euk_ProThrRS 620 KITWLAVesthALSIPAICVTYEHLITkpvlgKDEDFKQYINKNSKHE-ELMLGDPCLKDLKKGDIIQLQRRGFFICD 696
+                           69999998855556999********774666333355777******99.9**************************98 PP
+
+>> HGTP_anticodon  Anticodon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.1   0.0     1e-15   2.8e-12       1      62 [.    1664    1737 ..    1664    1747 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 47.1 bits;  conditional E-value: 1e-15
+                            SEEEEESSSS...........HHHHHHHHHHHHHHHHCTTSEEEEES.SSSTHHHHHHHHHHTT-SEEEEE-HH CS
+        HGTP_anticodon    1 qvvviplgek...........aeeleeyakklaeeLreagirveldd.snesigkkirradlkgipfavvvGek 62  
+                            qvvvip+g +           +e+l++++++ +++L  a+irv  d+ +n+s+g+k+++++lkg+p++++vG++
+  Shallow_Euk_ProThrRS 1664 QVVVIPCGITnalknvlseedREALMAKCNEYRRRLLGANIRVRADLrDNYSPGWKFNHWELKGVPIRLEVGNQ 1737
+                            9********************999************************************************87 PP
+
+>> Arc1p_N_like  Nuclear-export cofactor Arc1p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   0.1   1.8e-09   5.1e-06      14      78 ..      95     158 ..      81     161 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 27.2 bits;  conditional E-value: 1.8e-09
+                           TT-TGGGHHHHHHHHHH-SSTTS-S--HHHHHHHHHHHHHHHHHHT-SSHHHHTHHHHHHHHHHH CS
+          Arc1p_N_like  14 rlqekesleeLNesLrdktfilgtkpteaDvtvfeavlplakklsssedvkakyrHilRWvdllq 78 
+                             + ++ ++eLN+ L  +t+++g++ t aD+ v+ ++   a    + ++ k++ +H+ RW+ +l+
+  Shallow_Euk_ProThrRS  95 CDSLTSAINELNHCLSLRTYLVGNSLTLADLCVWATLKGNAAWQEHLKQ-KKTPVHVKRWFGFLE 158
+                           3467889***************************998887774444444.599********9986 PP
+
+>> GST_C  Glutathione S-transferase, C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0   1.7e-07   0.00047      36      87 ..     103     155 ..      86     161 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 1.7e-07
+                           HHHHHHHHTSSSSSTTSSCHHHHHHHHHHHHHHHHTTTTTTTTSH.HHHHHHH CS
+                 GST_C  36 saleeelkgktylvGdkltlADialvealdwleelklallrekfP.nlkawfe 87 
+                           + l++ l+ +tylvG+ ltlAD+++ + l+ +++ +  l+++k P ++k+wf 
+  Shallow_Euk_ProThrRS 103 NELNHCLSLRTYLVGNSLTLADLCVWATLKGNAAWQEHLKQKKTPvHVKRWFG 155
+                           5667778899******************************9999989****95 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1908 residues searched)
+Target model(s):                       24736  (3976475 nodes)
+Passed MSV filter:                      1391  (0.0562338); expected 494.7 (0.02)
+Passed bias filter:                      723  (0.0292287); expected 494.7 (0.02)
+Passed Vit filter:                        70  (0.00282988); expected 24.7 (0.001)
+Passed Fwd filter:                        22  (0.000889392); expected 0.2 (1e-05)
+Initial search space (Z):              24736  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.58u 0.15s 00:00:00.73 Elapsed: 00:00:03.61
+# Mc/sec: 2100.08
+//
+Query:       Modern_Human_ProRS  [L=1512]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+   4.2e-128  427.1   0.3   7.5e-128  426.3   0.3    1.4  1  tRNA-synt_1c     tRNA synthetases class I (E and Q), catalyti
+    2.8e-65  216.6  21.0      2e-23   82.5   2.6    4.1  3  WHEP-TRS         WHEP-TRS domain
+      2e-21   76.3   0.2      5e-21   75.1   0.2    1.8  1  ProRS-C_1        Prolyl-tRNA synthetase, C-terminal
+    3.7e-20   73.2   0.1    1.8e-19   70.9   0.0    2.2  1  tRNA-synt_2b     tRNA synthetase class II core domain (G, H, 
+    4.1e-20   72.2   0.9    3.6e-19   69.1   0.0    2.8  1  HGTP_anticodon   Anticodon binding domain
+    6.5e-18   65.2   0.0    6.5e-18   65.2   0.0    2.6  1  tRNA-synt_1c_C   tRNA synthetases class I (E and Q), anti-cod
+    1.3e-13   51.8   0.0    4.2e-13   50.2   0.0    2.0  1  tRNA-synt_1c_C2  tRNA synthetases class I (E and Q), anti-cod
+    9.4e-07   29.5   0.1    2.6e-06   28.1   0.1    1.8  1  Arc1p_N_like     Nuclear-export cofactor Arc1p
+    0.00068   20.3   0.0    0.00068   20.3   0.0    3.1  1  GST_C            Glutathione S-transferase, C-terminal domain
+
+
+Domain annotation for each model (and alignments):
+>> tRNA-synt_1c  tRNA synthetases class I (E and Q), catalytic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  426.3   0.3  2.7e-131  7.5e-128       1     313 [.     197     501 ..     197     502 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 426.3 bits;  conditional E-value: 2.7e-131
+                         S-EEEE---SSSS-BHHHHHHHHHHHHHHHHTT-EEEEEE-TTSTTT--HHHHHHHHHHHHHTT---SSEEEEGGGGHHHHHHHHHHHHHT CS
+        tRNA-synt_1c   1 kVrtRfaPePtGyLHiGhakaallnylfAkannGklilRieDTdperekeeaeesiledlkwlgikwdekptyqsdrfdelkkyaeeLikk 91 
+                         kV++Rf+Pe++GyLHiGhakaalln++++ +++Gkli+R++DT+pe+eke++e+ iled+++l+ik+ +++ty+sd+f++++kyae+Li++
+  Modern_Human_ProRS 197 KVTVRFPPEASGYLHIGHAKAALLNQHYQVNFKGKLIMRFDDTNPEKEKEDFEKVILEDVAMLHIKP-DQFTYTSDHFETIMKYAEKLIQE 286
+                         79*****************************************************************.77********************* PP
+
+                         TSEEEE-STHHHHHHHHHHCCHTT-TTTTS-HHHHHHHHHHHHHTTHSTTTS-EEEESSBTTSC.CCCCCTEEEEEEECCCCSBTTTBTST CS
+        tRNA-synt_1c  92 GkAYvcectkeeleeereeqeklgskerdrydeenlklfeeemkkgkaegekavvRlkideess.vefrDlvrgriklepqeihdrvivks 181
+                         GkAYv+++++e++++ere+  +++sk+r++++e+nl+++ eemkkg++ g+++++R+kid++s+  ++rD++ +r+k++p   h+r+++k+
+  Modern_Human_ProRS 287 GKAYVDDTPAEQMKAEREQ--RIDSKHRKNPIEKNLQMW-EEMKKGSQFGQSCCLRAKIDMSSNnGCMRDPTLYRCKIQP---HPRTGNKY 371
+                         *******************..99999*************.9***********************9***************...******** PP
+
+                         SEEE-HHHHHHHHHHHTT-SEEEEEGGGGTTHHHHHHHHHHTT-S.-EEEEEE-EEEETSSB-SHHHHHHHHHTTSSSSTT-TTSHBHHHH CS
+        tRNA-synt_1c 182 diyPtYdfavvidDaleeithvlrteefldntpkyiwllealglevppfiheylrlnlektklSKRklsllvdeklvkewddlreallnfl 272
+                         ++yPtYdfa++i+D++e++th+lrt+e++d++++++w++ealg++ +p+i+ey+rlnl++t+lSKRkl+++v+e lv++wdd+r+++++++
+  Modern_Human_ProRS 372 NVYPTYDFACPIVDSIEGVTHALRTTEYHDRDEQFYWIIEALGIR-KPYIWEYSRLNLNNTVLSKRKLTWFVNEGLVDGWDDPRFPTVRGV 461
+                         *********************************************.********************************************* PP
+
+                         HHTTB-HHHHHHHHHHHHHHSSS.CCCCHHHHHHHHHHHHH CS
+        tRNA-synt_1c 273 rrlGwtpegerelftreeviksfdvnresksleafdkkkLe 313
+                          r+G+t+eg++++++++++++s+ vn+e+++++af+kk+++
+  Modern_Human_ProRS 462 LRRGMTVEGLKQFIAAQGSSRSV-VNMEWDKIWAFNKKVID 501
+                         ***********************.**************997 PP
+
+>> WHEP-TRS  WHEP-TRS domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.5   2.6   7.5e-27     2e-23       1      53 []     753     805 ..     753     805 .. 0.98
+   2 !   72.8   1.4     8e-24   2.2e-20       1      53 []     826     878 ..     826     878 .. 0.98
+   3 !   71.2   2.3   2.5e-23   6.9e-20       1      52 [.     904     955 ..     904     956 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 82.5 bits;  conditional E-value: 7.5e-27
+            WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaap 53 
+                         L+++++ QGd+VR+LKa+ka+ke++daaVk+LL+LKa+yke+tG++ykpg++p
+  Modern_Human_ProRS 753 LYNRVAVQGDVVRELKAKKAPKEDVDAAVKQLLSLKAEYKEKTGQEYKPGNPP 805
+                         899***********************************************997 PP
+
+  == domain 2  score: 72.8 bits;  conditional E-value: 8e-24
+            WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaap 53 
+                         L+++++aQG++VRkLKaek +k++i +aV+ LL+LKaqyke+tGk+y pg++p
+  Modern_Human_ProRS 826 LYDEVAAQGEVVRKLKAEKSPKAKINEAVECLLSLKAQYKEKTGKEYIPGQPP 878
+                         899***********************************************997 PP
+
+  == domain 3  score: 71.2 bits;  conditional E-value: 2.5e-23
+            WHEP-TRS   1 LeekIkaQGdlVRkLKaekadkeeidaaVkkLLaLKaqykeltGkdykpgaa 52 
+                         L++k++ QG++VRkLK+eka+k+++d aV++LL+LKaqyk+l G +ykp +a
+  Modern_Human_ProRS 904 LFDKVASQGEVVRKLKTEKAPKDQVDIAVQELLQLKAQYKSLIGVEYKPVSA 955
+                         899**********************************************987 PP
+
+>> ProRS-C_1  Prolyl-tRNA synthetase, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.1   0.2   1.8e-24     5e-21       1      71 []    1430    1512 .]    1430    1512 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 75.1 bits;  conditional E-value: 1.8e-24
+                          HHHHHHHHHTT.EEEEEESSGHHHHHHHHHHH.............S-EEEEEESSS-B..SSGTTSB-TTT-SB-SEEEEEE-B- CS
+           ProRS-C_1    1 weefkealeekgfvlapWcgeeecEekIkeet.............gatslcipfeqek.eeeeeetkCivCgkpakkwvlfarsY 71  
+                          +e+f+++l+++++v++p+cge +cE+ Ik+ t             ga+slcipf+     e + ++kC++ ++pak+++lf+rsY
+  Modern_Human_ProRS 1430 MEDFQKILDSGKIVQIPFCGEIDCEDWIKKTTardqdlepgapsmGAKSLCIPFK--PlCELQPGAKCVCGKNPAKYYTLFGRSY 1512
+                          69****************************************************8..557889********************** PP
+
+>> tRNA-synt_2b  tRNA synthetase class II core domain (G, H, P, S and T)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.9   0.0   6.6e-23   1.8e-19       8     176 ..    1113    1284 ..    1104    1287 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 70.9 bits;  conditional E-value: 6.6e-23
+                          SEEEEE-SSSHHHHHHHHHHHEEEB.GGSSEEEEEEEEEEBTTTSTBCTTTB-SEEEEEEEEEEES.GGGHHHHHHHHHHHHHHHHHHT CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxx RF
+        tRNA-synt_2b    8 eeelaLkPtneegivelfreevlrs.kdLPlklaeigtcfRnEasdlrGLlRvrqfhqddahifva.eekvkdeledliklieevyerl 94  
+                           e  a++Pt+e+ ++ ++ ++ ++s +dLP+kl + + + R E +  ++ lR r+f ++++h+  a  e++ +e+ +++ l+++vye+l
+  Modern_Human_ProRS 1113 AEPIAIRPTSETVMYPAYAKW-VQShRDLPIKLNQWCNVVRWEFKHPQPFLRTREFLWQEGHSAFAtMEEAAEEVLQILDLYAQVYEEL 1200
+                          56789**************99.888356*****************99***************97775899******************9 PP
+
+                          T..SCEEEEEECTTSCBTTSEEEEEEEEETTTSEEEEEEEEEEEETHHHHHTTEEEECTTSSEEEEEEEEEEEE.HHHHHHHHH CS
+                          xx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxx RF
+        tRNA-synt_2b   95 gl.evrvvrlltsdlsafagkkldfevvfeslgkalqigtiqndgdrlserldirvkdeenkekevimihaalg.veRllaail 176 
+                          +  +v + r+  +++ a++++++ +e+    +g+a+q gt + +g+++s+ ++i + d +   ++ ++ + + g ++R++++++
+  Modern_Human_ProRS 1201 LAiPVVKGRKTEKEKFAGGDYTTTIEAFISASGRAIQGGTSHHLGQNFSKMFEIVFEDPKIPGEKQFAYQNSWGlTTRTIGVMT 1284
+                          75476666666666669999**************************************999777777888898888****9986 PP
+
+>> HGTP_anticodon  Anticodon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.1   0.0   1.3e-22   3.6e-19       1      93 [.    1303    1403 ..    1303    1404 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 69.1 bits;  conditional E-value: 1.3e-22
+                          SEEEEESSSS.......HHHHHHHHHHHHHHHHCTTSEEEEES.SSSTHHHHHHHHHHTT-SEEEEE-HHHHHHTEEEEEETTTCEEEE CS
+      HGTP_anticodon    1 qvvviplgek.......aeeleeyakklaeeLreagirveldd.snesigkkirradlkgipfavvvGekeleegtvtvrrrdtgeqer 81  
+                          qvv+ip+g +       +e+l +++++ +++L + +irv  d+ +n+s+g+k+++++lkg+p++++vG++++++ +    rrdtge+ +
+  Modern_Human_ProRS 1303 QVVIIPCGITnalseedKEALIAKCNDYRRRLLSVNIRVRADLrDNYSPGWKFNHWELKGVPIRLEVGPRDMKSCQFVAVRRDTGEKLT 1391
+                          9**************9989999******************************************************************* PP
+
+                          EETTHHHHHHHH CS
+      HGTP_anticodon   82 vsleelveklke 93  
+                          v+ +e+ +kl++
+  Modern_Human_ProRS 1392 VAENEAETKLQA 1403
+                          ********9986 PP
+
+>> tRNA-synt_1c_C  tRNA synthetases class I (E and Q), anti-codon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.2   0.0   2.4e-21   6.5e-18       1      90 [.     504     594 ..     504     595 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 65.2 bits;  conditional E-value: 2.4e-21
+      tRNA-synt_1c_C   1 ApRymaVldpvkvtienlp.gkeeeaevplhpknpelgtrkvpfskeiyiereDakrlkpgeevrLmdlynikveeve.dedgevtelklt 89 
+                         ApRy+a l++  + ++ +p  +ee  ev++hpknpe+g + v++s++++ie +Da+++++ge+v++ +++n ++++++ ++dg++++l+++
+  Modern_Human_ProRS 504 APRYVALLKKEVIPVN-VPeAQEEMKEVAKHPKNPEVGLKPVWYSPKVFIEGADAETFSEGEMVTFINWGNLNITKIHkNADGKIISLDAK 593
+                         9*******99999998.87679********************************************************999*****99887 PP
+
+      tRNA-synt_1c_C  90 y 90 
+                         +
+  Modern_Human_ProRS 594 L 594
+                         6 PP
+
+>> tRNA-synt_1c_C2  tRNA synthetases class I (E and Q), anti-codon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   0.0   1.5e-16   4.2e-13       1      69 []     606     681 ..     606     681 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 50.2 bits;  conditional E-value: 1.5e-16
+     tRNA-synt_1c_C2   1 iihWvsa.kea..vpaevrlYdrLfk.....eeddedfllnpdslkvleeglaEpalanlkegdivQFeReGYfrvd 69 
+                         +++W+++ ++a  +p+ +++Y++L++     +++d+++++n++s+++ e +l++p l++lk+gdi+Q++R+G+f++d
+  Modern_Human_ProRS 606 KVTWLAEtTHAlpIPVICVTYEHLITkpvlgKDEDFKQYVNKNSKHE-ELMLGDPCLKDLKKGDIIQLQRRGFFICD 681
+                         699***985552267799******774666333355777******99.9**************************98 PP
+
+>> Arc1p_N_like  Nuclear-export cofactor Arc1p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.1   0.1   9.5e-10   2.6e-06      14      78 ..      92     155 ..      78     158 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 28.1 bits;  conditional E-value: 9.5e-10
+                         TT-TGGGHHHHHHHHHH-SSTTS-S--HHHHHHHHHHHHHHHHHHT-SSHHHHTHHHHHHHHHHH CS
+        Arc1p_N_like  14 rlqekesleeLNesLrdktfilgtkpteaDvtvfeavlplakklsssedvkakyrHilRWvdllq 78 
+                           + +++++eLN+ L  +t+++g++ + aD+ v+ ++   a  ++++ + k++ +H+ RW+ +l+
+  Modern_Human_ProRS  92 CDSFTSTINELNHCLSLRTYLVGNSLSLADLCVWATLKGNAA-WQEQLKQKKAPVHVKRWFGFLE 155
+                         3467899***************************98877666.55555556999*******9986 PP
+
+>> GST_C  Glutathione S-transferase, C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.3   0.0   2.5e-07   0.00068      39      87 ..     103     152 ..      97     158 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 20.3 bits;  conditional E-value: 2.5e-07
+                         HHHHHTSSSSSTTSSCHHHHHHHHHHHHHHHHTTTTTTTTSH.HHHHHHH CS
+               GST_C  39 eeelkgktylvGdkltlADialvealdwleelklallrekfP.nlkawfe 87 
+                         ++ l+ +tylvG+ l+lAD+++ + l+ +++ +  l+++k P ++k+wf 
+  Modern_Human_ProRS 103 NHCLSLRTYLVGNSLSLADLCVWATLKGNAAWQEQLKQKKAPvHVKRWFG 152
+                         5667889******************************7777779****95 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1512 residues searched)
+Target model(s):                       24736  (3976475 nodes)
+Passed MSV filter:                      1500  (0.0606404); expected 494.7 (0.02)
+Passed bias filter:                      770  (0.0311287); expected 494.7 (0.02)
+Passed Vit filter:                        79  (0.00319373); expected 24.7 (0.001)
+Passed Fwd filter:                        13  (0.00052555); expected 0.2 (1e-05)
+Initial search space (Z):              24736  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.50u 0.15s 00:00:00.65 Elapsed: 00:00:02.99
+# Mc/sec: 2004.35
+//
+Query:       Modern_Human_ThrRS  [L=723]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    2.1e-45  155.4   0.0    3.7e-45  154.6   0.0    1.4  1  tRNA-synt_2b    tRNA synthetase class II core domain (G, H, P
+    1.2e-22   80.3   0.1    2.4e-22   79.3   0.1    1.5  1  HGTP_anticodon  Anticodon binding domain
+    8.1e-19   67.9   0.1    3.4e-18   65.9   0.0    2.0  1  TGS             TGS domain
+    6.1e-13   49.0   0.1    1.3e-12   47.9   0.1    1.6  1  tRNA_SAD        Threonyl and Alanyl tRNA synthetase second ad
+
+
+Domain annotation for each model (and alignments):
+>> tRNA-synt_2b  tRNA synthetase class II core domain (G, H, P, S and T)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  154.6   0.0     6e-49   3.7e-45       3     179 .]     399     608 ..     397     608 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 154.6 bits;  conditional E-value: 6e-49
+                         EEETTSEEEEE-SSSHHHHHHHHHHHEEEB.GGSSEEEEEEEEEEBTTTS.TBCTTTB-SEEEEEEEEEEESGGGHHHHHHHHHHHHHHHH CS
+                         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+        tRNA-synt_2b   3 vedeneeelaLkPtneegivelfreevlrs.kdLPlklaeigtcfRnEas.dlrGLlRvrqfhqddahifvaeekvkdeledliklieevy 91 
+                         +e e +e +aLkP+n++g++ +f  +  rs ++LPl+la++g ++RnE s +l GL+Rvr f+qddahif+a e++ de+++++    +vy
+  Modern_Human_ThrRS 399 FEVE-KELFALKPMNCPGHCLMFDHR-PRSwRELPLRLADFGVLHRNELSgALTGLTRVRRFQQDDAHIFCAMEQIEDEIKGCLDFLRTVY 487
+                         5545.4779**************977.9**556****************99**************************************** PP
+
+                         HHTT.SCEEEEEECTTSC.................................BTTSEEEEEEEEETTTSEEEEEEEEEEEETHHHHHTTEEE CS
+                         xxxxxxxxxxxxxxxxxx.................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+        tRNA-synt_2b  92 erlglevrvvrlltsdls.................................afagkkldfevvfeslgkalqigtiqndgdrlserldirv 149
+                         + +g++ +++ l+t++++                                 af+g+k+d+++ +  +g+++q++tiq+d ++l+ r+++++
+  Modern_Human_ThrRS 488 SVFGFS-FKLNLSTRPEKflgdievwdqaekqlenslnefgekwelnsgdgAFYGPKIDIQIKDA-IGRYHQCATIQLD-FQLPIRFNLTY 575
+                         ****98.889***9999999*********************************************.*************.*********** PP
+
+                         ECTTS.SEEEEEEEEEE.EE.HHHHHHHHHHHH CS
+                         xxxxx.xxxxxxxxxxx.xx.xxxxxxxxxxxx RF
+        tRNA-synt_2b 150 kdeen.kekevimihaa.lg.veRllaailenn 179
+                         + +++  +k+++++h+a lg veR++a+++en+
+  Modern_Human_ThrRS 576 VSHDGdDKKRPVIVHRAiLGsVERMIAILTENY 608
+                         *99997999**********************97 PP
+
+>> HGTP_anticodon  Anticodon binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.3   0.1   3.8e-26   2.4e-22       1      93 [.     620     710 ..     620     711 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 79.3 bits;  conditional E-value: 3.8e-26
+                         SEEEEESSSSHHHHHHHHHHHHHHHHCTTSEEEEES.SSSTHHHHHHHHHHTT-SEEEEE-HHHHHHTEEEEEETTTCEEEEEETTHHHHH CS
+      HGTP_anticodon   1 qvvviplgekaeeleeyakklaeeLreagirveldd.snesigkkirradlkgipfavvvGekeleegtvtvrrrdtgeqervsleelvek 90 
+                         qv+v+p+g     + eya+k+++++++a + +++d+  + +++kkir+a+l++++f++vvGeke  +gtv++r+rd++ + + +++e +e 
+  Modern_Human_ThrRS 620 QVMVVPVGP---TCDEYAQKVRQQFHDAKFMADIDLdPGCTLNKKIRNAQLAQYNFILVVGEKEKISGTVNIRTRDNKVHGERTISETIER 707
+                         9********...899*********************9****************************************************** PP
+
+                         HHH CS
+      HGTP_anticodon  91 lke 93 
+                         l++
+  Modern_Human_ThrRS 708 LQQ 710
+                         997 PP
+
+>> TGS  TGS domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9   0.0   5.5e-22   3.4e-18       1      60 []      83     143 ..      83     143 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 65.9 bits;  conditional E-value: 5.5e-22
+                         EEEEETTSSEEEEETTB-.HHHHHHHHSCCHHHCEEEEEETSEEEETTSBB-SSEEEEEEE CS
+                 TGS   1 irvylPdGkvvdlpkgat.veDfAyaIhtelakkfiyAkVnGqlvgldhpLedgdvveIvt 60 
+                         i+v+lPdGk+vd  +++t + ++A+ I+++la+++++AkVn   ++ld+pLe+++++e+++
+  Modern_Human_ThrRS  83 IKVTLPDGKQVDAESWKTtPYQIACGISQGLADNTVIAKVNNVVWDLDRPLEEDCTLELLK 143
+                         79********************************************************986 PP
+
+>> tRNA_SAD  Threonyl and Alanyl tRNA synthetase second additional domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.9   0.1   2.1e-16   1.3e-12       2      44 .]     250     298 ..     249     298 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 47.9 bits;  conditional E-value: 2.1e-16
+                         EEEEETT.EEEEESS---SBGGGC-SEEEE.......CCECCCTCEEEEE CS
+            tRNA_SAD   2 rvvsigdfdvelCgGtHvpnTgeIgafkil.......kgesknkglrRIy 44 
+                         +v+++g   ++lC+G+Hv++Tg+I+a ki         g+++ ++l+RIy
+  Modern_Human_ThrRS 250 TVYRCGP-LIDLCRGPHVRHTGKIKALKIHknsstywEGKADMETLQRIY 298
+                         7*****8.*****************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (723 residues searched)
+Target model(s):                       24736  (3976475 nodes)
+Passed MSV filter:                       750  (0.0303202); expected 494.7 (0.02)
+Passed bias filter:                      586  (0.0236902); expected 494.7 (0.02)
+Passed Vit filter:                        45  (0.00181921); expected 24.7 (0.001)
+Passed Fwd filter:                         4  (0.000161708); expected 0.2 (1e-05)
+Initial search space (Z):              24736  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.27u 0.14s 00:00:00.41 Elapsed: 00:00:03.83
+# Mc/sec: 749.32
+//
+[ok]

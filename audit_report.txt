@@ -1,0 +1,436 @@
+================================================================================
+AF3 DATA AUDIT REPORT
+Generated: 2025-12-09T11:43:31.553867
+Base directory: /storage/kiran-stuff/aaRS
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total AF3 output files found: 184
+Unique run directories: 8
+
+DIRECTORY STRUCTURE
+----------------------------------------
+  phase2/af3_gaps: 24 samples
+  phase2/af3_ligand_inputs: 30 samples
+  phase2/af3_output: 4 samples
+  phase2/af3_output_full: 12 samples
+  phase2/domain_af3_inputs: 6 samples
+  phase2/inputs: 6 samples
+  phase2/outputs: 96 samples
+  phase2/test_input: 6 samples
+
+CRITICAL METRICS SUMMARY
+----------------------------------------
+Runs with ipTM < 0.5 (FAILED): 148
+Runs with ipTM >= 0.5 (OK): 36
+
+Runs with chain_pair_iptm data: 148
+
+RUNS MATCHING TABLE 1 VALUES (using chain_pair_iptm[0][2]):
+----------------------------------------
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output/deep_editing_pro/seed-1_sample-3/deep_editing_pro_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.530
+    overall iptm = 0.15
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output/deep_editing_pro_20251208_175120/seed-1_sample-4/deep_editing_pro_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.500
+    overall iptm = 0.42
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_LUCA_Pro/proRS_LUCA_Pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.790
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_LUCA_Pro/seed-1_sample-0/proRS_LUCA_Pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.790
+    overall iptm = 0.27
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_LUCA_Pro/seed-1_sample-1/proRS_LUCA_Pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.790
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_LUCA_Thr/proRS_LUCA_Thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.710
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_LUCA_Thr/seed-1_sample-0/proRS_LUCA_Thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.700
+    overall iptm = 0.28
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_LUCA_Thr/seed-1_sample-1/proRS_LUCA_Thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.710
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_modern_Pro/proRS_modern_Pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.660
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_modern_Pro/seed-1_sample-0/proRS_modern_Pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.660
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_modern_Pro/seed-1_sample-1/proRS_modern_Pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.660
+    overall iptm = 0.28
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_modern_Thr/proRS_modern_Thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.560
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_modern_Thr/seed-1_sample-0/proRS_modern_Thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.560
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output_final/af3_output/proRS_modern_Thr/seed-1_sample-1/proRS_modern_Thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.580
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_output/fulllength_deep_pro_full/fulllength_deep_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_output/fulllength_deep_thr_full/fulllength_deep_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.700
+    overall iptm = 0.27
+  /storage/kiran-stuff/aaRS/phase2/af3_output/fulllength_shallow_pro_full/fulllength_shallow_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.660
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/af3_output/fulllength_shallow_thr_full/fulllength_shallow_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.560
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_pro/fulllength_deep_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_pro/seed-1_sample-0/fulllength_deep_pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.28
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_pro/seed-1_sample-1/fulllength_deep_pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_thr/fulllength_deep_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.700
+    overall iptm = 0.27
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_thr/seed-1_sample-0/fulllength_deep_thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.700
+    overall iptm = 0.27
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_thr/seed-1_sample-1/fulllength_deep_thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.680
+    overall iptm = 0.26
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_shallow_pro/fulllength_shallow_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.660
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_shallow_pro/seed-1_sample-0/fulllength_shallow_pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.660
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_shallow_pro/seed-1_sample-1/fulllength_shallow_pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.660
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_shallow_thr/fulllength_shallow_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.560
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_shallow_thr/seed-1_sample-0/fulllength_shallow_thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.560
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_shallow_thr/seed-1_sample-1/fulllength_shallow_thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.570
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/inputs/af3_jsons_domain/af3_output/shallow_domain_thr/seed-1_sample-0/shallow_domain_thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/inputs/af3_jsons_domain/af3_output/shallow_domain_thr/seed-1_sample-1/shallow_domain_thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.720
+    overall iptm = 0.26
+  /storage/kiran-stuff/aaRS/phase2/inputs/af3_jsons_domain/af3_output/shallow_domain_thr/seed-1_sample-2/shallow_domain_thr_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.730
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/inputs/af3_jsons_domain/af3_output/shallow_domain_thr/seed-1_sample-3/shallow_domain_thr_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/inputs/af3_jsons_domain/af3_output/shallow_domain_thr/seed-1_sample-4/shallow_domain_thr_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/inputs/af3_jsons_domain/af3_output/shallow_domain_thr/shallow_domain_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_phe/deep_cat_phe/deep_cat_phe_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.35
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_phe/deep_cat_phe/seed-1_sample-0/deep_cat_phe_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.790
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_phe/deep_cat_phe/seed-1_sample-1/deep_cat_phe_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.700
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_phe/deep_cat_phe/seed-1_sample-2/deep_cat_phe_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.800
+    overall iptm = 0.34
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_phe/deep_cat_phe/seed-1_sample-3/deep_cat_phe_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.35
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_phe/deep_cat_phe/seed-1_sample-4/deep_cat_phe_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.28
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_trp/deep_cat_trp/deep_cat_trp_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.670
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_trp/deep_cat_trp/seed-1_sample-0/deep_cat_trp_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.810
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_trp/deep_cat_trp/seed-1_sample-1/deep_cat_trp_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.680
+    overall iptm = 0.31
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_trp/deep_cat_trp/seed-1_sample-2/deep_cat_trp_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.810
+    overall iptm = 0.34
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_trp/deep_cat_trp/seed-1_sample-3/deep_cat_trp_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.670
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_cat_trp/deep_cat_trp/seed-1_sample-4/deep_cat_trp_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.800
+    overall iptm = 0.34
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_phe/deep_catalytic_phe_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.35
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_phe/seed-1_sample-0/deep_catalytic_phe_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.790
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_phe/seed-1_sample-1/deep_catalytic_phe_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.700
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_phe/seed-1_sample-2/deep_catalytic_phe_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.800
+    overall iptm = 0.34
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_phe/seed-1_sample-3/deep_catalytic_phe_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.35
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_phe/seed-1_sample-4/deep_catalytic_phe_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.28
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_trp/deep_catalytic_trp/deep_catalytic_trp_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.670
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_trp/deep_catalytic_trp/seed-1_sample-0/deep_catalytic_trp_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.810
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_trp/deep_catalytic_trp/seed-1_sample-1/deep_catalytic_trp_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.680
+    overall iptm = 0.31
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_trp/deep_catalytic_trp/seed-1_sample-2/deep_catalytic_trp_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.810
+    overall iptm = 0.34
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_trp/deep_catalytic_trp/seed-1_sample-3/deep_catalytic_trp_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.670
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_catalytic_trp/deep_catalytic_trp/seed-1_sample-4/deep_catalytic_trp_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.800
+    overall iptm = 0.34
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_pro/deep_domain_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.31
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_pro/seed-1_sample-0/deep_domain_pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.730
+    overall iptm = 0.28
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_pro/seed-1_sample-1/deep_domain_pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.690
+    overall iptm = 0.25
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_pro/seed-1_sample-2/deep_domain_pro_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.730
+    overall iptm = 0.28
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_pro/seed-1_sample-3/deep_domain_pro_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_pro/seed-1_sample-4/deep_domain_pro_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.31
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_thr/deep_domain_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.620
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_thr/seed-1_sample-0/deep_domain_thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_thr/seed-1_sample-1/deep_domain_thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.610
+    overall iptm = 0.2
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_thr/seed-1_sample-2/deep_domain_thr_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.620
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_thr/seed-1_sample-3/deep_domain_thr_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.32
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_domain_thr/seed-1_sample-4/deep_domain_thr_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.31
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_editing_pro/deep_editing_pro/seed-1_sample-4/deep_editing_pro_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.500
+    overall iptm = 0.42
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_editing_thr/deep_editing_thr/seed-1_sample-4/deep_editing_thr_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.500
+    overall iptm = 0.36
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_pro/deep_thrrs_pro/deep_thrrs_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.880
+    overall iptm = 0.62
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_pro/deep_thrrs_pro/seed-1_sample-0/deep_thrrs_pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.880
+    overall iptm = 0.57
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_pro/deep_thrrs_pro/seed-1_sample-1/deep_thrrs_pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.860
+    overall iptm = 0.59
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_pro/deep_thrrs_pro/seed-1_sample-2/deep_thrrs_pro_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.880
+    overall iptm = 0.62
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_pro/deep_thrrs_pro/seed-1_sample-3/deep_thrrs_pro_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.860
+    overall iptm = 0.59
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_pro/deep_thrrs_pro/seed-1_sample-4/deep_thrrs_pro_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.870
+    overall iptm = 0.61
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_thr/deep_thrrs_thr/deep_thrrs_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.890
+    overall iptm = 0.36
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_thr/deep_thrrs_thr/seed-1_sample-0/deep_thrrs_thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.890
+    overall iptm = 0.36
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_thr/deep_thrrs_thr/seed-1_sample-1/deep_thrrs_thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.890
+    overall iptm = 0.34
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_thr/deep_thrrs_thr/seed-1_sample-2/deep_thrrs_thr_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.880
+    overall iptm = 0.32
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_thr/deep_thrrs_thr/seed-1_sample-3/deep_thrrs_thr_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.880
+    overall iptm = 0.32
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_thr/deep_thrrs_thr/seed-1_sample-4/deep_thrrs_thr_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.880
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_pro/modern_prours_pro/modern_prours_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.800
+    overall iptm = 0.39
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_pro/modern_prours_pro/seed-1_sample-0/modern_prours_pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.690
+    overall iptm = 0.24
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_pro/modern_prours_pro/seed-1_sample-1/modern_prours_pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.680
+    overall iptm = 0.23
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_pro/modern_prours_pro/seed-1_sample-2/modern_prours_pro_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.690
+    overall iptm = 0.25
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_pro/modern_prours_pro/seed-1_sample-3/modern_prours_pro_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.600
+    overall iptm = 0.26
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_pro/modern_prours_pro/seed-1_sample-4/modern_prours_pro_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.800
+    overall iptm = 0.39
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_thr/modern_prours_thr/modern_prours_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_thr/modern_prours_thr/seed-1_sample-0/modern_prours_thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.660
+    overall iptm = 0.26
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_thr/modern_prours_thr/seed-1_sample-1/modern_prours_thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.650
+    overall iptm = 0.21
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_thr/modern_prours_thr/seed-1_sample-2/modern_prours_thr_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.670
+    overall iptm = 0.24
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_thr/modern_prours_thr/seed-1_sample-3/modern_prours_thr_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.650
+    overall iptm = 0.22
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_thr/modern_prours_thr/seed-1_sample-4/modern_prours_thr_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_pro/modern_thrrs_pro/modern_thrrs_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.570
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_pro/modern_thrrs_pro/seed-1_sample-0/modern_thrrs_pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.570
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_pro/modern_thrrs_pro/seed-1_sample-1/modern_thrrs_pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.560
+    overall iptm = 0.27
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_pro/modern_thrrs_pro/seed-1_sample-2/modern_thrrs_pro_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.540
+    overall iptm = 0.22
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_pro/modern_thrrs_pro/seed-1_sample-3/modern_thrrs_pro_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.560
+    overall iptm = 0.25
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_pro/modern_thrrs_pro/seed-1_sample-4/modern_thrrs_pro_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.590
+    overall iptm = 0.19
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_thr/modern_thrrs_thr/modern_thrrs_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.840
+    overall iptm = 0.42
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_thr/modern_thrrs_thr/seed-1_sample-0/modern_thrrs_thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.850
+    overall iptm = 0.39
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_thr/modern_thrrs_thr/seed-1_sample-1/modern_thrrs_thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.850
+    overall iptm = 0.42
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_thr/modern_thrrs_thr/seed-1_sample-2/modern_thrrs_thr_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.840
+    overall iptm = 0.42
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_thr/modern_thrrs_thr/seed-1_sample-3/modern_thrrs_thr_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.840
+    overall iptm = 0.42
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_thr/modern_thrrs_thr/seed-1_sample-4/modern_thrrs_thr_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.860
+    overall iptm = 0.42
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_pro/seed-1_sample-0/shallow_domain_pro_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.710
+    overall iptm = 0.25
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_pro/seed-1_sample-1/shallow_domain_pro_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.760
+    overall iptm = 0.27
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_pro/seed-1_sample-2/shallow_domain_pro_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.3
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_pro/seed-1_sample-3/shallow_domain_pro_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.26
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_pro/seed-1_sample-4/shallow_domain_pro_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.830
+    overall iptm = 0.32
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_pro/shallow_domain_pro_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.830
+    overall iptm = 0.32
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_thr/seed-1_sample-0/shallow_domain_thr_seed-1_sample-0_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.37
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_thr/seed-1_sample-1/shallow_domain_thr_seed-1_sample-1_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.720
+    overall iptm = 0.26
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_thr/seed-1_sample-2/shallow_domain_thr_seed-1_sample-2_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.730
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_thr/seed-1_sample-3/shallow_domain_thr_seed-1_sample-3_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.750
+    overall iptm = 0.29
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_thr/seed-1_sample-4/shallow_domain_thr_seed-1_sample-4_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.780
+    overall iptm = 0.33
+  /storage/kiran-stuff/aaRS/phase2/outputs/shallow_domain_thr/shallow_domain_thr_summary_confidences.json
+    chain_pair_iptm[0][2] = 0.740
+    overall iptm = 0.37
+
+POTENTIAL ISSUES
+----------------------------------------
+⚠️  Multiple runs have ipTM < 0.5 (indicates failed docking)
+    - /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output/deep_editing_pro/deep_editing_pro_summary_confidences.json: ipTM = 0.37
+    - /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output/deep_editing_pro/seed-1_sample-0/deep_editing_pro_seed-1_sample-0_summary_confidences.json: ipTM = 0.36
+    - /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output/deep_editing_pro/seed-1_sample-1/deep_editing_pro_seed-1_sample-1_summary_confidences.json: ipTM = 0.37
+    - /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output/deep_editing_pro/seed-1_sample-2/deep_editing_pro_seed-1_sample-2_summary_confidences.json: ipTM = 0.36
+    - /storage/kiran-stuff/aaRS/phase2/af3_ligand_inputs/af3_output/deep_editing_pro/seed-1_sample-3/deep_editing_pro_seed-1_sample-3_summary_confidences.json: ipTM = 0.15
+
+LUCA FULL-LENGTH RUNS (critical for manuscript):
+  /storage/kiran-stuff/aaRS/phase2/af3_output/fulllength_deep_pro_full/fulllength_deep_pro_summary_confidences.json
+    ipTM = 0.29
+    chain_pair_iptm[0][2] = 0.78
+  /storage/kiran-stuff/aaRS/phase2/af3_output/fulllength_deep_thr_full/fulllength_deep_thr_summary_confidences.json
+    ipTM = 0.27
+    chain_pair_iptm[0][2] = 0.7
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_pro/fulllength_deep_pro_summary_confidences.json
+    ipTM = 0.29
+    chain_pair_iptm[0][2] = 0.78
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_pro/seed-1_sample-0/fulllength_deep_pro_seed-1_sample-0_summary_confidences.json
+    ipTM = 0.28
+    chain_pair_iptm[0][2] = 0.78
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_pro/seed-1_sample-1/fulllength_deep_pro_seed-1_sample-1_summary_confidences.json
+    ipTM = 0.29
+    chain_pair_iptm[0][2] = 0.78
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_thr/fulllength_deep_thr_summary_confidences.json
+    ipTM = 0.27
+    chain_pair_iptm[0][2] = 0.7
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_thr/seed-1_sample-0/fulllength_deep_thr_seed-1_sample-0_summary_confidences.json
+    ipTM = 0.27
+    chain_pair_iptm[0][2] = 0.7
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_thr/seed-1_sample-1/fulllength_deep_thr_seed-1_sample-1_summary_confidences.json
+    ipTM = 0.26
+    chain_pair_iptm[0][2] = 0.68
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

@@ -1,0 +1,45 @@
+============================================================
+BATCH_CLOUD_FULLLENGTH - FINAL STATUS
+============================================================
+Date: 2025-12-11
+Status: ✓ VERIFIED - DUPLICATES REMOVED
+
+============================================================
+ACTIONS TAKEN:
+============================================================
+
+✗ DELETED: anc_thrrs_full_*.json (20 files)
+   Reason: Identical to ProRS (pre-duplication sequence)
+
+✓ KEPT: anc_prors_full_*.json (20 files)
+   Sequence: 2037 aa pre-duplication LUCA ancestor
+
+============================================================
+CURRENT CONTENTS:
+============================================================
+
+20 JSON files representing pre-duplication LUCA:
+  - anc_prors_full_ALA.json through anc_prors_full_VAL.json
+  - Each: 2037 aa × 20 amino acids
+  - Represents ancestral enzyme BEFORE ProRS/ThrRS split
+
+Reference: /storage/kiran-stuff/aaRS/phase2/inputs/af3_jsons/
+           deep_ancestral_pro.json (2037 aa)
+
+============================================================
+WHY ONLY ONE SET?
+============================================================
+
+At LUCA, ProRS and ThrRS had NOT YET DIVERGED.
+There was only ONE ancestral enzyme that handled both
+Pro and Thr aminoacylation.
+
+Gene duplication happened later, creating specialized:
+  - ProRS (catalytic 500 aa)
+  - ThrRS (catalytic 278 aa)
+
+Those specialized sequences are in batch_local_domains.
+
+============================================================
+TOTAL PREDICTIONS: 20 (not 40)
+============================================================

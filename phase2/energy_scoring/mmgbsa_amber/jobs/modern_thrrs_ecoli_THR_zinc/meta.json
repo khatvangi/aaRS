@@ -1,0 +1,24 @@
+{
+  "input_cif": "../../af3_modern_matrix/modern_thrrs_THR_resuce_zn/af3_output/modern_thrrs_ecoli_THR_zinc/modern_thrrs_ecoli_THR_zinc_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "THR",
+  "zn_count": 1,
+  "chains": [
+    [
+      "A",
+      401,
+      3278
+    ],
+    [
+      "B",
+      1,
+      8
+    ],
+    [
+      "C",
+      1,
+      1
+    ]
+  ]
+}

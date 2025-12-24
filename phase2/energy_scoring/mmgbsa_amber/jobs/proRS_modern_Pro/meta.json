@@ -1,0 +1,24 @@
+{
+  "input_cif": "../../af3_ligand_inputs/af3_output_final/af3_output/proRS_modern_Pro/proRS_modern_Pro_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "L",
+  "ligand_original_resname": "PRO",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      1908,
+      14961
+    ],
+    [
+      "B",
+      76,
+      1589
+    ],
+    [
+      "L",
+      1,
+      8
+    ]
+  ]
+}

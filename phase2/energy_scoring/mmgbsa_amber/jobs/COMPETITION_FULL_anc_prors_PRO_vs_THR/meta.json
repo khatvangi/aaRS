@@ -1,0 +1,24 @@
+{
+  "input_cif": "../../batch_cloud_fulllength/af3_output/COMPETITION_FULL_anc_prors_PRO_vs_THR/COMPETITION_FULL_anc_prors_PRO_vs_THR_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "PRO",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      2037,
+      16004
+    ],
+    [
+      "B",
+      1,
+      8
+    ],
+    [
+      "C",
+      1,
+      8
+    ]
+  ]
+}

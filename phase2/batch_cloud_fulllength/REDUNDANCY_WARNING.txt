@@ -1,0 +1,48 @@
+============================================================
+⚠️  REDUNDANCY WARNING - DUPLICATE FILES DETECTED
+============================================================
+
+ISSUE: ProRS and ThrRS full-length files use IDENTICAL sequences
+
+The ancient reconstruction represents pre-duplication LUCA, so:
+  - anc_prors_full_*.json (20 files) = 2037 aa sequence
+  - anc_thrrs_full_*.json (20 files) = 2037 aa sequence (SAME!)
+
+This means 20 predictions are DUPLICATES.
+
+============================================================
+RECOMMENDATION: Delete One Set
+============================================================
+
+Option 1: Keep ProRS, delete ThrRS
+  rm anc_thrrs_full_*.json
+
+Option 2: Keep ThrRS, delete ProRS
+  rm anc_prors_full_*.json
+
+Either way, you only need 20 predictions (not 40) for this directory.
+
+============================================================
+WHY ARE DOMAINS DIFFERENT?
+============================================================
+
+The DOMAIN files in batch_local_domains ARE different:
+  - ProRS catalytic: 500 aa (unique sequence)
+  - ThrRS catalytic: 278 aa (DIFFERENT sequence)
+
+This is because the domain-specific reconstructions represent
+post-duplication specialized enzymes, while full-length represents
+the pre-duplication ancestral state.
+
+============================================================
+CORRECTED TOTAL PREDICTIONS
+============================================================
+
+Unique predictions needed:
+  ✓ Ancient domains:      60 (all different)
+  ✓ Ancient full-length:  20 (not 40 - remove duplicates)
+  ✓ Modern full-length:   40 (ProRS ≠ ThrRS)
+
+TOTAL: 120 unique AF3 predictions (not 140)
+
+============================================================

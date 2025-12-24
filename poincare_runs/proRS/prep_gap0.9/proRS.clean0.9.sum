@@ -1,0 +1,11 @@
+1	>sp|P07814|SYEP_HUMAN Bifunctional glutamate/proline--tRNA ligase OS=Homo sapiens OX=9606 GN=EPRS1 PE=1 SV=5
+2	>sp|P28668|SYEP_DROME Bifunctional glutamate/proline--tRNA ligase OS=Drosophila melanogaster OX=7227 GN=GluProRS PE=1 SV=2
+3	>sp|Q8CGC7|SYEP_MOUSE Bifunctional glutamate/proline--tRNA ligase OS=Mus musculus OX=10090 GN=Eprs1 PE=1 SV=4
+4	>sp|Q9FYR6|SYPM_ARATH Proline--tRNA ligase, chloroplastic/mitochondrial OS=Arabidopsis thaliana OX=3702 GN=OVA6 PE=2 SV=1
+5	>sp|Q7L3T8|SYPM_HUMAN Probable proline--tRNA ligase, mitochondrial OS=Homo sapiens OX=9606 GN=PARS2 PE=1 SV=1
+6	>sp|Q8CFI5|SYPM_MOUSE Probable proline--tRNA ligase, mitochondrial OS=Mus musculus OX=10090 GN=Pars2 PE=1 SV=2
+7	>sp|A6NEY8|PRXD1_HUMAN Putative prolyl-tRNA synthetase associated domain-containing protein 1 OS=Homo sapiens OX=9606 GN=PRORSD1P PE=5 SV=3
+8	>sp|P78600|SYPC_CANAX Proline--tRNA ligase, cytoplasmic OS=Candida albicans OX=5476 GN=PRS PE=3 SV=1
+9	>sp|Q9D820|PRXD1_MOUSE Prolyl-tRNA synthetase associated domain-containing protein 1 OS=Mus musculus OX=10090 GN=Prorsd1 PE=1 SV=1
+10	>sp|Q9M1R2|SYPC_ARATH Proline--tRNA ligase, cytoplasmic OS=Arabidopsis thaliana OX=3702 GN=At3g62120 PE=1 SV=1
+11	>sp|Q6PFS2|PRXD1_DANRE Prolyl-tRNA synthetase associated domain-containing protein 1 OS=Danio rerio OX=7955 GN=Prorsd1 PE=2 SV=1

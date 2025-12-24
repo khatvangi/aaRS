@@ -1,0 +1,118 @@
+====================================================================
+SEQUENCE FIX COMPLETED - All Sequences Verified Correct
+====================================================================
+Date: 2025-12-11
+Status: ✓ READY FOR AF3 CALCULATIONS
+
+--------------------------------------------------------------------
+WHAT WAS FIXED:
+--------------------------------------------------------------------
+
+All 20 ThrRS catalytic domain JSON files had placeholder sequence
+"MAAAAA" (6 amino acids) which has been replaced with the correct
+278 amino acid ThrRS sequence from the ancient reconstruction.
+
+Reference: /storage/kiran-stuff/aaRS/phase2/inputs/
+           af3_jsons_validation/deep_thrrs_pro.json
+
+--------------------------------------------------------------------
+VERIFIED CORRECT SEQUENCES:
+--------------------------------------------------------------------
+
+✓ ProRS Catalytic Domain (20 files)
+  Files:    anc_prors_cat_*.json
+  Sequence: 500 amino acids
+  Starts:   QDVGKFVELPGAEMGKVTTRY...
+  Reference: af3_jsons_domain/deep_domain_pro.json
+
+✓ ProRS Editing Domain (20 files)
+  Files:    anc_prors_edit_*.json
+  Sequence: 370 amino acids
+  Starts:   RTSEFSLWQEGHTAHATREEAE...
+  Reference: af3_jsons_validation/deep_editing_pro.json
+
+✓ ThrRS Catalytic Domain (20 files) - FIXED
+  Files:    anc_thrrs_cat_*.json
+  Sequence: 278 amino acids
+  Starts:   EEEYLLKPMNCPHHIRIYASL...
+  Ends:     ...NEEINDNNEDGQELEHRPVMIHRAPFGSIERFIGILIEHY
+  Reference: af3_jsons_validation/deep_thrrs_pro.json
+
+--------------------------------------------------------------------
+FILES UPDATED:
+--------------------------------------------------------------------
+
+anc_thrrs_cat_ALA.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_ARG.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_ASN.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_ASP.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_CYS.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_GLN.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_GLU.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_GLY.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_HIS.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_ILE.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_LEU.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_LYS.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_MET.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_PHE.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_PRO.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_SER.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_THR.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_TRP.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_TYR.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+anc_thrrs_cat_VAL.json - Fixed (MAAAAA → 278 aa ThrRS sequence)
+
+Total files fixed: 20
+
+--------------------------------------------------------------------
+ANCIENT RECONSTRUCTION FILES (5 total):
+--------------------------------------------------------------------
+
+ProRS (3 files):
+  1. fulllength_deep_pro.json    (full-length with tRNA + ligand)
+  2. deep_domain_pro.json         (catalytic domain, 500 aa) ✓
+  3. deep_editing_pro.json        (editing domain, 370 aa) ✓
+
+ThrRS (2 files):
+  1. deep_thrrs_pro.json          (full enzyme + Pro, 278 aa) ✓
+  2. deep_thrrs_thr.json          (full enzyme + Thr, 278 aa) ✓
+
+Note: ThrRS has no separate editing domain in ancient
+reconstructions, consistent with our finding that ThrRS evolved
+direct catalytic specificity rather than editing-based fidelity.
+
+--------------------------------------------------------------------
+20-AMINO ACID SUBSTRATE MATRIX:
+--------------------------------------------------------------------
+
+You are now running AF3 calculations for:
+
+ProRS Catalytic Domain: 20 amino acids (ALA, ARG, ASN, ASP, CYS,
+  GLN, GLU, GLY, HIS, ILE, LEU, LYS, MET, PHE, PRO, SER, THR, TRP,
+  TYR, VAL)
+
+ProRS Editing Domain: 20 amino acids (same set)
+
+ThrRS Catalytic Domain: 20 amino acids (same set)
+
+Total predictions: 60 (20 × 3 domains)
+
+This will provide comprehensive substrate promiscuity profiles for
+both catalytic and editing domains across the full amino acid
+spectrum.
+
+--------------------------------------------------------------------
+NEXT STEPS:
+--------------------------------------------------------------------
+
+✓ All sequences verified correct
+✓ Ready to run/continue AF3 calculations
+✓ Any previous ThrRS catalytic predictions should be re-run with
+  corrected sequences
+
+====================================================================
+Generated: 2025-12-11
+Script: fix_thrrs_sequences.py
+Verified: Final comprehensive check completed
+====================================================================

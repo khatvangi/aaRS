@@ -1,0 +1,175 @@
+================================================================================
+VECTOR FORMAT SUMMARY - Quick Reference
+Generated: December 3, 2025
+================================================================================
+
+ALL FIGURES NOW AVAILABLE IN VECTOR FORMATS (WHERE APPLICABLE)
+
+✅ Figure 1: SVG + PDF vectors available
+✅ Figure 2A: High-res PNG (2000×2000, 300 DPI) - raster standard for 3D
+✅ Figure 2B: High-res PNG (2000×2000, 300 DPI) - raster standard for 3D
+✅ Figure 3: SVG + PDF vectors available
+✅ Figure 4: SVG + PDF vectors available
+✅ Figure 5: SVG + PDF vectors available
+✅ Supplementary: PDF vector available
+
+================================================================================
+VECTOR FILES READY FOR USE
+================================================================================
+
+Figure1_Phylogeny_DomainArchitecture.svg     [ 86 KB] ← EDITABLE
+Figure1_Phylogeny_DomainArchitecture.pdf     [ 34 KB] ← PRINT-READY
+
+Figure3_ipTM_BarCharts.svg                   [112 KB] ← EDITABLE
+Figure3_ipTM_BarCharts.pdf                   [ 32 KB] ← PRINT-READY
+
+Figure4_Editing_Domain_Inverted.svg          [ 74 KB] ← EDITABLE
+Figure4_Editing_Domain_Inverted.pdf          [ 30 KB] ← PRINT-READY
+
+Figure5_Evolutionary_Timeline.svg            [ 79 KB] ← EDITABLE
+Figure5_Evolutionary_Timeline.pdf            [ 34 KB] ← PRINT-READY
+
+FigureS1_Pocket_Volume_Comparison.pdf        [ 25 KB] ← PRINT-READY
+
+Total vector files: 9 files (506 KB)
+
+================================================================================
+IMPORTANT NOTE ON FIGURE 2A AND 2B
+================================================================================
+
+Figure 2A (LUCA ProRS structure) and Figure 2B (ligand overlay) are PyMOL-
+rendered 3D molecular structures. These are HIGH-RESOLUTION RASTER images
+(2000×2000 pixels at 300 DPI) which is the INDUSTRY STANDARD for structural
+biology publications.
+
+Why raster, not vector?
+  • PyMOL uses ray-tracing for photorealistic rendering
+  • Lighting, shadows, and anti-aliasing require raster format
+  • Vector conversion would lose rendering quality
+  • All major journals (Nature, Cell, Science) accept high-res rasters
+    for 3D structures
+
+Our figures exceed journal requirements:
+  • Resolution: 2000×2000 (300 DPI) ✓
+  • Print size: 7 inches (180 mm width) ✓
+  • Quality: Ray-traced, publication-grade ✓
+
+If a journal specifically requires vector format for these figures (rare),
+we can embed them in PDF containers, but this doesn't add quality.
+
+================================================================================
+RECOMMENDED SUBMISSION FORMATS
+================================================================================
+
+FOR MOST JOURNALS (Nature, Cell, Science, PLOS):
+  Figure 1: PDF vector
+  Figure 2A: PNG raster (300 DPI)
+  Figure 2B: PNG raster (300 DPI)
+  Figure 3: PDF vector
+  Figure 4: PDF vector
+  Figure 5: PDF vector
+
+FOR JOURNALS PREFERRING ALL PNG:
+  Use PNG versions for all figures (all available)
+
+FOR EDITING IN ILLUSTRATOR/INKSCAPE:
+  Use SVG versions for Figures 1, 3, 4, 5
+  (Figure 2A/2B require PyMOL for modifications)
+
+================================================================================
+QUICK COMMANDS
+================================================================================
+
+Copy all vectors to submission folder:
+  cp Figure*.{svg,pdf} /path/to/submission/
+
+Copy recommended submission package:
+  cp Figure1_Phylogeny_DomainArchitecture.pdf \
+     Figure2A_LUCA_Promiscuity_ProThr.png \
+     Figure2B_Ligand_Overlay_Zoom.png \
+     Figure3_ipTM_BarCharts.pdf \
+     Figure4_Editing_Domain_Inverted.pdf \
+     Figure5_Evolutionary_Timeline.pdf \
+     /path/to/submission/
+
+Create submission archive:
+  tar -czf figures_for_submission.tar.gz \
+     Figure*Phylogeny*.pdf \
+     Figure*LUCA*.png \
+     Figure*Zoom*.png \
+     Figure*ipTM*.pdf \
+     Figure*Editing*.pdf \
+     Figure*Timeline*.pdf
+
+================================================================================
+EDITING WORKFLOW
+================================================================================
+
+TO EDIT VECTOR FIGURES (1, 3, 4, 5):
+  1. Open SVG file in Inkscape (free) or PDF in Illustrator
+  2. Modify colors, fonts, labels, layout
+  3. Export as PDF for final submission
+  4. Example: inkscape Figure1_Phylogeny_DomainArchitecture.svg
+
+TO MODIFY STRUCTURAL FIGURES (2A, 2B):
+  1. Open PyMOL session file:
+     /storage/kiran-stuff/aaRS/structural_figures/v2/structural_analysis.pse
+  2. Adjust camera angle, colors, labels
+  3. Re-render at 2000×2000, ray=1, dpi=300
+  4. Export new PNG file
+
+================================================================================
+FORMAT CONVERSION (IF NEEDED)
+================================================================================
+
+SVG to PDF (vector):
+  inkscape Figure1.svg --export-pdf=Figure1.pdf
+
+PNG to TIFF (lossless):
+  convert Figure2A.png -compress lzw Figure2A.tiff
+
+PDF to EPS (for legacy journals):
+  pdftops -eps Figure1.pdf Figure1.eps
+
+Batch convert all PNGs to TIFF:
+  for f in Figure*.png; do
+    convert "$f" -compress lzw "${f%.png}.tiff"
+  done
+
+================================================================================
+JOURNAL COMPLIANCE CHECKLIST
+================================================================================
+
+✓ All vector figures are SVG + PDF format
+✓ All raster figures are 300 DPI or higher
+✓ Structural figures are 2000×2000 pixels
+✓ Colors are colorblind-safe
+✓ Fonts embedded in PDF files
+✓ Figure width appropriate for double-column (180 mm)
+✓ File sizes reasonable (<10 MB per figure)
+✓ Lossless compression used (PNG, not JPEG)
+
+READY FOR SUBMISSION TO ANY JOURNAL ✓
+
+================================================================================
+DETAILED DOCUMENTATION
+================================================================================
+
+For more information, see:
+  • VECTOR_FORMATS_README.md - Complete format specifications
+  • README.md - Usage guide and technical specs
+  • FIGURE_LEGENDS.md - Scientific legends
+  • FILE_INVENTORY.txt - Complete file list
+
+================================================================================
+STATUS: ✅ COMPLETE
+================================================================================
+
+All figures are available in appropriate vector formats:
+  • 4 main figures: SVG + PDF (true vectors)
+  • 2 structural figures: High-res PNG (industry standard)
+  • 1 supplementary: PDF (vector)
+
+Total: 6 PNG + 4 SVG + 5 PDF = 15 figure files ready for publication
+
+================================================================================

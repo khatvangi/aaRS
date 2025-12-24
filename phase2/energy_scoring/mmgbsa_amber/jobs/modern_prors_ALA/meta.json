@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../af3_modern_matrix/modern_prors_ALA/af3_output/modern_prors_ALA/modern_prors_ALA_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "ALA",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      572,
+      4482
+    ],
+    [
+      "B",
+      1,
+      6
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id_column": "proteins_id",
+  "LUCA_ids": [
+    "LUCA_ProRS",
+    "anc_proRS_LUCA_1"
+  ],
+  "editing_ids": [
+    "deep_editing_pro_model_chainA_A",
+    "deep_domain_pro_model_chainA_A",
+    "modern_prours_pro_model_chainA_A"
+  ],
+  "promiscuity": {
+    "LUCA_ProRS": 0.83,
+    "anc_proRS_LUCA_1": 0.82,
+    "modern_prours_pro_model_chainA_A": 0.80,
+    "deep_editing_pro_model_chainA_A": 0.82,
+    "deep_domain_pro_model_chainA_A": 0.81
+  }
+}

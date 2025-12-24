@@ -1,0 +1,4 @@
+[
+  { "label": "LUCA",   "pdb": "phase2/af3_output_full/fulllength_deep_pro/fulllength_deep_pro_model.cif" },
+  { "label": "Modern", "pdb": "phase2/af3_output_full/fulllength_shallow_pro/fulllength_shallow_pro_model.cif" }
+]

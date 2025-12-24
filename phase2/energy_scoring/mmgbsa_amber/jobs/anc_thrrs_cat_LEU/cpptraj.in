@@ -1,0 +1,2 @@
+trajin min.rst
+trajout oneframe.nc netcdf

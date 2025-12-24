@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "ProRS_phylo": "uncertain",
+    "ThrRS_phylo": "uncertain",
+    "SerRS_phylo": "uncertain",
+    "ValRS_phylo": "uncertain",
+    "ProRS_confidence": true,
+    "ThrRS_confidence": true,
+    "ProRS_asr": true,
+    "ThrRS_asr": true,
+    "coevolution_testable": true,
+    "aars_viable": true
+  },
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "uncertain": 4,
+    "total": 10
+  }
+}

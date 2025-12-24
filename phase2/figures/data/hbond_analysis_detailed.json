@@ -1,0 +1,136 @@
+[
+  {
+    "job_name": "deep_editing_thr",
+    "cif_file": "/storage/kiran-stuff/aaRS/phase2/outputs/deep_editing_thr/deep_editing_thr/deep_editing_thr_model.cif",
+    "total_hbonds": 1,
+    "hbond_by_atom_type": {
+      "N": 1
+    },
+    "has_zinc": false,
+    "zn_coordination_bonds": 0,
+    "zn_coordination_details": [],
+    "avg_hbond_distance": 1.8443108797073364,
+    "protein_atoms": 3933,
+    "ligand_atoms": 8,
+    "pattern": "deep_editing_thr"
+  },
+  {
+    "job_name": "deep_editing_pro",
+    "cif_file": "/storage/kiran-stuff/aaRS/phase2/outputs/deep_editing_pro/deep_editing_pro/deep_editing_pro_model.cif",
+    "total_hbonds": 8,
+    "hbond_by_atom_type": {
+      "N": 6,
+      "OXT": 2
+    },
+    "has_zinc": false,
+    "zn_coordination_bonds": 0,
+    "zn_coordination_details": [],
+    "avg_hbond_distance": 2.9821646213531494,
+    "protein_atoms": 3933,
+    "ligand_atoms": 8,
+    "pattern": "deep_editing_pro"
+  },
+  {
+    "job_name": "deep_thrrs_thr",
+    "cif_file": "/storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_thr/deep_thrrs_thr/deep_thrrs_thr_model.cif",
+    "total_hbonds": 15,
+    "hbond_by_atom_type": {
+      "N": 4,
+      "O": 4,
+      "OG1": 3,
+      "OXT": 4
+    },
+    "has_zinc": false,
+    "zn_coordination_bonds": 0,
+    "zn_coordination_details": [],
+    "avg_hbond_distance": 2.9625089168548584,
+    "protein_atoms": 3839,
+    "ligand_atoms": 8,
+    "pattern": "deep_thrrs_thr"
+  },
+  {
+    "job_name": "deep_thrrs_pro",
+    "cif_file": "/storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_pro/deep_thrrs_pro/deep_thrrs_pro_model.cif",
+    "total_hbonds": 4,
+    "hbond_by_atom_type": {
+      "N": 1,
+      "O": 1,
+      "OXT": 2
+    },
+    "has_zinc": false,
+    "zn_coordination_bonds": 0,
+    "zn_coordination_details": [],
+    "avg_hbond_distance": 3.284360408782959,
+    "protein_atoms": 3839,
+    "ligand_atoms": 8,
+    "pattern": "deep_thrrs_pro"
+  },
+  {
+    "job_name": "modern_thrrs_thr",
+    "cif_file": "/storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_thr/modern_thrrs_thr/modern_thrrs_thr_model.cif",
+    "total_hbonds": 7,
+    "hbond_by_atom_type": {
+      "N": 2,
+      "O": 2,
+      "OG1": 2,
+      "OXT": 1
+    },
+    "has_zinc": false,
+    "zn_coordination_bonds": 0,
+    "zn_coordination_details": [],
+    "avg_hbond_distance": 3.0755133628845215,
+    "protein_atoms": 5707,
+    "ligand_atoms": 8,
+    "pattern": "modern_thrrs_thr"
+  },
+  {
+    "job_name": "modern_thrrs_pro",
+    "cif_file": "/storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_pro/modern_thrrs_pro/modern_thrrs_pro_model.cif",
+    "total_hbonds": 1,
+    "hbond_by_atom_type": {
+      "O": 1
+    },
+    "has_zinc": false,
+    "zn_coordination_bonds": 0,
+    "zn_coordination_details": [],
+    "avg_hbond_distance": 2.7421016693115234,
+    "protein_atoms": 5707,
+    "ligand_atoms": 8,
+    "pattern": "modern_thrrs_pro"
+  },
+  {
+    "job_name": "modern_prours_thr",
+    "cif_file": "/storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_thr/modern_prours_thr/modern_prours_thr_model.cif",
+    "total_hbonds": 5,
+    "hbond_by_atom_type": {
+      "N": 1,
+      "O": 1,
+      "OG1": 1,
+      "OXT": 2
+    },
+    "has_zinc": false,
+    "zn_coordination_bonds": 0,
+    "zn_coordination_details": [],
+    "avg_hbond_distance": 3.0830934047698975,
+    "protein_atoms": 5663,
+    "ligand_atoms": 8,
+    "pattern": "modern_prours_thr"
+  },
+  {
+    "job_name": "modern_prours_pro",
+    "cif_file": "/storage/kiran-stuff/aaRS/phase2/outputs/modern_prours_pro/modern_prours_pro/modern_prours_pro_model.cif",
+    "total_hbonds": 5,
+    "hbond_by_atom_type": {
+      "N": 1,
+      "O": 2,
+      "OXT": 2
+    },
+    "has_zinc": false,
+    "zn_coordination_bonds": 0,
+    "zn_coordination_details": [],
+    "avg_hbond_distance": 2.943507671356201,
+    "protein_atoms": 5663,
+    "ligand_atoms": 8,
+    "pattern": "modern_prours_pro"
+  }
+]

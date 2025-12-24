@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../af3_modern_matrix/modern_prors_SER/af3_output/modern_prors_SER/modern_prors_SER_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "SER",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      572,
+      4482
+    ],
+    [
+      "B",
+      1,
+      7
+    ]
+  ]
+}

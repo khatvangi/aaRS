@@ -1,0 +1,301 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: data/interim/tRNA_Pro_aligned.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 711275
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 25 sequences with 80525 nucleotide sites
+Number of constant sites: 76045 (= 94.4365% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 76045 (= 94.4365% of all sites)
+Number of parsimony informative sites: 967
+Number of distinct site patterns: 1110
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: K3Pu+F
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+K3Pu+F          -117202.887  234509.773 +    0.235  234509.842 +    0.236  234993.182 +    0.594
+HKY+F           -117208.960  234519.921 -  0.00147  234519.987 -  0.00148  234994.033 +    0.388
+TIM+F           -117201.476  234508.951 +    0.355  234509.022 +    0.355  235001.656 -  0.00858
+TN+F            -117207.491  234518.982 -  0.00236  234519.050 -  0.00236  235002.391 -  0.00594
+TPM2u+F         -117208.499  234520.997 -  0.00086  234521.066 - 0.000862  235004.406 -  0.00217
+TPM3u+F         -117208.696  234521.391 - 0.000706  234521.460 - 0.000708  235004.800 -  0.00178
+TVM+F           -117201.289  234510.579 +    0.157  234510.653 +    0.157  235012.580 - 3.64e-05
+TIM2+F          -117207.178  234520.355 -  0.00119  234520.426 -  0.00119  235013.060 - 2.86e-05
+TIM3+F          -117207.348  234520.697 -    0.001  234520.768 -    0.001  235013.402 - 2.41e-05
+GTR+F           -117199.849  234509.699 +    0.244  234509.776 +    0.244  235020.997 - 5.41e-07
+F81+F           -118061.117  236222.235 -        0  236222.298 -        0  236687.051 -        0
+TPM2u           -124660.073  249418.146 -        0  249418.207 -        0  249873.666 -        0
+TPM2            -124660.074  249418.149 -        0  249418.210 -        0  249873.669 -        0
+TPM2            -124660.074  249418.149 -        0  249418.210 -        0  249873.669 -        0
+HKY             -124665.829  249427.658 -        0  249427.716 -        0  249873.882 -        0
+K2P             -124665.880  249427.759 -        0  249427.818 -        0  249873.983 -        0
+K2P             -124665.880  249427.759 -        0  249427.818 -        0  249873.983 -        0
+TPM3u           -124662.959  249423.919 -        0  249423.980 -        0  249879.439 -        0
+TPM3            -124662.961  249423.922 -        0  249423.983 -        0  249879.442 -        0
+TPM3            -124662.961  249423.922 -        0  249423.983 -        0  249879.442 -        0
+K3Pu            -124664.331  249426.663 -        0  249426.723 -        0  249882.182 -        0
+K3P             -124664.340  249426.680 -        0  249426.741 -        0  249882.200 -        0
+K3P             -124664.340  249426.680 -        0  249426.741 -        0  249882.200 -        0
+TN              -124664.530  249427.060 -        0  249427.120 -        0  249882.579 -        0
+TNe             -124664.536  249427.073 -        0  249427.133 -        0  249882.592 -        0
+TNe             -124664.536  249427.073 -        0  249427.133 -        0  249882.592 -        0
+TIM2            -124658.939  249417.878 -        0  249417.942 -        0  249882.694 -        0
+TIM2e           -124658.969  249417.937 -        0  249418.000 -        0  249882.753 -        0
+TIM2e           -124658.969  249417.937 -        0  249418.000 -        0  249882.753 -        0
+TVM             -124653.364  249408.728 -        0  249408.794 -        0  249882.840 -        0
+TVMe            -124653.387  249408.773 -        0  249408.839 -        0  249882.886 -        0
+TVMe            -124653.387  249408.773 -        0  249408.839 -        0  249882.886 -        0
+TIM3            -124661.887  249423.775 -        0  249423.838 -        0  249888.591 -        0
+TIM3e           -124661.891  249423.781 -        0  249423.845 -        0  249888.598 -        0
+TIM3e           -124661.891  249423.781 -        0  249423.845 -        0  249888.598 -        0
+TIM             -124663.120  249426.240 -        0  249426.303 -        0  249891.056 -        0
+TIMe            -124663.121  249426.243 -        0  249426.306 -        0  249891.059 -        0
+TIMe            -124663.121  249426.243 -        0  249426.306 -        0  249891.059 -        0
+GTR             -124652.075  249408.151 -        0  249408.219 -        0  249891.559 -        0
+SYM             -124652.079  249408.158 -        0  249408.227 -        0  249891.567 -        0
+SYM             -124652.079  249408.158 -        0  249408.227 -        0  249891.567 -        0
+F81             -125446.936  250987.871 -        0  250987.927 -        0  251424.798 -        0
+JC              -125447.110  250988.221 -        0  250988.277 -        0  251425.148 -        0
+JC              -125447.110  250988.221 -        0  250988.277 -        0  251425.148 -        0
+JC+I            -125446.926  250989.853 -        0  250989.911 -        0  251436.076 -        0
+JC+G4           -125446.959  250989.918 -        0  250989.977 -        0  251436.142 -        0
+JC+R2           -125446.932  250991.864 -        0  250991.924 -        0  251447.383 -        0
+JC+R3           -125446.926  250995.852 -        0  250995.918 -        0  251469.965 -        0
+JC+I+G4         -125465.640  251029.281 -        0  251029.342 -        0  251484.801 -        0
+JC+I+R2         -125462.458  251024.915 -        0  251024.979 -        0  251489.732 -        0
+JC+I+R3         -125453.996  251011.991 -        0  251012.060 -        0  251495.400 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: K3Pu+F
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 3.9419
+  A-T: 0.7222
+  C-G: 0.7222
+  C-T: 3.9419
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2974
+  pi(C) = 0.2069
+  pi(G) = 0.2067
+  pi(T) = 0.289
+
+Rate matrix Q:
+
+  A   -0.8887    0.1494    0.5885    0.1508
+  C    0.2148    -1.146    0.1078    0.8229
+  G    0.8468    0.1079    -1.163    0.2088
+  T    0.1551     0.589    0.1493   -0.8934
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -117195.8758 (s.e. 245.1835)
+Unconstrained log-likelihood (without tree): -158771.5945
+Number of free parameters (#branches + #model parameters): 52
+Akaike information criterion (AIC) score: 234495.7516
+Corrected Akaike information criterion (AICc) score: 234495.8200
+Bayesian information criterion (BIC) score: 234979.1603
+
+Total tree length (sum of branch lengths): 2.1873
+Sum of internal branch lengths: 1.6414 (75.0431% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'pdb|8ZFI|Z' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**pdb|8ZFI|Z
+| (Node1)
+|  +**pdb|8ZFI|Y
++**| (Node2/15)
+|  |           +**pdb|8ZEJ|Z
+|  |        +**| (Node6/2)
+|  |        |  |  +**pdb|7O1A|B8
+|  |        |  +**| (Node7/91)
+|  |        |     +**pdb|6NWY|XV
+|  |     +**| (Node5/2)
+|  |     |  +**pdb|8ZEJ|Y
+|  |  +**| (Node4/3)
+|  |  |  +**pdb|7O1C|B8
+|  +**| (Node3/10)
+|     |    +--pdb|8QOA|Y
+|     +----| (Node8/99)
+|          |               +--pdb|6NWY|XX
+|          |      +--------| (Node11/94)
+|          |      |        |                   +--AH003110.2
+|          |      |        |    +--------------| (Node13/99)
+|          |      |        |    |              +--X07167.1
+|          |      |        +----| (Node12/73)
+|          |      |             |            +-------------X12926.1
+|          |      |             +------------| (Node14/91)
+|          |      |                          |                                 +--PX120915.1
+|          |      |                          |                              +--| (Node20/94)
+|          |      |                          |                              |  +--PX120909.1
+|          |      |                          |                           +**| (Node19/39)
+|          |      |                          |                           |  |  +--PX120913.1
+|          |      |                          |                           |  +**| (Node21/60)
+|          |      |                          |                           |     +--PP809581.1
+|          |      |                          |                        +--| (Node18/47)
+|          |      |                          |                        |  |  +--PX120914.1
+|          |      |                          |                        |  +--| (Node22/92)
+|          |      |                          |                        |     +--PX120907.1
+|          |      |                          |                     +**| (Node17/74)
+|          |      |                          |                     |  |  +--PX120912.1
+|          |      |                          |                     |  +--| (Node23/46)
+|          |      |                          |                     |     +--PX120911.1
+|          |      |                          |                  +--| (Node16/97)
+|          |      |                          |                  |  +--PP809582.1
+|          |      |                          +------------------| (Node15/94)
+|          |      |                                             +--PP887428.1
+|          |   +--| (Node10/74)
+|          |   |  +--EU081774.1
+|          +---| (Node9/95)
+|              +--K00637.1
+|
++**pdb|7O19|B8
+
+Tree in newick format:
+
+(pdb|8ZFI|Z:0.0000010000,(pdb|8ZFI|Y:0.0000010000,((((pdb|8ZEJ|Z:0.0000010000,(pdb|7O1A|B8:0.0000010000,pdb|6NWY|XV:0.0000010000)Node7/91:0.0000010000)Node6/2:0.0000010000,pdb|8ZEJ|Y:0.0000010000)Node5/2:0.0000010000,pdb|7O1C|B8:0.0000010000)Node4/3:0.0000010000,(pdb|8QOA|Y:0.0625626116,(((pdb|6NWY|XX:0.0244667092,((AH003110.2:0.0061184892,X07167.1:0.0151523304)Node13/99:0.3459861259,(X12926.1:0.3174540606,((((((PX120915.1:0.0010259073,PX120909.1:0.0020945867)Node20/94:0.0061283374,(PX120913.1:0.0040677718,PP809581.1:0.0062838320)Node21/60:0.0000024960)Node19/39:0.0000029262,(PX120914.1:0.0019596382,PX120907.1:0.0042022845)Node22/92:0.0039457567)Node18/47:0.0008427190,(PX120912.1:0.0089947629,PX120911.1:0.0024533285)Node23/46:0.0008174768)Node17/74:0.0000025437,PP809582.1:0.0031573368)Node16/97:0.0192416313,PP887428.1:0.0358877521)Node15/94:0.4185325461)Node14/91:0.2946405598)Node12/73:0.1115989699)Node11/94:0.2068053808,EU081774.1:0.0295152827)Node10/74:0.0179343384,K00637.1:0.0204779802)Node9/95:0.0928624686)Node8/99:0.1220882784)Node3/10:0.0000010000)Node2/15:0.0000010000,pdb|7O19|B8:0.0000010000)Node1;
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -117195.903175
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--pdb|8ZFI|Z
+|
+|     +--pdb|8ZFI|Y
+|  +--| (20)
+|  |  +--pdb|7O19|B8
++--| (10)
+|  |  +--pdb|8ZEJ|Y
+|  +--| (8)
+|     +--pdb|7O1C|B8
+|
+|  +--pdb|8ZEJ|Z
++--| (17)
+   |       +--pdb|8QOA|Y
+   |  +----| (99)
+   |  |    |              +--pdb|6NWY|XX
+   |  |    |      +-------| (94)
+   |  |    |      |       |                    +--AH003110.2
+   |  |    |      |       |     +--------------| (99)
+   |  |    |      |       |     |              +--X07167.1
+   |  |    |      |       +-----| (73)
+   |  |    |      |             |            +-------------X12926.1
+   |  |    |      |             +------------| (91)
+   |  |    |      |                          |                                 +--PX120915.1
+   |  |    |      |                          |                              +--| (94)
+   |  |    |      |                          |                              |  +--PX120909.1
+   |  |    |      |                          |                           +--| (39)
+   |  |    |      |                          |                           |  |  +--PX120913.1
+   |  |    |      |                          |                           |  +--| (60)
+   |  |    |      |                          |                           |     +--PP809581.1
+   |  |    |      |                          |                        +--| (47)
+   |  |    |      |                          |                        |  |  +--PX120914.1
+   |  |    |      |                          |                        |  +--| (92)
+   |  |    |      |                          |                        |     +--PX120907.1
+   |  |    |      |                          |                     +--| (74)
+   |  |    |      |                          |                     |  |  +--PX120912.1
+   |  |    |      |                          |                     |  +--| (46)
+   |  |    |      |                          |                     |     +--PX120911.1
+   |  |    |      |                          |                  +--| (97)
+   |  |    |      |                          |                  |  +--PP809582.1
+   |  |    |      |                          +------------------| (94)
+   |  |    |      |                                             +--PP887428.1
+   |  |    |   +--| (74)
+   |  |    |   |  +--EU081774.1
+   |  |    +---| (95)
+   |  |        +--K00637.1
+   +--| (74)
+      |  +--pdb|7O1A|B8
+      +--| (91)
+         +--pdb|6NWY|XV
+
+
+Consensus tree in newick format: 
+
+(pdb|8ZFI|Z:0.0000024273,((pdb|8ZFI|Y:0.0000024273,pdb|7O19|B8:0.0000024273)20:0.0000024273,(pdb|8ZEJ|Y:0.0000024273,pdb|7O1C|B8:0.0000024273)8:0.0000024273)10:0.0000024273,(pdb|8ZEJ|Z:0.0000024273,((pdb|8QOA|Y:0.0624125685,(((pdb|6NWY|XX:0.0255167016,((AH003110.2:0.0061296956,X07167.1:0.0151408079)99:0.3451996595,(X12926.1:0.3172736369,((((((PX120915.1:0.0010262677,PX120909.1:0.0020939253)94:0.0061281485,(PX120913.1:0.0040680214,PP809581.1:0.0062838258)60:0.0000024273)39:0.0000024898,(PX120914.1:0.0019600275,PX120907.1:0.0042032789)92:0.0039464373)47:0.0008421959,(PX120912.1:0.0089943049,PX120911.1:0.0024523971)46:0.0008176748)74:0.0000024638,PP809582.1:0.0031578369)97:0.0192128580,PP887428.1:0.0359151628)94:0.4186563776)91:0.2947138930)73:0.1378384608)94:0.1814403102,EU081774.1:0.0294680568)74:0.0184099261,K00637.1:0.0200580826)95:0.0931676703)99:0.1222117419,(pdb|7O1A|B8:0.0000024273,pdb|6NWY|XV:0.0000024273)91:0.0000024273)74:0.0000024273)17:0.0000024273);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/tRNA_Pro.treefile -m "K3Pu{3.94191,0.722156}+F{0.297399,0.206874,0.206709,0.289018}" --length 80525
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s data/interim/tRNA_Pro_aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s data/interim/tRNA_Pro_aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Nov  1 09:47:01 2025
+Total CPU time used: 1031.600969 seconds (0h:17m:11s)
+Total wall-clock time used: 72.87117511 seconds (0h:1m:12s)
+

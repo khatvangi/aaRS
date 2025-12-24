@@ -1,0 +1,62 @@
+{
+  "LUCA": {
+    "n": 1,
+    "radius_mean": 0.2160564584374464,
+    "radius_median": 0.2160564584374464,
+    "radius_std": NaN,
+    "radius_min": 0.2160564584374464,
+    "radius_max": 0.2160564584374464,
+    "radius_q25": 0.2160564584374464,
+    "radius_q75": 0.2160564584374464
+  },
+  "non_LUCA": {
+    "n": 7,
+    "radius_mean": 0.15018479190067677,
+    "radius_median": 0.16779169175885536,
+    "radius_std": 0.06249612504641634,
+    "radius_min": 0.022984398376072343,
+    "radius_max": 0.20735701724352826,
+    "radius_q25": 0.13770655359133094,
+    "radius_q75": 0.18887366437180986
+  },
+  "luca_vs_non_luca": {
+    "mannwhitney_U": 7.0,
+    "p_value": 0.25
+  },
+  "by_kingdom": {},
+  "kingdom_kruskal": {
+    "H": NaN,
+    "p_value": NaN
+  },
+  "editing": {
+    "has_editing": {
+      "n": 3,
+      "radius_mean": 0.2085261267061634,
+      "radius_median": 0.20735701724352826,
+      "radius_std": 0.007019183060368625,
+      "radius_min": 0.20216490443751556,
+      "radius_max": 0.2160564584374464,
+      "radius_q25": 0.20476096084052192,
+      "radius_q75": 0.21170673784048732
+    },
+    "no_editing": {
+      "n": 5,
+      "radius_mean": 0.12835432432473873,
+      "radius_median": 0.14067326853100842,
+      "radius_std": 0.06140267065036184,
+      "radius_min": 0.022984398376072343,
+      "radius_max": 0.17558242430610413,
+      "radius_q25": 0.13473983865165343,
+      "radius_q75": 0.16779169175885536
+    },
+    "mannwhitney_U": 15.0,
+    "p_value": 0.03571428571428571
+  },
+  "radius_promiscuity_correlation": {
+    "available": false
+  },
+  "luca_neighborhood": {
+    "delta": 0.1,
+    "fraction_within_delta": 1.0
+  }
+}

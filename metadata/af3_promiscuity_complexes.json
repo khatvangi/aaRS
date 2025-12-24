@@ -1,0 +1,4 @@
+[
+  { "label": "LUCA-Pro",   "pdb": "phase2/af3_complexes/LUCA_pro_complex.pdb" },
+  { "label": "Modern-Pro", "pdb": "phase2/af3_complexes/Modern_pro_complex.pdb" }
+]

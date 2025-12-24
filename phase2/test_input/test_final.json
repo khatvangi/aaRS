@@ -1,0 +1,26 @@
+{
+  "name": "test_aars_trna_complex",
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A"
+        ],
+        "sequence": "MATLSLTVNAGNPPLGALLAVEHVKGDVSISVEEGKENISLHVSENVIFTCHDVNSILRYLARVATTSGLYGSNLMEHTEIDHWLEFSATKLSSCDSLTSAINELNHCLSLRTYLVGNSLTLADLCVWATLKGNAAWQEHLKQKKTPVHVKRWFGFLEAQQAFQSVLQSLPEDAGTKWDVSTTKARVAPKTGEKKQDVGK"
+      }
+    },
+    {
+      "rna": {
+        "id": [
+          "B"
+        ],
+        "sequence": "CUAAUACUAUUUCAUCCGAAACUUUUUUAAAAUAAUAUUCUUACUUUAUUUUAAAAACAGACUACAAAAAUCUCCA"
+      }
+    }
+  ],
+  "modelSeeds": [
+    1
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

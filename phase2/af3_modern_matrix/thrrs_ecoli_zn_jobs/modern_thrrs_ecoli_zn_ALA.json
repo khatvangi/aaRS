@@ -1,0 +1,38 @@
+{
+  "name": "modern_thrrs_ecoli_zn_ALA",
+  "dialect": "alphafold3",
+  "version": 1,
+  "modelSeeds": [
+    2
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A"
+        ],
+        "sequence": "RDHRKIGKQLDLYHMQEEAPGMVFWHNDGWTIFRELEVFVRSKLKEYQYQEVKGPFMMDRVLWEKTGHWDNYKDAMFTTSSENREYCIKPMNCPGHVQIFNQGLKSYRDLPLRMAEFGSCHRNEPSGSLHGLMRVRGFTQDDAHIFCTEEQIRDEVNGCIRLVYDMYSTFGFEKIVVKLSTRPEKRIGSDEMWDRAEADLAVALEENNIPFEYQLGEGAFYGPKIEFTLYDCLDRAWQCGTVQLDFSLPSRLSASYVGEDNERKVPVMIHRAILGSMERFIGILTEEFAGFFPTWLAPVQVVIMNITDSQSEYVNELTQKLSNAGIRVKADLRNEKIGFKIREHTLRRVPYMLVCGDKEVESGKVAVRTRRGKDLGSMDVNEVIEKLQQEIRSRSLKQLEE"
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "B"
+        ],
+        "ccdCodes": [
+          "ALA"
+        ]
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "C"
+        ],
+        "ccdCodes": [
+          "ZN"
+        ]
+      }
+    }
+  ]
+}

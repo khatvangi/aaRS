@@ -1,0 +1,293 @@
+
+          -------------------------------------------------------
+          Amber 22 SANDER                              2022
+          -------------------------------------------------------
+
+| Run on 12/21/2025 at 22:38:56
+
+|   Executable path: /home/kiran/miniforge3/envs/amber_mmgbsa/bin/sander
+| Working directory: /storage/kiran-stuff/aaRS/phase2/energy_scoring/mmgbsa_amber/jobs/modern_thrrs_ecoli_zn_TRP
+|          Hostname: boron
+
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: min.in                                                                
+| MDOUT: min.out                                                               
+|INPCRD: complex.inpcrd                                                        
+|  PARM: complex.prmtop                                                        
+|RESTRT: min.rst                                                               
+|  REFC: complex.inpcrd                                                        
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: mdcrd                                                                 
+|MDINFO: mdinfo                                                                
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+
+ Here is the input file:
+
+Minimize                                                                       
+ &cntrl                                                                        
+  imin=1,                                                                      
+  maxcyc=500,                                                                  
+  ncyc=250,                                                                    
+  ntb=0,                                                                       
+  cut=999.0,                                                                   
+  ntr=1,                                                                       
+  restraint_wt=10.0,                                                           
+  restraintmask='!:LIG & !@H=',                                                
+ /                                                                             
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags:                                                                        
+|    NONPERIODIC   ntb=0 and igb=0: Setting up nonperiodic simulation
+|  *** cutoff > system size, list only builds once
+|Largest sphere to fit in unit cell has radius =    59.433
+| New format PARM file being parsed.
+| Version =    1.000 Date = 12/21/25 Time = 22:38:55
+ NATOM  =    6518 NTYPES =      23 NBONH =    3224 MBONA  =    3365
+ NTHETH =    7336 MTHETA =    4532 NPHIH =   14892 MPHIA  =   14181
+ NHPARM =       0 NPARM  =       0 NNB   =   35894 NRES   =     403
+ NBONA  =    3365 NTHETA =    4532 NPHIA =   14181 NUMBND =      74
+ NUMANG =     168 NPTRA  =     202 NATYP =      43 NPHB   =       0
+ IFBOX  =       0 NMXRS  =      27 IFCAP =       0 NEXTRA =       0
+ NCOPY  =       0
+
+
+|     Memory Use     Allocated
+|     Real             1290007
+|     Hollerith          19959
+|     Integer          1567776
+|     Max Pairs       21238903
+|     nblistReal         78216
+|     nblist Int       7598873
+|       Total           129538 kbytes
+
+| Note: 1-4 EEL scale factors are being read from the topology file.
+
+| Note: 1-4 VDW scale factors are being read from the topology file.
+| Duplicated    0 dihedrals
+| Duplicated    0 dihedrals
+
+--------------------------------------------------------------------------------
+   2.  CONTROL  DATA  FOR  THE  RUN
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+
+General flags:
+     imin    =       1, nmropt  =       0
+
+Nature and format of input:
+     ntx     =       1, irest   =       0, ntrx    =       1
+
+Nature and format of output:
+     ntxo    =       2, ntpr    =      50, ntrx    =       1, ntwr    =       1
+     iwrap   =       0, ntwx    =       0, ntwv    =       0, ntwe    =       0
+     ioutfm  =       1, ntwprt  =       0, idecomp =       0, rbornstat=      0
+
+Potential function:
+     ntf     =       1, ntb     =       0, igb     =       0, nsnb    =      25
+     ipol    =       0, gbsa    =       0, iesp    =       0
+     dielc   =   1.00000, cut     = 999.00000, intdiel =   1.00000
+
+Frozen or restrained atoms:
+     ibelly  =       0, ntr     =       1
+     restraint_wt =  10.00000
+
+Energy minimization:
+     maxcyc  =     500, ncyc    =     250, ntmin   =       1
+     dx0     =   0.01000, drms    =   0.00010
+|  INFO: Old style inpcrd file read
+
+
+    LOADING THE CONSTRAINED ATOMS AS GROUPS
+
+
+   5.  REFERENCE ATOM COORDINATES
+
+  defa
+     Mask !:LIG & !@H=; matches  3279 atoms
+
+--------------------------------------------------------------------------------
+   3.  ATOMIC COORDINATES AND VELOCITIES
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+ begin time read from input coords =     0.000 ps
+
+ Number of triangulated 3-point waters found:        0
+
+     Sum of charges from parm topology file =  -6.00000218
+
+--------------------------------------------------------------------------------
+   4.  RESULTS
+--------------------------------------------------------------------------------
+
+ ---------------------------------------------------
+
+     eedmeth=4: Setting switch to one everywhere
+
+ ---------------------------------------------------
+| Local SIZE OF NONBOND LIST =   21203357
+| TOTAL SIZE OF NONBOND LIST =   21203357
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+      1      -8.8048E+03     1.6235E+01     7.7024E+02     ZN       6491
+
+ BOND    =      201.2265  ANGLE   =      778.5681  DIHED      =     4390.6109
+ VDWAALS =    -2779.6648  EEL     =   -28163.6780  HBOND      =        0.0000
+ 1-4 VDW =     1840.5693  1-4 EEL =    14927.5657  RESTRAINT  =        0.0000
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+     50      -1.0684E+04     2.1667E+00     4.5542E+01     CG       2344
+
+ BOND    =      189.5460  ANGLE   =      698.3773  DIHED      =     4484.8988
+ VDWAALS =    -3486.9086  EEL     =   -28654.1838  HBOND      =        0.0000
+ 1-4 VDW =     1518.3826  1-4 EEL =    14459.5632  RESTRAINT  =      106.7648
+ EAMBER  =   -10790.3245
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    100      -1.0910E+04     1.1745E+00     3.0388E+01     CG       1003
+
+ BOND    =      185.8536  ANGLE   =      719.3114  DIHED      =     4507.3319
+ VDWAALS =    -3526.2913  EEL     =   -28857.2832  HBOND      =        0.0000
+ 1-4 VDW =     1468.8860  1-4 EEL =    14395.3765  RESTRAINT  =      196.5766
+ EAMBER  =   -11106.8151
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    150      -1.1009E+04     6.3822E-01     1.2329E+01     CG       1003
+
+ BOND    =      186.7711  ANGLE   =      733.5454  DIHED      =     4516.2683
+ VDWAALS =    -3542.3756  EEL     =   -28967.6227  HBOND      =        0.0000
+ 1-4 VDW =     1452.1120  1-4 EEL =    14372.2575  RESTRAINT  =      239.8382
+ EAMBER  =   -11249.0439
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    200      -1.1076E+04     3.1084E-01     9.0849E+00     HG1      2754
+
+ BOND    =      188.3219  ANGLE   =      739.0673  DIHED      =     4519.5125
+ VDWAALS =    -3548.6594  EEL     =   -29050.9588  HBOND      =        0.0000
+ 1-4 VDW =     1445.1053  1-4 EEL =    14364.5674  RESTRAINT  =      266.9644
+ EAMBER  =   -11343.0437
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    250      -1.1114E+04     5.9835E-01     2.6082E+01     CG       1003
+
+ BOND    =      190.1294  ANGLE   =      739.9848  DIHED      =     4523.9044
+ VDWAALS =    -3554.0879  EEL     =   -29101.0399  HBOND      =        0.0000
+ 1-4 VDW =     1441.9108  1-4 EEL =    14361.4086  RESTRAINT  =      284.1917
+ EAMBER  =   -11397.7896
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    300      -1.1201E+04     3.8799E-01     1.5191E+01     HH       5677
+
+ BOND    =      192.2258  ANGLE   =      743.8743  DIHED      =     4530.8257
+ VDWAALS =    -3565.1015  EEL     =   -29234.7081  HBOND      =        0.0000
+ 1-4 VDW =     1438.7387  1-4 EEL =    14355.2569  RESTRAINT  =      337.7839
+ EAMBER  =   -11538.8881
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    350      -1.1224E+04     3.6745E-01     1.3328E+01     CG       1003
+
+ BOND    =      192.3939  ANGLE   =      744.2385  DIHED      =     4529.9098
+ VDWAALS =    -3568.4867  EEL     =   -29267.1800  HBOND      =        0.0000
+ 1-4 VDW =     1438.6472  1-4 EEL =    14353.1441  RESTRAINT  =      353.1899
+ EAMBER  =   -11577.3332
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    400      -1.1237E+04     1.7198E-01     4.9191E+00     CG       5670
+
+ BOND    =      191.5718  ANGLE   =      742.3189  DIHED      =     4528.2137
+ VDWAALS =    -3570.3180  EEL     =   -29280.9857  HBOND      =        0.0000
+ 1-4 VDW =     1438.9682  1-4 EEL =    14353.9488  RESTRAINT  =      359.0941
+ EAMBER  =   -11596.2823
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    450      -1.1242E+04     1.5466E-01     4.5484E+00     OG        710
+
+ BOND    =      191.4015  ANGLE   =      742.0447  DIHED      =     4528.2496
+ VDWAALS =    -3571.5955  EEL     =   -29286.7018  HBOND      =        0.0000
+ 1-4 VDW =     1439.0569  1-4 EEL =    14353.7155  RESTRAINT  =      361.6806
+ EAMBER  =   -11603.8291
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    500      -1.1246E+04     1.6760E-01     4.8572E+00     OE1      6290
+
+ BOND    =      191.3572  ANGLE   =      742.5250  DIHED      =     4528.3180
+ VDWAALS =    -3572.7724  EEL     =   -29290.8610  HBOND      =        0.0000
+ 1-4 VDW =     1439.1156  1-4 EEL =    14353.1235  RESTRAINT  =      362.9585
+ EAMBER  =   -11609.1941
+
+
+  Maximum number of minimization cycles reached.
+
+
+                    FINAL RESULTS
+
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    500      -1.1246E+04     1.6760E-01     4.8572E+00     OE1      6290
+
+ BOND    =      191.3572  ANGLE   =      742.5250  DIHED      =     4528.3180
+ VDWAALS =    -3572.7724  EEL     =   -29290.8610  HBOND      =        0.0000
+ 1-4 VDW =     1439.1156  1-4 EEL =    14353.1235  RESTRAINT  =      362.9585
+ EAMBER  =   -11609.1941
+
+--------------------------------------------------------------------------------
+   5.  TIMINGS
+--------------------------------------------------------------------------------
+
+|                Build the list             0.72 (99.79% of List )
+|                Other                      0.00 ( 0.21% of List )
+|             List time                  0.72 ( 0.10% of Nonbo)
+|                   Short_ene time           737.98 (100.0% of Direc)
+|                   Other                      0.04 ( 0.01% of Direc)
+|                Direct Ewald time        738.02 (100.0% of Ewald)
+|                Other                      0.54 ( 0.07% of Ewald)
+|             Ewald time               738.56 (100.0% of Nonbo)
+|          Nonbond force            739.29 (99.17% of Force)
+|          Bond/Angle/Dihedral        6.15 ( 0.82% of Force)
+|          Other                      0.05 ( 0.01% of Force)
+|       Force time               745.49 (100.0% of Runmd)
+|    Runmd Time               745.49 (99.18% of Total)
+|    Other                      6.18 ( 0.82% of Total)
+| Total time               751.68 (100.0% of ALL  )
+
+| Number of list builds   :          1
+
+| Highest rstack allocated:      32550
+| Highest istack allocated:       6510
+|           Job began  at 22:38:56.043  on 12/21/2025
+|           Setup done at 22:38:56.417  on 12/21/2025
+|           Run   done at 22:51:27.726  on 12/21/2025
+|     wallclock() was called   11535 times
+
+|3D-RISM memory allocation summary
+|Type          Maximum        Current   
+|Integer       0.00000 GB     0.00000 GB
+|Real          0.00000 GB     0.00000 GB
+|Logical       0.00000 GB     0.00000 GB
+|Character     0.00000 GB     0.00000 GB
+|---------------------------------------
+|Total         0.00000 GB     0.00000 GB

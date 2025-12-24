@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../batch_local_domains/af3_output/anc_thrrs_cat_PRO/anc_thrrs_cat_PRO_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "PRO",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      278,
+      2250
+    ],
+    [
+      "B",
+      1,
+      8
+    ]
+  ]
+}

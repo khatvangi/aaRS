@@ -1,0 +1,28 @@
+{
+  "name": "anc_thrrs_cat_GLY",
+  "dialect": "alphafold3",
+  "version": 1,
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A"
+        ],
+        "sequence": "EEEYLLKPMNCPHHIRIYASLRPRSYRDLPLRLAEFGTVSYRYEQSGELHGLTRVRGFTQDDAHIFCRPLDQIKGEFLGVLDLVLLVFKLTFGLNGDDYRARIGVRDKVNDPKSGKYVVSYVCRNCGYRIEGARGTDIECPVCHSHDLEGDEENWALAERQIKEAVEEYKNEVCGLPGNYTIEPGDAAFYGPKLDFVVKDALGREWQLGTIQVDYNLPERFDLTYVGGLNNNNNNNNNNEEINDNNEDGQELEHRPVMIHRAPFGSIERFIGILIEHY"
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "B"
+        ],
+        "ccdCodes": [
+          "GLY"
+        ]
+      }
+    }
+  ]
+}

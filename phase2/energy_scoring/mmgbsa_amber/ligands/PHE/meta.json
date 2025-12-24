@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../batch_local_domains/af3_output/anc_prors_cat_PHE/anc_prors_cat_PHE_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "PHE",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      500,
+      4057
+    ],
+    [
+      "B",
+      1,
+      12
+    ]
+  ]
+}

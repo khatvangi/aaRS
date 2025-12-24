@@ -1,0 +1,22 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+
+loadAmberParams LIG.frcmod
+loadOff LIG.lib
+
+loadAmberParams zn.frcmod
+ZN = loadMol2 zn.mol2
+saveOff ZN ZN.lib
+loadOff ZN.lib
+
+# Now load complex - tleap should recognize LIG and ZN residues
+COM = loadPdb complex.pdb
+
+# Check
+check COM
+charge COM
+
+# Save
+saveAmberParm COM complex.prmtop complex.inpcrd
+
+quit

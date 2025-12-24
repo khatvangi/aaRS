@@ -1,0 +1,181 @@
+================================================================================
+                    FPOCKET POCKET ANALYSIS - COMPLETE RESULTS
+                    December 9, 2024
+================================================================================
+
+FPOCKET ANALYSIS LOCATIONS:
+===========================
+
+Primary Results Directory:
+  /storage/kiran-stuff/aaRS/structural_figures/v2/
+
+LUCA ProRS Results:
+  luca_pocket_out/luca_pocket_info.txt     ← FULL RESULTS (15 pockets found)
+  luca_pocket_out/luca_pocket_out.pdb      ← Annotated structure
+  luca_pocket_out/pockets/                 ← Individual pocket PDBs
+
+Modern E. coli ProRS Results:
+  modern_pocket_out/modern_pocket_info.txt ← FULL RESULTS (13 pockets found)
+  modern_pocket_out/modern_pocket_out.pdb  ← Annotated structure
+  modern_pocket_out/pockets/               ← Individual pocket PDBs
+
+================================================================================
+                    POCKET 1 (MAIN BINDING POCKET) - COMPARISON
+================================================================================
+
+Property              LUCA ProRS    Modern E. coli    Fold Change
+─────────────────────────────────────────────────────────────────
+Volume (Ų)            750           1847              2.5×
+Total SASA (ų)        149           381               2.6×
+Polar SASA (ų)        93            306               3.3×
+Apolar SASA (ų)       56            75                1.3×
+Polarity (%)          63%           68%               ~Equal
+fpocket Score         0.32          1.48              4.6×
+Druggability          0.03          0.00              N/A
+Alpha Spheres         47            126               2.7×
+Hydrophobicity        -13.6         -11.0             More polar
+
+KEY FINDING: Modern pocket is 2.5× LARGER with maintained polarity!
+
+================================================================================
+                    ALL POCKETS DETECTED
+================================================================================
+
+LUCA ProRS - 15 pockets total:
+  Pocket 1:  Score 0.32, Volume 750 Ų   ← MAIN BINDING POCKET
+  Pocket 2:  Score 0.17, Volume 392 Ų
+  Pocket 3:  Score 0.13, Volume 289 Ų
+  Pocket 4:  Score 0.13, Volume 319 Ų
+  Pocket 5:  Score 0.10, Volume 338 Ų
+  ... (10 more pockets)
+
+Modern E. coli ProRS - 13 pockets total:
+  Pocket 1:  Score 1.48, Volume 1847 Ų  ← MAIN BINDING POCKET
+  Pocket 2:  Score 0.14, Volume 501 Ų
+  Pocket 3:  Score 0.07, Volume 187 Ų
+  Pocket 4:  Score 0.06, Volume 192 Ų
+  Pocket 5:  Score 0.06, Volume 90 Ų
+  ... (8 more pockets)
+
+================================================================================
+                    VISUALIZATION & ANALYSIS
+================================================================================
+
+Figure 6 - fpocket Comparison:
+  Location: manuscript_figures/Figure6_fpocket_Pocket_Comparison.pdf
+  Panels:
+    A) Volume comparison (bar chart)
+    B) Surface area (polar vs apolar)
+    C) Multi-property radar chart
+    D) Summary table with fold-changes
+
+View in PyMOL:
+  cd /storage/kiran-stuff/aaRS/structural_figures/v2
+  
+  # LUCA pocket
+  pymol luca_pocket.pdb luca_pocket_out/luca_pocket_out.pdb
+  
+  # Modern pocket
+  pymol modern_pocket.pdb modern_pocket_out/modern_pocket_out.pdb
+  
+  # Or use automated scripts
+  cd luca_pocket_out && ./luca_pocket_PYMOL.sh
+  cd modern_pocket_out && ./modern_pocket_PYMOL.sh
+
+Individual Pocket Files:
+  luca_pocket_out/pockets/pocket1_atm.pdb
+  luca_pocket_out/pockets/pocket2_atm.pdb
+  ... etc
+  
+  modern_pocket_out/pockets/pocket1_atm.pdb
+  modern_pocket_out/pockets/pocket2_atm.pdb
+  ... etc
+
+================================================================================
+                    BIOLOGICAL INTERPRETATION
+================================================================================
+
+POCKET EXPANSION STRATEGY:
+  Modern enzymes evolved LARGER pockets (2.5×) rather than narrower
+  specificity. This expanded volume allows accommodation of both
+  Pro and Thr substrates, explaining the maintained promiscuity
+  observed in AF3 ipTM data (Figure 3).
+
+CHEMICAL PROPERTIES CONSERVED:
+  Both LUCA and Modern maintain ~65-68% polar character, appropriate
+  for binding charged amino acids. Evolution changed SIZE not CHEMISTRY.
+
+QUALITY IMPROVEMENT:
+  Modern pocket has 4.6× higher fpocket score, indicating more
+  sophisticated geometry and better-defined binding site organization.
+
+COMPLEXITY INCREASE:
+  Modern pocket has 2.7× more alpha spheres (126 vs 47), showing
+  increased architectural refinement over 4 billion years of evolution.
+
+================================================================================
+                    RAW DATA FILES
+================================================================================
+
+Complete fpocket output:
+  /storage/kiran-stuff/aaRS/structural_figures/v2/luca_pocket_out/luca_pocket_info.txt
+  /storage/kiran-stuff/aaRS/structural_figures/v2/modern_pocket_out/modern_pocket_info.txt
+
+Python script for Figure 6:
+  /storage/kiran-stuff/aaRS/generate_figure6_fpocket_comparison.py
+
+Extracted data used in analysis:
+  LUCA Pocket 1:
+    Volume: 749.626 Ų
+    SASA: 148.856 ų (polar: 93.305, apolar: 55.551)
+    Score: 0.321
+    
+  Modern Pocket 1:
+    Volume: 1847.035 Ų
+    SASA: 380.637 ų (polar: 305.764, apolar: 74.873)
+    Score: 1.479
+
+================================================================================
+                    RELATED FINDINGS
+================================================================================
+
+This fpocket analysis (Figure 6) integrates with:
+
+Figure 2/3: 100% Promiscuity
+  → Large pocket PHYSICALLY explains equal Pro/Thr binding
+
+Figure 4: H-bond Reduction
+  → Despite 81% fewer H-bonds, larger pocket maintains binding
+
+Figure 5: Receiver-First
+  → Pocket geometry evolved early, expanded over time
+
+Combined Story:
+  LUCA had functional 750 Ų pocket → Modern expanded to 1847 Ų
+  while maintaining promiscuity through SIZE not SELECTIVITY
+
+================================================================================
+                    QUICK COMMANDS
+================================================================================
+
+# View full LUCA pocket details
+cat /storage/kiran-stuff/aaRS/structural_figures/v2/luca_pocket_out/luca_pocket_info.txt
+
+# View full Modern pocket details
+cat /storage/kiran-stuff/aaRS/structural_figures/v2/modern_pocket_out/modern_pocket_info.txt
+
+# View Figure 6
+evince manuscript_figures/Figure6_fpocket_Pocket_Comparison.pdf
+
+# List all individual pockets
+ls -lh structural_figures/v2/luca_pocket_out/pockets/
+ls -lh structural_figures/v2/modern_pocket_out/pockets/
+
+================================================================================
+
+📊 Summary: fpocket detected 15 pockets in LUCA, 13 in Modern.
+Main binding pocket (Pocket 1) shows 2.5× volume expansion!
+
+All data visualized in Figure 6 (manuscript_figures/).
+
+================================================================================

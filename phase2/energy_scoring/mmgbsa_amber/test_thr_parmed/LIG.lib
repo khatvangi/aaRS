@@ -1,0 +1,136 @@
+!!index array str
+ "LIG"
+!entry.LIG.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "n8" 0 1 131072 1 7 -0.320774
+ "CA" "c3" 0 1 131072 2 6 0.093521
+ "C" "c3" 0 1 131072 3 6 0.275552
+ "O" "oh" 0 1 131072 4 8 -0.357796
+ "CB" "c3" 0 1 131072 5 6 0.071864
+ "OG1" "oh" 0 1 131072 6 8 -0.391588
+ "CG2" "c3" 0 1 131072 7 6 -0.037196
+ "OXT" "os" 0 1 131072 8 8 -0.189891
+ "H" "hn" 0 1 131072 9 1 0.118942
+ "H1" "hn" 0 1 131072 10 1 0.118942
+ "H2" "h1" 0 1 131072 11 1 0.055036
+ "H3" "ho" 0 1 131072 12 1 0.214034
+ "H4" "h1" 0 1 131072 13 1 0.061623
+ "H5" "ho" 0 1 131072 14 1 0.210522
+ "H6" "hc" 0 1 131072 15 1 0.025736
+ "H7" "hc" 0 1 131072 16 1 0.025736
+ "H8" "hc" 0 1 131072 17 1 0.025736
+!entry.LIG.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "n8" 0 -1 0.0
+ "CA" "c3" 0 -1 0.0
+ "C" "c3" 0 -1 0.0
+ "O" "oh" 0 -1 0.0
+ "CB" "c3" 0 -1 0.0
+ "OG1" "oh" 0 -1 0.0
+ "CG2" "c3" 0 -1 0.0
+ "OXT" "os" 0 -1 0.0
+ "H" "hn" 0 -1 0.0
+ "H1" "hn" 0 -1 0.0
+ "H2" "h1" 0 -1 0.0
+ "H3" "ho" 0 -1 0.0
+ "H4" "h1" 0 -1 0.0
+ "H5" "ho" 0 -1 0.0
+ "H6" "hc" 0 -1 0.0
+ "H7" "hc" 0 -1 0.0
+ "H8" "hc" 0 -1 0.0
+!entry.LIG.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.LIG.unit.childsequence single int
+ 2
+!entry.LIG.unit.connect array int
+ 0
+ 0
+!entry.LIG.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 9 1
+ 1 10 1
+ 2 3 1
+ 2 5 1
+ 2 11 1
+ 3 4 1
+ 3 8 1
+ 3 8 1
+ 4 12 1
+ 5 6 1
+ 5 7 1
+ 5 13 1
+ 6 14 1
+ 7 15 1
+ 7 16 1
+ 7 17 1
+!entry.LIG.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+!entry.LIG.unit.name single str
+ "LIG"
+!entry.LIG.unit.positions table  dbl x  dbl y  dbl z
+ -2.443000 7.931000 -3.157000
+ -3.210000 7.029000 -2.280000
+ -4.685000 7.093000 -2.700000
+ -5.283000 8.128000 -2.466000
+ -2.987000 7.416000 -0.843000
+ -1.574000 7.335000 -0.585000
+ -3.744000 6.551000 0.117000
+ -5.148000 6.222000 -3.391000
+ -2.594000 7.668000 -4.131000
+ -1.450000 7.857000 -2.935000
+ -2.885000 6.014000 -2.376000
+ -4.891000 8.783000 -1.923000
+ -3.353000 8.410000 -0.693000
+ -1.271000 6.425000 -0.729000
+ -3.420000 5.536000 0.015000
+ -4.791000 6.614000 -0.095000
+ -3.562000 6.884000 1.117000
+!entry.LIG.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.LIG.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "LIG" 1 18 1 "?" 0
+!entry.LIG.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.LIG.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.LIG.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

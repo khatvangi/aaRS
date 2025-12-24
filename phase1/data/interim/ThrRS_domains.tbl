@@ -1,0 +1,76 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tRNA-synt_2b         PF00587.30   179 sp|A2RTX5|SYTC2_HUMAN -            802   1.9e-45  155.5   0.0   1   1   6.2e-49   3.1e-45  154.9   0.0     1   179   476   687   476   687 0.96 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|A2RTX5|SYTC2_HUMAN -            802   2.1e-20   73.1   0.1   1   1   1.2e-23   5.8e-20   71.7   0.1     1    93   699   789   699   790 0.98 Anticodon binding domain
+TGS                  PF02824.27    60 sp|A2RTX5|SYTC2_HUMAN -            802   1.2e-13   51.3   0.0   1   1   6.3e-17   3.1e-13   50.0   0.0     6    60   167   222   162   222 0.95 TGS domain
+tRNA_SAD             PF07973.19    44 sp|A2RTX5|SYTC2_HUMAN -            802   2.6e-12   46.9   0.1   1   1   1.2e-15   5.8e-12   45.8   0.1     2    44   329   377   328   377 0.97 Threonyl and Alanyl tRNA synthetase second additional domain
+ACBP4_C              PF24922.1    105 sp|A2RTX5|SYTC2_HUMAN -            802      0.23   12.2   4.2   1   1   0.00014      0.69   10.6   4.1    23    73    44    94    18    99 0.87 Acyl-CoA-binding domain-containing protein 4-6, C-terminal
+tRNA-synt_2b         PF00587.30   179 sp|P26639|SYTC_HUMAN -            723   2.1e-45  155.4   0.0   1   1     6e-49   3.7e-45  154.6   0.0     3   179   399   608   397   608 0.95 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|P26639|SYTC_HUMAN -            723   1.2e-22   80.3   0.1   1   1   3.8e-26   2.4e-22   79.3   0.1     1    93   620   710   620   711 0.98 Anticodon binding domain
+TGS                  PF02824.27    60 sp|P26639|SYTC_HUMAN -            723   8.1e-19   67.9   0.1   1   2   5.5e-22   3.4e-18   65.9   0.0     1    60    83   143    83   143 0.98 TGS domain
+TGS                  PF02824.27    60 sp|P26639|SYTC_HUMAN -            723   8.1e-19   67.9   0.1   2   2      0.64   3.9e+03   -1.6   0.0    11    32   622   643   618   650 0.80 TGS domain
+tRNA_SAD             PF07973.19    44 sp|P26639|SYTC_HUMAN -            723   6.1e-13   49.0   0.1   1   1   2.1e-16   1.3e-12   47.9   0.1     2    44   250   298   249   298 0.98 Threonyl and Alanyl tRNA synthetase second additional domain
+tRNA-synt_2b         PF00587.30   179 sp|Q8BLY2|SYTC2_MOUSE -            790   3.2e-43  148.3   0.0   1   1   1.1e-46   5.3e-43  147.6   0.0     1   179   464   675   464   675 0.94 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|Q8BLY2|SYTC2_MOUSE -            790   5.6e-22   78.1   0.1   1   1   2.6e-25   1.3e-21   77.0   0.1     1    93   687   777   687   778 0.98 Anticodon binding domain
+TGS                  PF02824.27    60 sp|Q8BLY2|SYTC2_MOUSE -            790     7e-14   52.1   0.0   1   1   2.9e-17   1.4e-13   51.1   0.0     8    59   157   209   152   210 0.97 TGS domain
+tRNA_SAD             PF07973.19    44 sp|Q8BLY2|SYTC2_MOUSE -            790   8.8e-13   48.5   0.0   1   1   3.9e-16   1.9e-12   47.4   0.0     2    44   317   365   316   365 0.97 Threonyl and Alanyl tRNA synthetase second additional domain
+TPR                  PF25785.1    110 sp|Q8BLY2|SYTC2_MOUSE -            790      0.15   12.8   4.0   1   2       1.3   6.5e+03   -2.1   0.0    22    44    18    36     6    47 0.64 Nucleoprotein TPR-like domain
+TPR                  PF25785.1    110 sp|Q8BLY2|SYTC2_MOUSE -            790      0.15   12.8   4.0   2   2   1.9e-05     0.092   13.5   1.5     8    84    46   130    40   135 0.76 Nucleoprotein TPR-like domain
+tRNA-synt_2b         PF00587.30   179 sp|Q9BW92|SYTM_HUMAN -            718   1.7e-40  139.5   0.0   1   1   4.6e-44   2.9e-40  138.7   0.0     8   178   399   602   393   603 0.95 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|Q9BW92|SYTM_HUMAN -            718   1.5e-19   70.4   0.2   1   1   4.9e-23     3e-19   69.4   0.2     1    93   615   705   615   706 0.97 Anticodon binding domain
+TGS                  PF02824.27    60 sp|Q9BW92|SYTM_HUMAN -            718   1.1e-11   45.1   0.0   1   1   3.4e-15   2.1e-11   44.1   0.0     1    60    61   121    61   121 0.93 TGS domain
+tRNA_SAD             PF07973.19    44 sp|Q9BW92|SYTM_HUMAN -            718   2.3e-09   37.5   0.1   1   2       2.9   1.8e+04   -3.8   0.1    13    17   151   155   151   156 0.89 Threonyl and Alanyl tRNA synthetase second additional domain
+tRNA_SAD             PF07973.19    44 sp|Q9BW92|SYTM_HUMAN -            718   2.3e-09   37.5   0.1   2   2   1.1e-12   6.8e-09   36.0   0.0     2    43   229   276   228   277 0.84 Threonyl and Alanyl tRNA synthetase second additional domain
+tRNA-synt_2b         PF00587.30   179 sp|Q9D0R2|SYTC_MOUSE -            722   4.7e-46  157.5   0.0   1   1   1.3e-49   8.3e-46  156.7   0.0     3   179   398   607   396   607 0.95 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|Q9D0R2|SYTC_MOUSE -            722   2.9e-22   79.1   0.2   1   1     1e-25   6.3e-22   78.0   0.2     1    93   619   709   619   710 0.98 Anticodon binding domain
+TGS                  PF02824.27    60 sp|Q9D0R2|SYTC_MOUSE -            722   1.5e-18   67.0   0.1   1   2   9.4e-22   5.8e-18   65.1   0.1     1    60    82   142    82   142 0.98 TGS domain
+TGS                  PF02824.27    60 sp|Q9D0R2|SYTC_MOUSE -            722   1.5e-18   67.0   0.1   2   2      0.72   4.4e+03   -1.8   0.0    11    32   621   642   617   647 0.80 TGS domain
+tRNA_SAD             PF07973.19    44 sp|Q9D0R2|SYTC_MOUSE -            722   1.6e-12   47.6   0.1   1   1   6.1e-16   3.8e-12   46.4   0.1     2    44   249   297   248   297 0.98 Threonyl and Alanyl tRNA synthetase second additional domain
+tRNA-synt_2b         PF00587.30   179 sp|F4IFC5|SYTM2_ARATH -            650   5.6e-52  176.8   0.0   1   1   1.8e-55   1.1e-51  175.8   0.0     6   179   336   542   330   542 0.96 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|F4IFC5|SYTM2_ARATH -            650   1.2e-21   77.0   0.0   1   2      0.65     4e+03   -1.5   0.0    17    37   450   470   441   474 0.80 Anticodon binding domain
+HGTP_anticodon       PF03129.25    94 sp|F4IFC5|SYTM2_ARATH -            650   1.2e-21   77.0   0.0   2   2   1.1e-24   6.6e-21   74.7   0.0     1    91   554   640   554   641 0.97 Anticodon binding domain
+tRNA_SAD             PF07973.19    44 sp|F4IFC5|SYTM2_ARATH -            650   2.2e-13   50.4   0.0   1   1   1.1e-16   6.5e-13   48.9   0.0     1    44   178   230   178   230 0.97 Threonyl and Alanyl tRNA synthetase second additional domain
+RPA_interact_M       PF14767.12    94 sp|F4IFC5|SYTM2_ARATH -            650      0.19   12.7   1.8   1   2      0.85   5.3e+03   -1.5   0.1    45    64   123   142   114   166 0.56 Replication protein A interacting middle
+RPA_interact_M       PF14767.12    94 sp|F4IFC5|SYTM2_ARATH -            650      0.19   12.7   1.8   2   2   5.4e-05      0.33   11.9   0.2     2    58   284   339   283   345 0.85 Replication protein A interacting middle
+tRNA-synt_2b         PF00587.30   179 sp|O04630|SYTM1_ARATH -            709   1.8e-47  162.1   0.0   1   1   6.3e-51   3.1e-47  161.4   0.0     1   179   391   602   391   602 0.97 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|O04630|SYTM1_ARATH -            709   3.7e-22   78.7   1.7   1   1   1.9e-25   9.2e-22   77.5   1.7     1    93   614   703   614   704 0.97 Anticodon binding domain
+TGS                  PF02824.27    60 sp|O04630|SYTM1_ARATH -            709   3.6e-17   62.6   0.0   1   1   1.3e-20   6.4e-17   61.8   0.0     1    60    75   135    75   135 0.98 TGS domain
+tRNA_SAD             PF07973.19    44 sp|O04630|SYTM1_ARATH -            709   3.2e-15   56.3   0.0   1   1   1.4e-18     7e-15   55.2   0.0     1    44   243   292   243   292 0.98 Threonyl and Alanyl tRNA synthetase second additional domain
+Chordopox_A20R       PF05941.18   335 sp|O04630|SYTM1_ARATH -            709     0.087   12.2   0.0   1   1   3.7e-05      0.18   11.2   0.0    28    55   344   371   331   417 0.72 Chordopoxvirus A20R protein
+tRNA-synt_2b         PF00587.30   179 sp|P52709|SYTC_CAEEL -            725     3e-45  154.9   0.0   1   2      0.87   5.4e+03   -2.3   0.0    75   110   210   252   197   305 0.65 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2b         PF00587.30   179 sp|P52709|SYTC_CAEEL -            725     3e-45  154.9   0.0   2   2   1.5e-48   9.3e-45  153.3   0.0     1   179   396   607   396   607 0.96 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|P52709|SYTC_CAEEL -            725     8e-21   74.5   1.8   1   2      0.57   3.5e+03   -1.3   0.0    41    71    56    86    55   108 0.84 Anticodon binding domain
+HGTP_anticodon       PF03129.25    94 sp|P52709|SYTC_CAEEL -            725     8e-21   74.5   1.8   2   2   3.3e-24   2.1e-20   73.1   0.7     1    92   619   708   619   710 0.98 Anticodon binding domain
+TGS                  PF02824.27    60 sp|P52709|SYTC_CAEEL -            725   8.9e-18   64.5   0.0   1   3   1.3e-20     8e-17   61.5   0.0     1    60    82   142    82   142 0.98 TGS domain
+TGS                  PF02824.27    60 sp|P52709|SYTC_CAEEL -            725   8.9e-18   64.5   0.0   2   3      0.37   2.3e+03   -0.8   0.0     3    32   299   327   297   328 0.87 TGS domain
+TGS                  PF02824.27    60 sp|P52709|SYTC_CAEEL -            725   8.9e-18   64.5   0.0   3   3       1.3     8e+03   -2.6   0.0    17    30   627   640   623   642 0.83 TGS domain
+tRNA_SAD             PF07973.19    44 sp|P52709|SYTC_CAEEL -            725   1.5e-12   47.7   0.0   1   1   5.5e-16   3.4e-12   46.6   0.0     2    44   249   297   248   297 0.98 Threonyl and Alanyl tRNA synthetase second additional domain
+tRNA-synt_2b         PF00587.30   179 sp|Q3UQ84|SYTM_MOUSE -            723   7.2e-39  134.1   0.0   1   1   3.1e-42   1.5e-38  133.1   0.0     8   178   404   607   400   608 0.96 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|Q3UQ84|SYTM_MOUSE -            723   3.3e-18   66.1   0.7   1   1   1.2e-21   6.2e-18   65.2   0.7     1    93   620   710   620   711 0.97 Anticodon binding domain
+TGS                  PF02824.27    60 sp|Q3UQ84|SYTM_MOUSE -            723   1.5e-13   51.0   0.0   1   1   5.5e-17   2.7e-13   50.1   0.0     1    60    66   126    66   126 0.95 TGS domain
+tRNA_SAD             PF07973.19    44 sp|Q3UQ84|SYTM_MOUSE -            723   5.3e-11   42.7   0.0   1   2       2.7   1.3e+04   -3.3   0.0    13    17   156   160   156   163 0.85 Threonyl and Alanyl tRNA synthetase second additional domain
+tRNA_SAD             PF07973.19    44 sp|Q3UQ84|SYTM_MOUSE -            723   5.3e-11   42.7   0.0   2   2   3.3e-14   1.6e-10   41.2   0.0     2    32   234   266   233   282 0.81 Threonyl and Alanyl tRNA synthetase second additional domain
+LAGLIDADG_3          PF14528.11    82 sp|Q3UQ84|SYTM_MOUSE -            723      0.23   12.2   0.2   1   2    0.0015       7.6    7.3   0.0    26    55   624   653   618   672 0.78 LAGLIDADG-like domain
+LAGLIDADG_3          PF14528.11    82 sp|Q3UQ84|SYTM_MOUSE -            723      0.23   12.2   0.2   2   2      0.08   3.9e+02    1.8   0.1    25    44   683   710   674   713 0.74 LAGLIDADG-like domain
+tRNA-synt_2b         PF00587.30   179 sp|Q54J66|SYTC1_DICDI -            710   1.6e-43  149.3   0.0   1   2      0.66   4.1e+03   -1.9   0.0    78   154   197   301   180   324 0.56 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2b         PF00587.30   179 sp|Q54J66|SYTC1_DICDI -            710   1.6e-43  149.3   0.0   2   2   8.2e-47   5.1e-43  147.6   0.0     8   178   397   602   391   603 0.94 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|Q54J66|SYTC1_DICDI -            710   2.8e-22   79.1   0.5   1   1   9.5e-26   5.9e-22   78.1   0.5     1    93   615   704   615   705 0.97 Anticodon binding domain
+TGS                  PF02824.27    60 sp|Q54J66|SYTC1_DICDI -            710   2.4e-15   56.7   0.0   1   1     1e-18   6.3e-15   55.4   0.0     1    60    76   137    76   137 0.92 TGS domain
+tRNA_SAD             PF07973.19    44 sp|Q54J66|SYTC1_DICDI -            710   2.5e-13   50.2   0.0   1   1   9.3e-17   5.7e-13   49.1   0.0     1    44   243   292   243   292 0.97 Threonyl and Alanyl tRNA synthetase second additional domain
+tRNA-synt_2b         PF00587.30   179 sp|Q8GZ45|SYTC_ARATH -            458   6.4e-35  121.3   0.0   1   1   1.2e-38   9.6e-35  120.7   0.0    33   179   167   347   156   347 0.95 tRNA synthetase class II core domain (G, H, P, S and T)
+TGS                  PF02824.27    60 sp|Q8GZ45|SYTC_ARATH -            458   1.8e-16   60.3   0.0   1   1   3.7e-20     3e-16   59.6   0.0     1    59    43   103    43   104 0.98 TGS domain
+HGTP_anticodon       PF03129.25    94 sp|Q8GZ45|SYTC_ARATH -            458   2.4e-16   60.1   0.1   1   1     5e-20   4.1e-16   59.3   0.1     1    92   359   451   359   453 0.91 Anticodon binding domain
+tRNA-synt_2b         PF00587.30   179 sp|Q8MP20|SYTC2_DICDI -            698   3.4e-40  138.4   0.0   1   1   3.3e-42   2.7e-38  132.3   0.0     3   178   359   586   357   587 0.88 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25    94 sp|Q8MP20|SYTC2_DICDI -            698   5.8e-18   65.3   0.2   1   1   1.3e-21   1.1e-17   64.4   0.2     1    92   599   691   599   693 0.94 Anticodon binding domain
+TGS                  PF02824.27    60 sp|Q8MP20|SYTC2_DICDI -            698   0.00032   21.1   0.0   1   1     1e-07   0.00085   19.7   0.0     3    42    42    91    41   100 0.81 TGS domain
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      data/raw/ThrRS_filtered.fasta
+# Target file:     Pfam-A.hmm
+# Option settings: hmmscan --domtblout data/interim/ThrRS_domains.tbl --noali --cpu 16 Pfam-A.hmm data/raw/ThrRS_filtered.fasta 
+# Current dir:     /storage/kiran-stuff/aaRS/phase1
+# Date:            Sat Nov  1 09:13:19 2025
+# [ok]

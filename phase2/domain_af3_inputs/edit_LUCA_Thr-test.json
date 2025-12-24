@@ -1,0 +1,28 @@
+{
+  "name": "MsrA_with_THR_Ligand",
+  "dialect": "alphafold3",
+  "version": 1,
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A"
+        ],
+        "sequence": "RTSEFSLWQEGHTAHATREEAEEEVRRMLHDIYARFAREYLAIPVIKGRKTEKEIGGSLSHEFLLPAELGEDALLLCEECAYAANLEKVELEAEEEEKPLEKVTPDVKTIEELLKFAGEADLGRTAVYTYTIEAMMKKAEEGGEELVLVLVRGDRELDEEKLEKPLGKLAPHYEGAPELELATPEEELLELGVKLPLGFLGPLGLDYIATNKEVAEGEVKLLLDEALGLKNFVVGANEPDLHLLNLNGRDLELEELLVDLAVREGDRPCPECGEGPLADGKHWALQAGTSHYLGQNFARA"
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "L"
+        ],
+        "ccdCodes": [
+          "THR"
+        ]
+      }
+    }
+  ],
+  "modelSeeds": [
+    1
+  ]
+}

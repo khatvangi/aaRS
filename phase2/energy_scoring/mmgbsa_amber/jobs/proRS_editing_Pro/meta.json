@@ -1,0 +1,24 @@
+{
+  "input_cif": "../../af3_ligand_inputs/af3_output_final/af3_output/proRS_editing_Pro/proRS_editing_Pro_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "L",
+  "ligand_original_resname": "PRO",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      300,
+      2344
+    ],
+    [
+      "B",
+      76,
+      1589
+    ],
+    [
+      "L",
+      1,
+      8
+    ]
+  ]
+}

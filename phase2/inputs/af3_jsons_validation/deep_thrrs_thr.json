@@ -1,0 +1,36 @@
+{
+  "name": "deep_thrrs_thr",
+  "dialect": "alphafold3",
+  "version": 1,
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A"
+        ],
+        "sequence": "EEEYLLKPMNCPHHIRIYASLRPRSYRDLPLRLAEFGTVSYRYEQSGELHGLTRVRGFTQDDAHIFCRPLDQIKGEFLGVLDLVLLVFKLTFGLNGDDYRARIGVRDKVNDPKSGKYVVSYVCRNCGYRIEGARGTDIECPVCHSHDLEGDEENWALAERQIKEAVEEYKNEVCGLPGNYTIEPGDAAFYGPKLDFVVKDALGREWQLGTIQVDYNLPERFDLTYVGGLNNNNNNNNNNEEINDNNEDGQELEHRPVMIHRAPFGSIERFIGILIEHY"
+      }
+    },
+    {
+      "rna": {
+        "id": [
+          "B"
+        ],
+        "sequence": "CUAAUACUAUUUCAUCCGAAACUUUUUUAAAAUAAUAUUCUUACUUUAUUUUAAAAACAGACUACAAAAAUCUCCA"
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "C"
+        ],
+        "ccdCodes": [
+          "THR"
+        ]
+      }
+    }
+  ],
+  "modelSeeds": [
+    1
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../domain_af3_inputs/af3_output/MsrA_with_THR_Ligand/MsrA_with_THR_Ligand_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "L",
+  "ligand_original_resname": "THR",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      300,
+      2344
+    ],
+    [
+      "L",
+      1,
+      8
+    ]
+  ]
+}

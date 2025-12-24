@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../af3_modern_matrix/modern_thrrs_LEU/af3_output/modern_thrrs_LEU/modern_thrrs_LEU_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "LEU",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      663,
+      5121
+    ],
+    [
+      "B",
+      1,
+      9
+    ]
+  ]
+}

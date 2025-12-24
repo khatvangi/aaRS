@@ -1,0 +1,10 @@
+af3_gaps/af3_output/modern_ecoli_cat_phe/modern_ecoli_cat_phe_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_phe/seed-1_sample-0/modern_ecoli_cat_phe_seed-1_sample-0_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_phe/seed-1_sample-1/modern_ecoli_cat_phe_seed-1_sample-1_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_phe/seed-1_sample-2/modern_ecoli_cat_phe_seed-1_sample-2_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_phe/seed-1_sample-3/modern_ecoli_cat_phe_seed-1_sample-3_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_phe/seed-1_sample-4/modern_ecoli_cat_phe_seed-1_sample-4_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_trp/modern_ecoli_cat_trp_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_trp/seed-1_sample-0/modern_ecoli_cat_trp_seed-1_sample-0_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_trp/seed-1_sample-1/modern_ecoli_cat_trp_seed-1_sample-1_model.cif
+af3_gaps/af3_output/modern_ecoli_cat_trp/seed-1_sample-2/modern_ecoli_cat_trp_seed-1_sample-2_model.cif

@@ -1,0 +1,90 @@
+| Run on Sun Dec 21 22:05:22 2025
+|
+|Input file:
+|--------------------------------------------------------------
+|&general
+|  startframe=1, endframe=1, interval=1,
+|  verbose=1,
+|/
+|&gb
+|  igb=5, saltcon=0.150
+|/
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Complex topology file:           complex.prmtop
+|Receptor topology file:          receptor.prmtop
+|Ligand topology file:            ligand.prmtop
+|Initial mdcrd(s):                oneframe.nc
+|
+|Receptor mask:                  ":1-278"
+|Ligand mask:                    ":279"
+|Ligand residue name is "LIG"
+|
+|Calculations performed using 1.0 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -2106.4269                0.0000              0.0000
+EEL                     -18836.1736                0.0000              0.0000
+EGB                      -4288.5992                0.0000              0.0000
+ESURF                      107.7992                0.0000              0.0000
+
+G gas                   -20942.6005                0.0000              0.0000
+G solv                   -4180.8000                0.0000              0.0000
+
+TOTAL                   -25123.4005                0.0000              0.0000
+
+
+Receptor:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -2097.0968                0.0000              0.0000
+EEL                     -18815.6815                0.0000              0.0000
+EGB                      -4292.7254                0.0000              0.0000
+ESURF                      107.9295                0.0000              0.0000
+
+G gas                   -20912.7783                0.0000              0.0000
+G solv                   -4184.7959                0.0000              0.0000
+
+TOTAL                   -25097.5742                0.0000              0.0000
+
+
+Ligand:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                     -0.0454                0.0000              0.0000
+EEL                        -16.0527                0.0000              0.0000
+EGB                         -4.0141                0.0000              0.0000
+ESURF                        1.6886                0.0000              0.0000
+
+G gas                      -16.0981                0.0000              0.0000
+G solv                      -2.3255                0.0000              0.0000
+
+TOTAL                      -18.4236                0.0000              0.0000
+
+
+Differences (Complex - Receptor - Ligand):
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                     -9.2847                0.0000              0.0000
+EEL                         -4.4394                0.0000              0.0000
+EGB                          8.1403                0.0000              0.0000
+ESURF                       -1.8190                0.0000              0.0000
+
+DELTA G gas                -13.7241                0.0000              0.0000
+DELTA G solv                 6.3213                0.0000              0.0000
+
+DELTA TOTAL                 -7.4028                0.0000              0.0000
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------

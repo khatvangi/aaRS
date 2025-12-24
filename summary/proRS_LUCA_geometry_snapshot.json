@@ -1,0 +1,24 @@
+{
+  "LUCA_radius": 0.2160564584374464,
+  "LUCA_vs_non_LUCA_p": 0.25,
+  "editing_vs_no_editing_p": 0.03571428571428571,
+  "radius_promiscuity_spearman_r": null,
+  "radius_promiscuity_spearman_p": null,
+  "sword2": {
+    "deep_editing_pro_model_chainA_A": {
+      "n_domains": 2,
+      "n_PUs": 3,
+      "n_solutions": 6
+    },
+    "deep_domain_pro_model_chainA_A": {
+      "n_domains": 3,
+      "n_PUs": 4,
+      "n_solutions": 8
+    },
+    "modern_prours_pro_model_chainA_A": {
+      "n_domains": 3,
+      "n_PUs": 4,
+      "n_solutions": 8
+    }
+  }
+}

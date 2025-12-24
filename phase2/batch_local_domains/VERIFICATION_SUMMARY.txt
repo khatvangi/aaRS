@@ -1,0 +1,100 @@
+====================================================================
+SEQUENCE VERIFICATION SUMMARY - batch_local_domains
+====================================================================
+
+CRITICAL ISSUE: ThrRS catalytic domain has PLACEHOLDER sequence!
+
+--------------------------------------------------------------------
+VERIFICATION RESULTS:
+--------------------------------------------------------------------
+
+✅ ProRS catalytic domain (anc_prors_cat_*.json)
+   Current:    500 aa
+   Reference:  500 aa (from deep_domain_pro.json)
+   Status:     CORRECT - sequences match
+   Starts:     QDVGKFVELPGAEMGKVTTRY...
+
+✅ ProRS editing domain (anc_prors_edit_*.json)
+   Current:    370 aa
+   Reference:  370 aa (from deep_editing_pro.json)
+   Status:     CORRECT - sequences match
+   Starts:     RTSEFSLWQEGHTAHATREEAE...
+
+❌ ThrRS catalytic domain (anc_thrrs_cat_*.json)
+   Current:    6 aa = "MAAAAA"  ⚠️ PLACEHOLDER!
+   Reference:  278 aa (from deep_thrrs_pro.json)
+   Status:     INCORRECT - MUST BE FIXED!
+   Should start: EEEYLLKPMNCPHHIRIYASL...
+
+--------------------------------------------------------------------
+CORRECT ThrRS SEQUENCE (278 amino acids):
+--------------------------------------------------------------------
+
+EEEYLLKPMNCPHHIRIYASLRPRSYRDLPLRLAEFGTVSYRYEQSGELHGLTRVRGFT
+QDDAHIFCRPLDQIKGEFLGVLDLVLLVFKLTFGLNGDDYRARIGVRDKVNDPKSGKYV
+VSYVCRNCGYRIEGARGTDIECPVCHSHDLEGDEENWALAERQIKEAVEEYKNEVCGLP
+GNYTIEPGDAAFYGPKLDFVVKDALGREWQLGTIQVDYNLPERFDLTYVGGLNNNNNN
+NNNNEEINDNNEDGQELEHRPVMIHRAPFGSIERFIGILIEHY
+
+--------------------------------------------------------------------
+FILES TO FIX (20 files):
+--------------------------------------------------------------------
+
+anc_thrrs_cat_ALA.json
+anc_thrrs_cat_ARG.json
+anc_thrrs_cat_ASN.json
+anc_thrrs_cat_ASP.json
+anc_thrrs_cat_CYS.json
+anc_thrrs_cat_GLN.json
+anc_thrrs_cat_GLU.json
+anc_thrrs_cat_GLY.json
+anc_thrrs_cat_HIS.json
+anc_thrrs_cat_ILE.json
+anc_thrrs_cat_LEU.json
+anc_thrrs_cat_LYS.json
+anc_thrrs_cat_MET.json
+anc_thrrs_cat_PHE.json
+anc_thrrs_cat_PRO.json
+anc_thrrs_cat_SER.json
+anc_thrrs_cat_THR.json
+anc_thrrs_cat_TRP.json
+anc_thrrs_cat_TYR.json
+anc_thrrs_cat_VAL.json
+
+--------------------------------------------------------------------
+REFERENCE FILES:
+--------------------------------------------------------------------
+
+ProRS catalytic:  phase2/inputs/af3_jsons_domain/deep_domain_pro.json
+ProRS editing:    phase2/inputs/af3_jsons_validation/deep_editing_pro.json
+ThrRS (full):     phase2/inputs/af3_jsons_validation/deep_thrrs_pro.json
+
+--------------------------------------------------------------------
+ANCIENT RECONSTRUCTION FILES (5 total):
+--------------------------------------------------------------------
+
+ProRS (3 files):
+  1. Full-length:      fulllength_deep_pro.json  (with tRNA + ligand)
+  2. Catalytic domain: deep_domain_pro.json      (500 aa)
+  3. Editing domain:   deep_editing_pro.json     (370 aa)
+
+ThrRS (2 files):
+  1. Full enzyme + Pro:  deep_thrrs_pro.json     (278 aa)
+  2. Full enzyme + Thr:  deep_thrrs_thr.json     (278 aa)
+
+Note: ThrRS has no separate "editing domain" file in ancient
+reconstructions, consistent with ThrRS having limited/no editing
+capability.
+
+--------------------------------------------------------------------
+IMPACT:
+--------------------------------------------------------------------
+
+⚠️  Any AF3 calculations already run with ThrRS catalytic domain
+    will be INVALID due to placeholder sequence "MAAAAA"
+
+⚠️  Must fix before continuing AF3 runs for 20-amino acid matrix
+
+✅  ProRS calculations (both catalytic and editing) are fine
+
+====================================================================

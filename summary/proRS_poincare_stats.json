@@ -1,0 +1,58 @@
+{
+  "LUCA": {
+    "n": 0,
+    "radius_mean": null,
+    "radius_median": null,
+    "radius_std": null,
+    "radius_min": null,
+    "radius_max": null,
+    "radius_q25": null,
+    "radius_q75": null
+  },
+  "non_LUCA": {
+    "n": 11,
+    "radius_mean": 0.2070291225440692,
+    "radius_median": 0.2468023905361117,
+    "radius_std": 0.07733433988937659,
+    "radius_min": 0.06714138540156171,
+    "radius_max": 0.279605436425265,
+    "radius_q25": 0.15611509001253324,
+    "radius_q75": 0.2602843431786743
+  },
+  "luca_vs_non_luca": {
+    "mannwhitney_U": NaN,
+    "p_value": NaN
+  },
+  "by_kingdom": {},
+  "kingdom_kruskal": {
+    "H": NaN,
+    "p_value": NaN
+  },
+  "editing": {
+    "has_editing": {
+      "n": 0,
+      "radius_mean": null,
+      "radius_median": null,
+      "radius_std": null,
+      "radius_min": null,
+      "radius_max": null,
+      "radius_q25": null,
+      "radius_q75": null
+    },
+    "no_editing": {
+      "n": 11,
+      "radius_mean": 0.2070291225440692,
+      "radius_median": 0.2468023905361117,
+      "radius_std": 0.07733433988937659,
+      "radius_min": 0.06714138540156171,
+      "radius_max": 0.279605436425265,
+      "radius_q25": 0.15611509001253324,
+      "radius_q75": 0.2602843431786743
+    },
+    "mannwhitney_U": NaN,
+    "p_value": NaN
+  },
+  "radius_promiscuity_correlation": {
+    "available": false
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "species": {
+    "bacteria": [
+      "Escherichia coli",
+      "Bacillus subtilis",
+      "Thermus thermophilus",
+      "Thermotoga maritima",
+      "Deinococcus radiodurans",
+      "Aquifex aeolicus",
+      "Synechocystis sp. PCC 6803",
+      "Mycobacterium tuberculosis",
+      "Pseudomonas aeruginosa",
+      "Helicobacter pylori",
+      "Campylobacter jejuni",
+      "Chlamydia trachomatis",
+      "Rickettsia prowazekii",
+      "Borrelia burgdorferi",
+      "Treponema pallidum"
+    ],
+    "archaea": [
+      "Methanocaldococcus jannaschii",
+      "Pyrococcus furiosus",
+      "Thermococcus kodakarensis",
+      "Sulfolobus acidocaldarius",
+      "Archaeoglobus fulgidus",
+      "Halobacterium salinarum",
+      "Methanothermobacter thermautotrophicus",
+      "Pyrobaculum aerophilum",
+      "Nanoarchaeum equitans",
+      "Thermoplasma acidophilum"
+    ],
+    "eukaryota": [
+      "Homo sapiens",
+      "Mus musculus",
+      "Danio rerio",
+      "Drosophila melanogaster",
+      "Caenorhabditis elegans",
+      "Saccharomyces cerevisiae",
+      "Schizosaccharomyces pombe",
+      "Candida albicans",
+      "Plasmodium falciparum",
+      "Trypanosoma brucei",
+      "Leishmania major",
+      "Dictyostelium discoideum",
+      "Arabidopsis thaliana",
+      "Oryza sativa",
+      "Chlamydomonas reinhardtii"
+    ]
+  },
+  "aars": {
+    "ProRS": {
+      "name": "Prolyl-tRNA synthetase",
+      "class": "II",
+      "pfam": "PF03129",
+      "uniprot_keywords": [
+        "Prolyl-tRNA synthetase",
+        "Proline--tRNA ligase"
+      ]
+    },
+    "ThrRS": {
+      "name": "Threonyl-tRNA synthetase",
+      "class": "II",
+      "pfam": "PF03129",
+      "uniprot_keywords": [
+        "Threonyl-tRNA synthetase",
+        "Threonine--tRNA ligase"
+      ]
+    },
+    "SerRS": {
+      "name": "Seryl-tRNA synthetase",
+      "class": "II",
+      "pfam": "PF00587",
+      "uniprot_keywords": [
+        "Seryl-tRNA synthetase",
+        "Serine--tRNA ligase"
+      ]
+    },
+    "ValRS": {
+      "name": "Valyl-tRNA synthetase",
+      "class": "I",
+      "pfam": "PF00133",
+      "uniprot_keywords": [
+        "Valyl-tRNA synthetase",
+        "Valine--tRNA ligase"
+      ]
+    }
+  },
+  "trna": {
+    "Pro": {
+      "anticodons": [
+        "AGG",
+        "CGG",
+        "TGG"
+      ],
+      "rfam": "RF00005"
+    },
+    "Thr": {
+      "anticodons": [
+        "AGT",
+        "CGT",
+        "TGT",
+        "GGT"
+      ],
+      "rfam": "RF00005"
+    },
+    "Ser": {
+      "anticodons": [
+        "AGA",
+        "CGA",
+        "TGA",
+        "GCT",
+        "ACT"
+      ],
+      "rfam": "RF00005"
+    },
+    "Val": {
+      "anticodons": [
+        "AAC",
+        "CAC",
+        "TAC",
+        "GAC"
+      ],
+      "rfam": "RF00005"
+    }
+  },
+  "n_species": 40,
+  "n_cores": 64,
+  "n_gpus": 2
+}

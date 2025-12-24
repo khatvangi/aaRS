@@ -1,0 +1,152 @@
+====================================================================
+MODERN MATRIX SEQUENCE VERIFICATION - ALL CORRECT
+====================================================================
+Date: 2025-12-11
+Status: ✓ READY FOR AF3 CALCULATIONS
+
+--------------------------------------------------------------------
+VERIFICATION SUMMARY:
+--------------------------------------------------------------------
+
+✓ ALL 40 FILES VERIFIED CORRECT!
+
+Modern E. coli ProRS:  20 files × 572 aa
+Modern E. coli ThrRS:  20 files × 663 aa (full-length)
+
+Each enzyme tested with all 20 standard amino acids:
+  ALA, ARG, ASN, ASP, CYS, GLN, GLU, GLY, HIS, ILE,
+  LEU, LYS, MET, PHE, PRO, SER, THR, TRP, TYR, VAL
+
+--------------------------------------------------------------------
+MODERN E. COLI PRORS (20 files):
+--------------------------------------------------------------------
+
+Sequence: 572 amino acids
+Reference: /storage/kiran-stuff/aaRS/phase2/af3_gaps/
+           modern_ecoli_full_pro.json
+
+Starts: MRTSQYLLSTLKETPADAEVISHQLMLRAGMIRKLASGLYTWLPTGVRVL...
+Ends:   ...VLGDRNLDNDDIEYKYRRNGEKQLIKTGDIVEYLVKQIKG
+
+Files verified:
+  ✓ modern_prors_ALA/modern_prors_ALA.json (572 aa, ligand=ALA)
+  ✓ modern_prors_ARG/modern_prors_ARG.json (572 aa, ligand=ARG)
+  ✓ modern_prors_ASN/modern_prors_ASN.json (572 aa, ligand=ASN)
+  ✓ modern_prors_ASP/modern_prors_ASP.json (572 aa, ligand=ASP)
+  ✓ modern_prors_CYS/modern_prors_CYS.json (572 aa, ligand=CYS)
+  ✓ modern_prors_GLN/modern_prors_GLN.json (572 aa, ligand=GLN)
+  ✓ modern_prors_GLU/modern_prors_GLU.json (572 aa, ligand=GLU)
+  ✓ modern_prors_GLY/modern_prors_GLY.json (572 aa, ligand=GLY)
+  ✓ modern_prors_HIS/modern_prors_HIS.json (572 aa, ligand=HIS)
+  ✓ modern_prors_ILE/modern_prors_ILE.json (572 aa, ligand=ILE)
+  ✓ modern_prors_LEU/modern_prors_LEU.json (572 aa, ligand=LEU)
+  ✓ modern_prors_LYS/modern_prors_LYS.json (572 aa, ligand=LYS)
+  ✓ modern_prors_MET/modern_prors_MET.json (572 aa, ligand=MET)
+  ✓ modern_prors_PHE/modern_prors_PHE.json (572 aa, ligand=PHE)
+  ✓ modern_prors_PRO/modern_prors_PRO.json (572 aa, ligand=PRO)
+  ✓ modern_prors_SER/modern_prors_SER.json (572 aa, ligand=SER)
+  ✓ modern_prors_THR/modern_prors_THR.json (572 aa, ligand=THR)
+  ✓ modern_prors_TRP/modern_prors_TRP.json (572 aa, ligand=TRP)
+  ✓ modern_prors_TYR/modern_prors_TYR.json (572 aa, ligand=TYR)
+  ✓ modern_prors_VAL/modern_prors_VAL.json (572 aa, ligand=VAL)
+
+--------------------------------------------------------------------
+MODERN E. COLI THRRS (20 files):
+--------------------------------------------------------------------
+
+Sequence: 663 amino acids (full-length)
+Note: This is LONGER than the 500 aa version in:
+      /storage/kiran-stuff/aaRS/phase2/inputs/af3_jsons_validation/
+      modern_thrrs_pro.json
+
+The 663 aa version is full-length E. coli ThrRS including all
+domains, which is appropriate for comparison with full-length
+ProRS (572 aa).
+
+Starts: MPVITLPDGSQRHYDHAVSPMDVALDIGPGLAKACIIGRNQYLVDDSDRGF...
+Ends:   ...LDGKKVTVKPGNTVVAKRDADGYARLQVAGTVDGRLQVKP
+
+Files verified:
+  ✓ modern_thrrs_ALA/modern_thrrs_ALA.json (663 aa, ligand=ALA)
+  ✓ modern_thrrs_ARG/modern_thrrs_ARG.json (663 aa, ligand=ARG)
+  ✓ modern_thrrs_ASN/modern_thrrs_ASN.json (663 aa, ligand=ASN)
+  ✓ modern_thrrs_ASP/modern_thrrs_ASP.json (663 aa, ligand=ASP)
+  ✓ modern_thrrs_CYS/modern_thrrs_CYS.json (663 aa, ligand=CYS)
+  ✓ modern_thrrs_GLN/modern_thrrs_GLN.json (663 aa, ligand=GLN)
+  ✓ modern_thrrs_GLU/modern_thrrs_GLU.json (663 aa, ligand=GLU)
+  ✓ modern_thrrs_GLY/modern_thrrs_GLY.json (663 aa, ligand=GLY)
+  ✓ modern_thrrs_HIS/modern_thrrs_HIS.json (663 aa, ligand=HIS)
+  ✓ modern_thrrs_ILE/modern_thrrs_ILE.json (663 aa, ligand=ILE)
+  ✓ modern_thrrs_LEU/modern_thrrs_LEU.json (663 aa, ligand=LEU)
+  ✓ modern_thrrs_LYS/modern_thrrs_LYS.json (663 aa, ligand=LYS)
+  ✓ modern_thrrs_MET/modern_thrrs_MET.json (663 aa, ligand=MET)
+  ✓ modern_thrrs_PHE/modern_thrrs_PHE.json (663 aa, ligand=PHE)
+  ✓ modern_thrrs_PRO/modern_thrrs_PRO.json (663 aa, ligand=PRO)
+  ✓ modern_thrrs_SER/modern_thrrs_SER.json (663 aa, ligand=SER)
+  ✓ modern_thrrs_THR/modern_thrrs_THR.json (663 aa, ligand=THR)
+  ✓ modern_thrrs_TRP/modern_thrrs_TRP.json (663 aa, ligand=TRP)
+  ✓ modern_thrrs_TYR/modern_thrrs_TYR.json (663 aa, ligand=TYR)
+  ✓ modern_thrrs_VAL/modern_thrrs_VAL.json (663 aa, ligand=VAL)
+
+--------------------------------------------------------------------
+COMPARISON WITH ANCIENT SEQUENCES:
+--------------------------------------------------------------------
+
+Ancient (LUCA):
+  ProRS catalytic:  500 aa (deep_domain_pro.json)
+  ProRS editing:    370 aa (deep_editing_pro.json)
+  ThrRS full:       278 aa (deep_thrrs_pro.json)
+
+Modern (E. coli):
+  ProRS full:       572 aa (modern_ecoli_full_pro.json)
+  ThrRS full:       663 aa (from matrix files)
+
+The modern sequences are LONGER because they include:
+  - Signal peptides
+  - Additional domains
+  - Linker regions
+  - Full protein architecture
+
+--------------------------------------------------------------------
+20-AMINO ACID SUBSTRATE MATRIX:
+--------------------------------------------------------------------
+
+This matrix will provide comprehensive substrate promiscuity
+profiles for modern E. coli enzymes:
+
+Modern E. coli ProRS: 20 amino acids × 572 aa enzyme
+Modern E. coli ThrRS: 20 amino acids × 663 aa enzyme
+
+Total predictions: 40
+
+This complements the ancient (LUCA) domain analysis:
+  - Ancient ProRS catalytic: 20 amino acids × 500 aa
+  - Ancient ProRS editing:   20 amino acids × 370 aa
+  - Ancient ThrRS:           20 amino acids × 278 aa
+  Total: 60 predictions
+
+Grand total: 100 predictions across ancient and modern enzymes
+
+--------------------------------------------------------------------
+KEY FINDINGS EXPECTED:
+--------------------------------------------------------------------
+
+Based on our corrected analysis:
+
+1. Modern E. coli ProRS should show ~9% preference for Pro
+   (maintained ancestral mild promiscuity)
+
+2. Modern ThrRS should show ~47% preference for Thr
+   (evolved strong specificity from ancestral 1% preference)
+
+3. Full 20-AA matrix will reveal:
+   - Which other amino acids bind besides Pro/Thr
+   - Relative promiscuity across the amino acid spectrum
+   - Whether the 9% and 47% preferences hold across all
+     substrates or are specific to Pro/Thr comparison
+
+====================================================================
+Verified: 2025-12-11
+Script: verify_modern_sequences.py
+Status: ✓ ALL SEQUENCES CORRECT
+====================================================================

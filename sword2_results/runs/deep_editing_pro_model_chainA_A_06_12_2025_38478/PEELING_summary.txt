@@ -1,0 +1,43 @@
+Peeling level 1
+    Number of Protein Units: 3
+    Compaction Index: 75.5
+       1-92
+     93-263
+    264-300
+Peeling level 2
+    Number of Protein Units: 4
+    Compaction Index: 82.16
+       1-44
+      45-92
+     93-263
+    264-300
+Peeling level 3
+    Number of Protein Units: 6
+    Compaction Index: 89.73
+       1-44
+      45-92
+     93-123
+    124-194
+    195-263
+    264-300
+Peeling level 4
+    Number of Protein Units: 7
+    Compaction Index: 91.02
+       1-44
+      45-92
+     93-123
+    124-157
+    158-194
+    195-263
+    264-300
+Peeling level 5
+    Number of Protein Units: 8
+    Compaction Index: 92.1
+       1-44
+      45-92
+     93-123
+    124-157
+    158-194
+    195-226
+    227-263
+    264-300

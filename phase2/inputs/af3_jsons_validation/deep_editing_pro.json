@@ -1,0 +1,36 @@
+{
+  "name": "deep_editing_pro",
+  "dialect": "alphafold3",
+  "version": 1,
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A"
+        ],
+        "sequence": "RTSEFSLWQEGHTAHATREEAEEEVRRMLHDIYARFAREYLAIPVIKGRKTEKEIGGSLSHEFLLPAELGEDALLLCEECAYAANLEKVELEAEEEEKPLEKVTPDVKTIEELLKFAGEADLGRTAVYTYTIEAMMKKAEEGGEELVLVLVRGDRELDEEKLEKPLGKLAPHYEGAPELELATPEEELLELGVKLPLGFLGPLGLDYIATNKEVAEGEVKLLLDEALGLKNFVVGANEPDLHLLNLNGRDLELEELLVDLAVREGDRPCPECGEGPLADGKHWALQAGTSHYLGQNFARA"
+      }
+    },
+    {
+      "rna": {
+        "id": [
+          "B"
+        ],
+        "sequence": "CUAAUACUAUUUCAUCCGAAACUUUUUUAAAAUAAUAUUCUUACUUUAUUUUAAAAACAGACUACAAAAAUCUCCA"
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "C"
+        ],
+        "ccdCodes": [
+          "PRO"
+        ]
+      }
+    }
+  ],
+  "modelSeeds": [
+    1
+  ]
+}

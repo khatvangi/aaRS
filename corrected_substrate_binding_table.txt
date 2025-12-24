@@ -1,0 +1,64 @@
+================================================================================
+CORRECTED SUBSTRATE BINDING DATA - AF3 Pocket ipTM Scores
+================================================================================
+
+┌──────────────────────┬─────────────┬──────────────┬───────┬─────────────────┐
+│ Enzyme               │ Pro ipTM    │ Thr ipTM     │  Δ%   │ Classification  │
+├──────────────────────┼─────────────┼──────────────┼───────┼─────────────────┤
+│ LUCA ProRS           │ 0.78 (cog)  │ 0.70 (non)   │ -11%  │ Mild promiscuity│
+│ LUCA ThrRS           │ 0.88 (non)  │ 0.89 (cog)   │  +1%  │ TRUE promiscuity│
+│ Modern E. coli ProRS │ 0.95 (cog)  │ 0.87 (non)   │  -9%  │ Mild promiscuity│
+│ Modern ThrRS         │ 0.57 (non)  │ 0.84 (cog)   │ +47%  │ STRONG specific │
+└──────────────────────┴─────────────┴──────────────┴───────┴─────────────────┘
+
+Legend:
+  (cog) = cognate substrate
+  (non) = non-cognate substrate
+  Δ% = percent difference (cognate - non-cognate) / non-cognate
+
+================================================================================
+EVOLUTIONARY TRAJECTORIES
+================================================================================
+
+ProRS:  LUCA 11% → Modern 9%    [MAINTAINED promiscuity]
+ThrRS:  LUCA 1%  → Modern 47%   [EVOLVED strong specificity]
+
+KEY INSIGHT:
+  - ProRS can afford catalytic promiscuity because editing domain (3.2×
+    preference for Thr-tRNA^Pro) provides backup quality control
+  - ThrRS evolved direct catalytic specificity, possibly lacking effective
+    editing mechanism
+
+================================================================================
+PREVIOUS INCORRECT DATA (FOR REFERENCE)
+================================================================================
+
+I previously (INCORRECTLY) reported:
+  - All enzymes had identical ipTM for Pro and Thr (e.g., 0.78/0.78)
+  - This suggested "100% promiscuity" across all enzymes
+  - This was WRONG due to data extraction error
+
+CORRECTED by directly reading raw JSON files after user flagged suspicious
+identical values.
+
+================================================================================
+DATA SOURCES
+================================================================================
+
+LUCA ProRS:
+  /storage/kiran-stuff/aaRS/phase2/af3_output_full/fulllength_deep_{pro,thr}/
+
+LUCA ThrRS:
+  /storage/kiran-stuff/aaRS/phase2/outputs/deep_thrrs_{pro,thr}/
+
+Modern ProRS:
+  /storage/kiran-stuff/aaRS/phase2/af3_gaps/af3_output/modern_ecoli_full_{pro,thr}/
+
+Modern ThrRS:
+  /storage/kiran-stuff/aaRS/phase2/outputs/modern_thrrs_{pro,thr}/
+
+Pocket ipTM extracted from chain_pair_iptm matrix:
+  - 3x3 matrices (LUCA): [0][2] position (protein-ligand interface)
+  - 2x2 matrices (Modern): [0][1] position (protein-ligand interface)
+
+================================================================================

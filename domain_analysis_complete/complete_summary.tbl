@@ -1,0 +1,50 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.27 Deep_LUCA_ProRS      -           2.2e-123  411.6   0.0  4.2e-123  410.7   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+WHEP-TRS             PF00458.25 Deep_LUCA_ProRS      -           8.4e-114  372.0  59.6   8.6e-23   80.6   4.6   7.1   6   0   0   6   6   6   6 WHEP-TRS domain
+tRNA-synt_1c_C       PF03950.23 Deep_LUCA_ProRS      -              4e-18   65.9   1.7   8.7e-18   64.8   0.0   2.6   4   0   0   4   4   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+ProRS-C_1            PF09180.16 Deep_LUCA_ProRS      -            6.8e-18   65.0   1.1   1.9e-17   63.6   1.1   1.9   1   0   0   1   1   1   1 Prolyl-tRNA synthetase, C-terminal
+tRNA-synt_2b         PF00587.30 Deep_LUCA_ProRS      -            3.7e-15   56.9   0.0   8.1e-15   55.8   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25 Deep_LUCA_ProRS      -            1.2e-14   54.6   1.0   8.6e-14   51.9   0.0   3.0   3   0   0   3   3   1   1 Anticodon binding domain
+tRNA_edit            PF04073.20 Deep_LUCA_ProRS      -            5.4e-11   43.1   0.1   1.4e-10   41.7   0.1   1.7   1   0   0   1   1   1   1 Aminoacyl-tRNA editing domain
+tRNA-synt_1c_C2      PF20974.2  Deep_LUCA_ProRS      -            1.2e-10   42.4   0.0   5.8e-10   40.1   0.0   2.4   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+GST_C                PF00043.30 Deep_LUCA_ProRS      -            3.3e-05   24.5   1.3    0.0002   21.9   0.3   3.0   2   0   0   2   2   1   1 Glutathione S-transferase, C-terminal domain
+Arc1p_N_like         PF21972.1  Deep_LUCA_ProRS      -            0.00019   22.1   0.0   0.00047   20.9   0.0   1.6   1   0   0   1   1   1   1 Nuclear-export cofactor Arc1p
+tRNA-synt_2b         PF00587.30 Deep_LUCA_ThrRS      -              1e-36  127.1   0.0   1.9e-34  119.7   0.0   2.4   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25 Deep_LUCA_ThrRS      -            8.5e-28   96.8   0.9     3e-27   95.0   0.4   2.2   2   0   0   2   2   1   1 Anticodon binding domain
+TGS                  PF02824.27 Deep_LUCA_ThrRS      -            4.1e-12   46.4   0.0     8e-12   45.5   0.0   1.5   1   0   0   1   1   1   1 TGS domain
+tRNA_SAD             PF07973.19 Deep_LUCA_ThrRS      -            2.7e-08   34.1   0.0   1.6e-07   31.7   0.0   2.2   1   1   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+RUBY_RBDX            PF21349.2  Deep_LUCA_ThrRS      -            0.00093   19.0   2.7    0.0025   17.7   2.7   1.8   1   0   0   1   1   1   1 Rubrerythrin, rubredoxin-like domain
+tRNA-synt_1c         PF00749.27 Shallow_Euk_ProThrRS -             5e-128  426.9   0.5  9.2e-128  426.0   0.5   1.5   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+WHEP-TRS             PF00458.25 Shallow_Euk_ProThrRS -           1.1e-120  394.0  60.8   1.4e-23   83.0   2.3   6.7   6   0   0   6   6   6   6 WHEP-TRS domain
+ProRS-C_1            PF09180.16 Shallow_Euk_ProThrRS -            6.9e-20   71.4   0.1   1.8e-19   70.1   0.1   1.8   1   0   0   1   1   1   1 Prolyl-tRNA synthetase, C-terminal
+tRNA-synt_1c_C       PF03950.23 Shallow_Euk_ProThrRS -              2e-19   70.0   1.7   4.7e-19   68.8   0.0   2.6   4   0   0   4   4   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+tRNA-synt_2b         PF00587.30 Shallow_Euk_ProThrRS -            4.6e-15   56.6   0.0     2e-14   54.5   0.0   2.1   2   0   0   2   2   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_1c_C2      PF20974.2  Shallow_Euk_ProThrRS -              1e-13   52.2   0.0   3.9e-13   50.3   0.0   2.1   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+HGTP_anticodon       PF03129.25 Shallow_Euk_ProThrRS -            1.6e-13   51.0   0.1   2.8e-12   47.1   0.0   2.9   2   0   0   2   2   1   1 Anticodon binding domain
+Arc1p_N_like         PF21972.1  Shallow_Euk_ProThrRS -            1.7e-06   28.7   0.1   5.1e-06   27.2   0.1   1.8   1   0   0   1   1   1   1 Nuclear-export cofactor Arc1p
+GST_C                PF00043.30 Shallow_Euk_ProThrRS -            0.00014   22.5   1.0   0.00047   20.8   0.0   2.5   2   0   0   2   2   1   1 Glutathione S-transferase, C-terminal domain
+tRNA-synt_1c         PF00749.27 Modern_Human_ProRS   -           4.2e-128  427.1   0.3  7.5e-128  426.3   0.3   1.4   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+WHEP-TRS             PF00458.25 Modern_Human_ProRS   -            2.8e-65  216.6  21.0     2e-23   82.5   2.6   4.1   3   0   0   3   3   3   3 WHEP-TRS domain
+ProRS-C_1            PF09180.16 Modern_Human_ProRS   -              2e-21   76.3   0.2     5e-21   75.1   0.2   1.8   1   0   0   1   1   1   1 Prolyl-tRNA synthetase, C-terminal
+tRNA-synt_2b         PF00587.30 Modern_Human_ProRS   -            3.7e-20   73.2   0.1   1.8e-19   70.9   0.0   2.2   2   0   0   2   2   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25 Modern_Human_ProRS   -            4.1e-20   72.2   0.9   3.6e-19   69.1   0.0   2.8   3   0   0   3   3   1   1 Anticodon binding domain
+tRNA-synt_1c_C       PF03950.23 Modern_Human_ProRS   -            6.5e-18   65.2   0.0   6.5e-18   65.2   0.0   2.6   3   0   0   3   3   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+tRNA-synt_1c_C2      PF20974.2  Modern_Human_ProRS   -            1.3e-13   51.8   0.0   4.2e-13   50.2   0.0   2.0   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+Arc1p_N_like         PF21972.1  Modern_Human_ProRS   -            9.4e-07   29.5   0.1   2.6e-06   28.1   0.1   1.8   1   0   0   1   1   1   1 Nuclear-export cofactor Arc1p
+GST_C                PF00043.30 Modern_Human_ProRS   -            0.00068   20.3   0.0   0.00068   20.3   0.0   3.1   3   0   0   3   3   1   1 Glutathione S-transferase, C-terminal domain
+tRNA-synt_2b         PF00587.30 Modern_Human_ThrRS   -            2.1e-45  155.4   0.0   3.7e-45  154.6   0.0   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.25 Modern_Human_ThrRS   -            1.2e-22   80.3   0.1   2.4e-22   79.3   0.1   1.5   1   0   0   1   1   1   1 Anticodon binding domain
+TGS                  PF02824.27 Modern_Human_ThrRS   -            8.1e-19   67.9   0.1   3.4e-18   65.9   0.0   2.0   2   0   0   2   2   1   1 TGS domain
+tRNA_SAD             PF07973.19 Modern_Human_ThrRS   -            6.1e-13   49.0   0.1   1.3e-12   47.9   0.1   1.6   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      all_sequences.fasta
+# Target file:     ../phase1/data/Pfam-A.hmm
+# Option settings: hmmscan --tblout complete_summary.tbl --domtblout complete_domains.tbl -E 0.01 --domE 0.01 ../phase1/data/Pfam-A.hmm all_sequences.fasta 
+# Current dir:     /storage/kiran-stuff/aaRS/domain_analysis_complete
+# Date:            Mon Nov  3 17:09:31 2025
+# [ok]

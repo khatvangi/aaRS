@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../af3_modern_matrix/modern_thrrs_TYR/af3_output/modern_thrrs_TYR/modern_thrrs_TYR_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "TYR",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      663,
+      5121
+    ],
+    [
+      "B",
+      1,
+      13
+    ]
+  ]
+}

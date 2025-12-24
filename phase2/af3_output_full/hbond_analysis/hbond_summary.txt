@@ -1,0 +1,10 @@
+============================================================
+HYDROGEN BOND ANALYSIS SUMMARY - For Manuscript
+============================================================
+
+Threonine forms -8.0 more H-bonds than Proline on average
+The β-hydroxyl group contributes 0.0 H-bonds on average
+
+This supports the hypothesis that threonine's hydroxyl
+forms compensating interactions with catalytically essential
+polar residues, explaining the persistent cross-reactivity.

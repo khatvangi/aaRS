@@ -1,0 +1,38 @@
+{
+  "name": "modern_thrrs_ecoli_zn_TYR",
+  "dialect": "alphafold3",
+  "version": 1,
+  "modelSeeds": [
+    2
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A"
+        ],
+        "sequence": "RDHRKIGKQLDLYHMQEEAPGMVFWHNDGWTIFRELEVFVRSKLKEYQYQEVKGPFMMDRVLWEKTGHWDNYKDAMFTTSSENREYCIKPMNCPGHVQIFNQGLKSYRDLPLRMAEFGSCHRNEPSGSLHGLMRVRGFTQDDAHIFCTEEQIRDEVNGCIRLVYDMYSTFGFEKIVVKLSTRPEKRIGSDEMWDRAEADLAVALEENNIPFEYQLGEGAFYGPKIEFTLYDCLDRAWQCGTVQLDFSLPSRLSASYVGEDNERKVPVMIHRAILGSMERFIGILTEEFAGFFPTWLAPVQVVIMNITDSQSEYVNELTQKLSNAGIRVKADLRNEKIGFKIREHTLRRVPYMLVCGDKEVESGKVAVRTRRGKDLGSMDVNEVIEKLQQEIRSRSLKQLEE"
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "B"
+        ],
+        "ccdCodes": [
+          "TYR"
+        ]
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "C"
+        ],
+        "ccdCodes": [
+          "ZN"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+
+loadAmberParams LIG.frcmod
+LIG = loadMol2 LIG.mol2
+
+saveOff LIG LIG.lib
+
+quit

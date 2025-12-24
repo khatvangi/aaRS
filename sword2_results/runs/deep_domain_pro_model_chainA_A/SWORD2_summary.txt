@@ -1,0 +1,95 @@
+Ambiguity index: ***
+-----------------------
+Optimal partition
+Quality: ***
+Nb. domains: 3
+Domain:1
+    PU:   1-91
+    PU:196-318
+Domain:2
+    PU: 92-195
+Domain:3
+    PU:319-500
+-----------------------
+Alternative partition 1
+Quality: ***
+Nb. domains: 5
+Domain:1
+    PU:   1-91
+Domain:2
+    PU: 92-195
+Domain:3
+    PU:196-241
+Domain:4
+    PU:242-318
+Domain:5
+    PU:319-500
+-----------------------
+Alternative partition 2
+Quality: ***
+Nb. domains: 5
+Domain:1
+    PU:   1-91
+Domain:2
+    PU: 92-195
+Domain:3
+    PU:196-241
+Domain:4
+    PU:242-375
+    PU:427-500
+Domain:5
+    PU:376-426
+-----------------------
+Alternative partition 3
+Quality: ***
+Nb. domains: 4
+Domain:1
+    PU:   1-91
+    PU:196-241
+Domain:2
+    PU: 92-195
+Domain:3
+    PU:242-318
+Domain:4
+    PU:319-500
+-----------------------
+Alternative partition 4
+Quality: ***
+Nb. domains: 4
+Domain:1
+    PU:   1-91
+    PU:242-318
+Domain:2
+    PU: 92-195
+Domain:3
+    PU:196-241
+Domain:4
+    PU:319-500
+-----------------------
+Alternative partition 5
+Quality: ***
+Nb. domains: 3
+Domain:1
+    PU:   1-91
+    PU:196-241
+Domain:2
+    PU: 92-195
+Domain:3
+    PU:242-500
+-----------------------
+Alternative partition 6
+Quality: ****
+Nb. domains: 2
+Domain:1
+    PU:  1-241
+Domain:2
+    PU:242-500
+-----------------------
+Alternative partition 7
+Quality: ****
+Nb. domains: 2
+Domain:1
+    PU:   1-91
+    PU:196-500
+Domain:2
+    PU: 92-195

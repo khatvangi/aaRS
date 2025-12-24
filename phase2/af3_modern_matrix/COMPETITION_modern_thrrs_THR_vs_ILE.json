@@ -1,0 +1,48 @@
+{
+  "name": "COMPETITION_modern_thrrs_THR_vs_ILE",
+  "dialect": "alphafold3",
+  "version": 1,
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A"
+        ],
+        "sequence": "RDHRKIGKQLDLYHMQEEAPGMVFWHNDGWTIFRELEVFVRSKLKEYQYQEVKGPFMMDRVLWEKTGHWDNYKDAMFTTSSENREYCIKPMNCPGHVQIFNQGLKSYRDLPLRMAEFGSCHRNEPSGSLHGLMRVRGFTQDDAHIFCTEEQIRDEVNGCIRLVYDMYSTFGFEKIVVKLSTRPEKRIGSDEMWDRAEADLAVALEENNIPFEYQLGEGAFYGPKIEFTLYDCLDRAWQCGTVQLDFSLPSRLSASYVGEDNERKVPVMIHRAILGSMERFIGILTEEFAGFFPTWLAPVQVVIMNITDSQSEYVNELTQKLSNAGIRVKADLRNEKIGFKIREHTLRRVPYMLVCGDKEVESGKVAVRTRRGKDLGSMDVNEVIEKLQQEIRSRSLKQLEE"
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "B"
+        ],
+        "ccdCodes": [
+          "THR"
+        ]
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "C"
+        ],
+        "ccdCodes": [
+          "ILE"
+        ]
+      }
+    },
+    {
+      "ligand": {
+        "id": [
+          "D"
+        ],
+        "ccdCodes": [
+          "ZN"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "input_cif": "../../test_input/af3_output/test_aars_trna_complex/seed-1_sample-0/test_aars_trna_complex_seed-1_sample-0_model.cif",
+  "protein_chain": "A",
+  "ligand_chain": "B",
+  "ligand_original_resname": "C",
+  "zn_count": 0,
+  "chains": [
+    [
+      "A",
+      200,
+      1542
+    ],
+    [
+      "B",
+      76,
+      1589
+    ]
+  ]
+}

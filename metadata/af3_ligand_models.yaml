@@ -1,0 +1,11 @@
+proRS_LUCA:
+  data_json: phase2/af3_output_full/fulllength_deep_pro/fulllength_deep_pro_data.json
+  chain_id: A
+
+proRS_modern:
+  data_json: phase2/af3_output_full/fulllength_shallow_pro/fulllength_shallow_pro_data.json
+  chain_id: A
+
+proRS_editing:
+  data_json: phase2/outputs/deep_editing_pro/deep_editing_pro/deep_editing_pro_data.json
+  chain_id: A

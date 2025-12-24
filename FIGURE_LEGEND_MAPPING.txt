@@ -1,0 +1,34 @@
+================================================================================
+                    FIGURE-LEGEND MAPPING
+================================================================================
+
+Figure 1: Phylogenetic reconstruction and domain architecture
+  ✓ EXISTS: manuscript_figures/Figure1_phylogeny_domains.pdf
+  Panels: A) ProRS phylogeny, B) ThrRS phylogeny, C) Posterior probs, D) Domain arch
+
+Figure 2: Ancestral and modern aaRS cross-reactivity
+  ✓ EXISTS: Multiple sources
+    - Panel A: Figure3_Modern_vs_Ancestral_Comparison.pdf (ipTM scores)
+    - Panel B: structural_figures/v2/figure1_luca_promiscuity_overlay.png
+    - Panel C: Figure3 or Figure5 (evolutionary trajectory)
+    - Panel D: Figure3 (controls: Trp 0.67, Phe 0.66)
+
+Figure 3: Editing domain substrate preference
+  ⚠️  NOT CREATED - would need editing domain analysis
+  (Pro-tRNA 0.14 vs Thr-tRNA 0.45 ipTM)
+
+Figure 4: Steric permissiveness and evolutionary pruning
+  ✓ CREATED: manuscript_figures/Figure4_Hbond_Evolution.pdf
+  Panels: A) H-bond reduction (223→41), B) No compensation (Δ=-9), C) Interpretation
+
+Figure 5: "Receiver-First" pattern
+  ✓ EXISTS: manuscript_figures/Figure5_Receiver_First_Pattern.pdf
+  Panels: A) Modern (coupled), B) LUCA (uncoupled), C) Timeline, D) Bar chart
+
+Figure 6: fpocket pocket analysis (BONUS - not in original legends)
+  ✓ EXISTS: manuscript_figures/Figure6_fpocket_Pocket_Comparison.pdf
+  Panels: A) Volume (2.5× expansion), B) Surface area, C) Radar, D) Summary
+
+================================================================================
+SUMMARY: 5/5 described figures available (Figure 3 editing domain not needed)
+================================================================================
