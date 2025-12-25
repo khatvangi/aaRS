@@ -1,0 +1,31 @@
+; NVT equilibration parameters (250 ps)
+integrator  = md
+dt          = 0.002
+nsteps      = 125000      ; 250 ps
+
+cutoff-scheme = Verlet
+coulombtype = PME
+rcoulomb    = 1.2
+rvdw        = 1.2
+pbc         = xyz
+
+tcoupl      = v-rescale
+tc-grps     = Protein Ligand Water_and_ions
+tau_t       = 0.1   0.1    0.1
+ref_t       = 300   300    300
+
+pcoupl      = no
+
+constraints = h-bonds
+constraint_algorithm = lincs
+lincs_iter  = 1
+lincs_order = 4
+
+; Position restraints
+define      = -DPOSRES -DPOSRES_LIG
+
+; Output
+nstxout     = 5000
+nstvout     = 5000
+nstenergy   = 500
+nstlog      = 500
