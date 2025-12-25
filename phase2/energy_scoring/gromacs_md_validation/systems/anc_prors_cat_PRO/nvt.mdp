@@ -10,9 +10,9 @@ rvdw        = 1.2
 pbc         = xyz
 
 tcoupl      = v-rescale
-tc-grps     = Protein Ligand Water_and_ions
-tau_t       = 0.1   0.1    0.1
-ref_t       = 300   300    300
+tc-grps     = Protein non-Protein
+tau_t       = 0.1   0.1
+ref_t       = 300   300
 
 pcoupl      = no
 
@@ -22,7 +22,7 @@ lincs_iter  = 1
 lincs_order = 4
 
 ; Position restraints
-define      = -DPOSRES -DPOSRES_LIG
+define      = -DPOSRES
 
 ; Output
 nstxout     = 5000

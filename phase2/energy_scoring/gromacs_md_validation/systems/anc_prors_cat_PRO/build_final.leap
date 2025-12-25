@@ -1,0 +1,15 @@
+source leaprc.protein.ff14SB
+
+# Load the CPRO (C-terminal proline with COO-)
+# Using our original ligand PDB which has OXT
+pro = loadpdb ligand_atom.pdb
+
+# Check structure
+charge pro
+check pro
+
+# Save
+saveamberparm pro lig.prmtop lig.inpcrd
+savepdb pro lig_cpro.pdb
+
+quit

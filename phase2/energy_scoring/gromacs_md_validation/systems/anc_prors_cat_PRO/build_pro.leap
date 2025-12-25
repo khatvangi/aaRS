@@ -1,0 +1,21 @@
+# Load AMBER force field
+source leaprc.protein.ff14SB
+
+# Build single PRO with charged termini (zwitterion)
+# sequence command creates proper termini automatically
+pro = sequence { NPRO CPRO }
+
+# Wait - that creates a dipeptide. For single AA, we need different approach
+# Let's try loading the PDB directly
+
+# Actually, build it from scratch using the PRO unit
+pro = sequence { PRO }
+
+# Check the structure
+check pro
+
+# Save topology and coordinates
+saveamberparm pro pro.prmtop pro.inpcrd
+savepdb pro pro_tleap.pdb
+
+quit

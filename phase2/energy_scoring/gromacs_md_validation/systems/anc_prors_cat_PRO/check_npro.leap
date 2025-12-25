@@ -1,0 +1,13 @@
+source leaprc.protein.ff14SB
+
+# Build N-terminal PRO
+npro = sequence { NPRO }
+desc npro.1
+charge npro
+
+# Build C-terminal PRO  
+cpro = sequence { CPRO }
+desc cpro.1
+charge cpro
+
+quit

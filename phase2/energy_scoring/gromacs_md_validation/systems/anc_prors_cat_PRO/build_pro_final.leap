@@ -1,0 +1,22 @@
+# Load AMBER force field
+source leaprc.protein.ff14SB
+
+# For a true zwitterionic single amino acid, we need to:
+# 1. Load the N-terminal version of PRO (has NH2+)
+# 2. Then apply C-terminal patch (add OXT, change charges)
+
+# Actually, let's try building from sequence with explicit termini
+# The trick is to use both NPRO and apply the C-terminal modifier
+
+# Create zwitterionic PRO - use the sequence command with single residue
+# AMBER should automatically cap both ends
+pro = sequence { PRO }
+
+# Now manually change the C-terminus to be charged (add OXT)
+# Using the remove and bond commands
+
+# First, let's see what we have
+desc pro.1
+charge pro
+
+quit

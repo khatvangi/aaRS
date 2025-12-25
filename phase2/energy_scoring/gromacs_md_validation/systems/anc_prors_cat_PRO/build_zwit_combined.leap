@@ -1,0 +1,7 @@
+source leaprc.protein.ff14SB
+
+# Build N-terminal PRO (has H2, H3 on nitrogen)
+npro = sequence { NPRO }
+savepdb npro npro_template.pdb
+
+quit

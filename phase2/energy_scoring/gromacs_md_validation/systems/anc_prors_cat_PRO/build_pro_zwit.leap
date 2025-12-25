@@ -1,0 +1,16 @@
+# Load AMBER force field
+source leaprc.protein.ff14SB
+
+# Load the ligand PDB - tleap should recognize PRO with OXT as terminal
+pro = loadpdb ligand_atom.pdb
+
+# Check the loaded structure
+desc pro
+charge pro
+
+# Check and save
+check pro
+saveamberparm pro pro_zwit.prmtop pro_zwit.inpcrd
+savepdb pro pro_zwit.pdb
+
+quit

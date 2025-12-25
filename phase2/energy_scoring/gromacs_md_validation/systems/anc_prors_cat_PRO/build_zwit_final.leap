@@ -1,0 +1,15 @@
+source leaprc.protein.ff14SB
+
+# Load the zwitterionic PRO PDB (has H2, H3 on N and OXT on C)
+pro = loadpdb pro_zwit_final.pdb
+
+# Check the structure
+desc pro.1
+charge pro
+
+# Check and save
+check pro
+saveamberparm pro lig_zwit.prmtop lig_zwit.inpcrd
+savepdb pro lig_final.pdb
+
+quit
