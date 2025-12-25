@@ -1,0 +1,27 @@
+# Phase 3 Balanced Experiment - Conditions
+# PLACEHOLDER FASTA PATHS - Replace before running
+
+conditions:
+  Modern_ThrRS_Full_Zn:
+    fasta: "PLACEHOLDER_FASTA_PATH"
+    include_zn: true
+
+  Modern_ThrRS_Full_noZn:
+    fasta: "PLACEHOLDER_FASTA_PATH"
+    include_zn: false
+
+  Ancestral_ThrRS_Full_Zn:
+    fasta: "PLACEHOLDER_FASTA_PATH"
+    include_zn: true
+
+  Ancestral_ThrRS_Full_noZn:
+    fasta: "PLACEHOLDER_FASTA_PATH"
+    include_zn: false
+
+  Modern_ProRS_Full:
+    fasta: "PLACEHOLDER_FASTA_PATH"
+    include_zn: false
+
+  Ancestral_ProRS_Full:
+    fasta: "PLACEHOLDER_FASTA_PATH"
+    include_zn: false
