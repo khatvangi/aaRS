@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: kiran (1000)
 ;	On host: boron
-;	At date: Thu Dec 25 09:28:29 2025
+;	At date: Thu Dec 25 11:04:33 2025
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2025.1 (-:
@@ -147,15 +147,15 @@ tc-grps                  = Protein non-Protein
 tau_t                    = 0.1 0.1
 ref_t                    = 300 300
 ; pressure coupling     
-pcoupl                   = Parrinello-Rahman
+pcoupl                   = C-rescale
 pcoupltype               = isotropic
 nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
-tau_p                    = 2.0
+tau_p                    = 5.0
 compressibility          = 4.5e-5
 ref_p                    = 1.0
 ; Scaling of reference coordinates, No, All or COM
-refcoord-scaling         = No
+refcoord_scaling         = com
 
 ; OPTIONS FOR QMMM calculations
 QMMM                     = no
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -17120281
+gen-seed                 = -1133838658
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
