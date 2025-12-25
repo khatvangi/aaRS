@@ -1,0 +1,5 @@
+System: systemC_thrrs_ILE
+Description: Modern ThrRS + Zn + ILE (non-cognate)
+Source CIF: /storage/kiran-stuff/aaRS/phase2/af3_modern_matrix/thrrs_ecoli_zn_jobs/af3_output/modern_thrrs_ecoli_zn_ILE/modern_thrrs_ecoli_zn_ILE_model.cif
+Ligand: ILE
+Has Zn: True

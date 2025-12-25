@@ -1,0 +1,5 @@
+System: systemD_prors_edit
+Description: Ancestral ProRS editing domain + PRO
+Source CIF: /storage/kiran-stuff/aaRS/phase2/batch_local_domains/af3_output/anc_prors_edit_PRO/anc_prors_edit_PRO_model.cif
+Ligand: PRO
+Has Zn: False

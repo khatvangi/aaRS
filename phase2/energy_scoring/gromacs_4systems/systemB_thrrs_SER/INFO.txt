@@ -1,0 +1,5 @@
+System: systemB_thrrs_SER
+Description: Modern ThrRS + Zn + SER (near-cognate)
+Source CIF: /storage/kiran-stuff/aaRS/phase2/af3_modern_matrix/thrrs_ecoli_zn_jobs/af3_output/modern_thrrs_ecoli_zn_SER/modern_thrrs_ecoli_zn_SER_model.cif
+Ligand: SER
+Has Zn: True

@@ -1,0 +1,5 @@
+System: systemA_thrrs_THR
+Description: Modern ThrRS + Zn + THR (cognate)
+Source CIF: /storage/kiran-stuff/aaRS/phase2/af3_modern_matrix/thrrs_ecoli_zn_jobs/af3_output/modern_thrrs_ecoli_zn_THR/modern_thrrs_ecoli_zn_THR_model.cif
+Ligand: THR
+Has Zn: True
