@@ -1,0 +1,25 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_thrrs_cat_GLY_GLY/ligand.h.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY B   1       8.062   2.108  -1.083  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY B   1       7.313   2.724  -2.137  0.00  0.00    +0.000 NA
+ATOM      3  H   GLY B   1       6.448   3.110  -1.759  0.00  0.00    +0.000 HD
+ATOM      4  H   GLY B   1       7.092   2.028  -2.849  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY B   1       9.356   1.503  -1.516  0.00  0.00    +0.000 C 
+ATOM      6  OXT GLY B   1       9.699   1.515  -2.691  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  O   GLY B   1      10.094   0.950  -0.676  0.00  0.00    +0.000 OA
+ATOM      8  H   GLY B   1       9.845   0.933   0.227  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3

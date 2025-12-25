@@ -1,0 +1,43 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/modern_thrrs_ecoli_zn_GLU_GLU/ligand.h.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  OXT_10
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK    6  A    between atoms: CG_6  and  CD_7
+REMARK    7  A    between atoms: CD_7  and  OE1_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLU B   1      -3.071  -0.007  11.151  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLU B   1      -3.733  -1.270  10.906  0.00  0.00    +0.000 NA
+ATOM      3  H   GLU B   1      -3.455  -1.628   9.992  0.00  0.00    +0.000 HD
+ATOM      4  H   GLU B   1      -4.744  -1.133  10.924  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLU B   1      -1.558  -0.163  11.098  0.00  0.00    +0.000 C 
+ATOM      6  O   GLU B   1      -1.044  -1.273  10.977  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  OXT GLU B   1      -0.845   0.834  11.181  0.00  0.00    +0.000 OA
+ATOM      8  H   GLU B   1      -1.234   1.682  11.273  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  GLU B   1      -3.482   0.532  12.511  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  GLU B   1      -4.111   1.912  12.440  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  CD  GLU B   1      -5.058   2.212  13.564  0.00  0.00    +0.000 C 
+ATOM     12  OE2 GLU B   1      -5.752   3.235  13.487  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  OE1 GLU B   1      -5.153   1.427  14.521  0.00  0.00    +0.000 OA
+ATOM     14  H   GLU B   1      -4.615   0.660  14.553  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 7

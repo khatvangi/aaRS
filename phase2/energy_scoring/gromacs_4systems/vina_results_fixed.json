@@ -1,0 +1,42 @@
+{
+  "systemA_thrrs_THR": {
+    "affinity": null,
+    "center": [
+      -12.030624999999999,
+      0.0975,
+      10.901375
+    ],
+    "n_protein_atoms": 3278,
+    "n_ligand_atoms": 8
+  },
+  "systemB_thrrs_SER": {
+    "affinity": null,
+    "center": [
+      -2.2385714285714284,
+      1.2911428571428571,
+      10.515714285714285
+    ],
+    "n_protein_atoms": 3278,
+    "n_ligand_atoms": 7
+  },
+  "systemC_thrrs_ILE": {
+    "affinity": null,
+    "center": [
+      9.68822222222222,
+      4.369777777777778,
+      8.788444444444444
+    ],
+    "n_protein_atoms": 3278,
+    "n_ligand_atoms": 9
+  },
+  "systemD_prors_edit": {
+    "affinity": null,
+    "center": [
+      7.065375,
+      -5.750375,
+      -9.923875
+    ],
+    "n_protein_atoms": 2344,
+    "n_ligand_atoms": 8
+  }
+}

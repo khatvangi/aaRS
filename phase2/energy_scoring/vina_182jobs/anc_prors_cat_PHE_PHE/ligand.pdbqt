@@ -1,0 +1,38 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_prors_cat_PHE_PHE/ligand.h.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  OXT_12
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE B   1     -10.857 -19.939   2.928  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE B   1      -9.844 -20.301   1.956  0.00  0.00    +0.000 NA
+ATOM      3  H   PHE B   1     -10.282 -20.446   1.046  0.00  0.00    +0.000 HD
+ATOM      4  H   PHE B   1      -9.381 -21.161   2.251  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE B   1     -10.256 -19.711   4.305  0.00  0.00    +0.000 C 
+ATOM      6  O   PHE B   1      -9.033 -19.593   4.453  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  OXT PHE B   1     -11.010 -19.628   5.286  0.00  0.00    +0.000 OA
+ATOM      8  H   PHE B   1     -11.936 -19.717   5.174  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE B   1     -11.932 -21.047   3.026  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  PHE B   1     -12.631 -21.245   1.720  0.00  0.00    +0.000 A 
+ATOM     11  CD1 PHE B   1     -12.354 -22.356   0.928  0.00  0.00    +0.000 A 
+ATOM     12  CD2 PHE B   1     -13.546 -20.302   1.295  0.00  0.00    +0.000 A 
+ATOM     13  CE1 PHE B   1     -13.006 -22.504  -0.289  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE B   1     -14.200 -20.460   0.083  0.00  0.00    +0.000 A 
+ATOM     15  CZ  PHE B   1     -13.937 -21.554  -0.712  0.00  0.00    +0.000 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5

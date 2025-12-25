@@ -1,0 +1,37 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_prors_cat_ASN_ASN/ligand.h.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN B   1       6.268  -5.282  20.535  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN B   1       6.810  -4.095  21.183  0.00  0.00    +0.000 NA
+ATOM      3  H   ASN B   1       6.762  -3.305  20.540  0.00  0.00    +0.000 HD
+ATOM      4  H   ASN B   1       7.782  -4.263  21.443  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN B   1       4.829  -5.070  20.100  0.00  0.00    +0.000 C 
+ATOM      6  OXT ASN B   1       4.294  -5.913  19.363  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  O   ASN B   1       4.189  -4.092  20.489  0.00  0.00    +0.000 OA
+ATOM      8  H   ASN B   1       4.596  -3.457  21.045  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN B   1       6.333  -6.468  21.483  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  ASN B   1       7.739  -6.939  21.793  0.00  0.00    +0.000 C 
+ATOM     11  OD1 ASN B   1       7.993  -7.435  22.868  0.00  0.00    +0.000 OA
+ATOM     12  ND2 ASN B   1       8.671  -6.816  20.872  0.00  0.00    +0.000 N 
+ATOM     13  H   ASN B   1       8.453  -6.411  20.002  0.00  0.00    +0.000 HD
+ATOM     14  H   ASN B   1       9.587  -7.129  21.053  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5

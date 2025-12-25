@@ -1,0 +1,37 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_prors_cat_ILE_ILE/ligand.h.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: CB_5  and  CG1_6
+REMARK    6  A    between atoms: CB_5  and  CG2_7
+REMARK    7  A    between atoms: CG1_6  and  CD1_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ILE B   1      10.729  -5.919   7.642  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ILE B   1      10.468  -6.073   9.086  0.00  0.00    +0.000 NA
+ATOM      3  H   ILE B   1       9.509  -6.392   9.226  0.00  0.00    +0.000 HD
+ATOM      4  H   ILE B   1      10.600  -5.176   9.553  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ILE B   1      10.422  -7.233   6.948  0.00  0.00    +0.000 C 
+ATOM      6  OXT ILE B   1      11.121  -7.647   6.025  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  O   ILE B   1       9.443  -7.895   7.319  0.00  0.00    +0.000 OA
+ATOM      8  H   ILE B   1       8.907  -7.585   8.022  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ILE B   1      12.174  -5.440   7.452  0.00  0.00    +0.000 C 
+ATOM     10  CG2 ILE B   1      12.368  -4.144   8.172  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     11  CG1 ILE B   1      12.542  -5.255   6.004  0.00  0.00    +0.000 C 
+ATOM     12  CD1 ILE B   1      14.000  -5.015   5.773  0.00  0.00    +0.000 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 5

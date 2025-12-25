@@ -1,0 +1,33 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/modern_thrrs_ecoli_zn_VAL_VAL/ligand.h.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: CB_5  and  CG1_6
+REMARK    6  A    between atoms: CB_5  and  CG2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  VAL B   1      10.447   3.989   8.255  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   VAL B   1      10.959   2.900   7.430  0.00  0.00    +0.000 NA
+ATOM      3  H   VAL B   1      11.333   3.279   6.560  0.00  0.00    +0.000 HD
+ATOM      4  H   VAL B   1      10.203   2.248   7.220  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  CB  VAL B   1       9.383   4.837   7.516  0.00  0.00    +0.000 C 
+ATOM      6  CG1 VAL B   1       9.732   6.302   7.686  0.00  0.00    +0.000 C 
+ATOM      7  CG2 VAL B   1       9.297   4.566   6.058  0.00  0.00    +0.000 C 
+ENDBRANCH   1   5
+BRANCH   1   8
+ATOM      8  C   VAL B   1       9.881   3.456   9.563  0.00  0.00    +0.000 C 
+ATOM      9  OXT VAL B   1       9.747   2.250   9.742  0.00  0.00    +0.000 OA
+BRANCH   8  10
+ATOM     10  O   VAL B   1       9.502   4.279  10.430  0.00  0.00    +0.000 OA
+ATOM     11  H   VAL B   1       9.609   5.198  10.282  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 4

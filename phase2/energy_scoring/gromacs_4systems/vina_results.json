@@ -1,0 +1,38 @@
+{
+  "systemA_thrrs_THR": {
+    "score_only_affinity": null,
+    "local_opt_affinity": null,
+    "center": [
+      -2.912416666666665,
+      -0.0810083333333347,
+      -1.0230499999999991
+    ]
+  },
+  "systemB_thrrs_SER": {
+    "score_only_affinity": null,
+    "local_opt_affinity": null,
+    "center": [
+      2.854956834532375,
+      -3.752194244604317,
+      0.23666906474820087
+    ]
+  },
+  "systemC_thrrs_ILE": {
+    "score_only_affinity": null,
+    "local_opt_affinity": null,
+    "center": [
+      -2.4065783783783785,
+      0.16188108108108085,
+      -2.1288648648648647
+    ]
+  },
+  "systemD_prors_edit": {
+    "score_only_affinity": null,
+    "local_opt_affinity": null,
+    "center": [
+      0.8946603773584906,
+      2.250584905660377,
+      -7.222830188679242
+    ]
+  }
+}

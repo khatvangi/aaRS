@@ -1,0 +1,47 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_prors_edit_LYS_LYS/ligand.h.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK    6  A    between atoms: CG_6  and  CD_7
+REMARK    7  A    between atoms: CD_7  and  CE_8
+REMARK    8  A    between atoms: CE_8  and  NZ_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LYS B   1      10.976 -16.222  -9.122  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LYS B   1       9.521 -16.213  -9.062  0.00  0.00    +0.000 NA
+ATOM      3  H   LYS B   1       9.159 -15.502  -9.698  0.00  0.00    +0.000 HD
+ATOM      4  H   LYS B   1       9.221 -16.002  -8.110  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LYS B   1      11.430 -16.433 -10.547  0.00  0.00    +0.000 C 
+ATOM      6  OXT LYS B   1      11.085 -17.457 -11.149  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  O   LYS B   1      12.126 -15.574 -11.107  0.00  0.00    +0.000 OA
+ATOM      8  H   LYS B   1      12.382 -14.802 -10.642  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LYS B   1      11.510 -17.263  -8.191  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  LYS B   1      12.222 -16.647  -7.026  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  CD  LYS B   1      12.314 -17.620  -5.867  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  CE  LYS B   1      13.322 -17.112  -4.840  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  NZ  LYS B   1      13.098 -17.782  -3.554  0.00  0.00    +0.000 NA
+ATOM     14  H   LYS B   1      12.153 -17.581  -3.226  0.00  0.00    +0.000 HD
+ATOM     15  H   LYS B   1      13.774 -17.441  -2.871  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 8
