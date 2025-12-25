@@ -1,0 +1,41 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/modern_prors_TRP_TRP/ligand.h.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TRP B   1     -10.640   6.345  -0.117  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TRP B   1      -9.573   5.532   0.450  0.00  0.00    +0.000 C 
+ATOM      3  CD1 TRP B   1      -9.663   4.725   1.525  0.00  0.00    +0.000 C 
+ATOM      4  CD2 TRP B   1      -8.224   5.424   0.006  0.00  0.00    +0.000 A 
+ATOM      5  NE1 TRP B   1      -8.494   4.123   1.773  0.00  0.00    +0.000 NA
+ATOM      6  CE2 TRP B   1      -7.580   4.521   0.870  0.00  0.00    +0.000 A 
+ATOM      7  CE3 TRP B   1      -7.508   5.988  -1.029  0.00  0.00    +0.000 A 
+ATOM      8  CZ2 TRP B   1      -6.234   4.190   0.707  0.00  0.00    +0.000 A 
+ATOM      9  CZ3 TRP B   1      -6.171   5.667  -1.182  0.00  0.00    +0.000 A 
+ATOM     10  CH2 TRP B   1      -5.541   4.777  -0.324  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CA  TRP B   1     -11.523   7.004   0.993  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N   TRP B   1     -12.643   7.712   0.397  0.00  0.00    +0.000 NA
+ATOM     13  H   TRP B   1     -13.197   7.062  -0.161  0.00  0.00    +0.000 HD
+ATOM     14  H   TRP B   1     -12.292   8.460  -0.201  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+BRANCH  11  15
+ATOM     15  C   TRP B   1     -10.717   7.988   1.814  0.00  0.00    +0.000 C 
+ATOM     16  OXT TRP B   1     -10.132   8.925   1.270  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   TRP B   1     -10.652   7.848   3.053  0.00  0.00    +0.000 OA
+ATOM     18  H   TRP B   1     -11.097   7.136   3.468  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  11  15
+ENDBRANCH   1  11
+TORSDOF 5

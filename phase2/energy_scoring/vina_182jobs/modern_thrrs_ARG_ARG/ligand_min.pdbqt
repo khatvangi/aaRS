@@ -1,0 +1,48 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/modern_thrrs_ARG_ARG/ligand.h.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK    6  A    between atoms: CG_6  and  CD_7
+REMARK    7  A    between atoms: CD_7  and  NE_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG B   1      -0.579  19.275  -4.583  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG B   1      -0.699  18.814  -3.140  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  CA  ARG B   1      -1.523  17.517  -3.021  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  N   ARG B   1      -0.696  16.383  -3.441  0.00  0.00    +0.000 NA
+ATOM      5  H   ARG B   1      -1.236  15.522  -3.365  0.00  0.00    +0.000 HD
+ATOM      6  H   ARG B   1       0.127  16.323  -2.843  0.00  0.00    +0.000 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG B   1      -2.797  17.597  -3.885  0.00  0.00    +0.000 C 
+ATOM      8  OXT ARG B   1      -2.881  16.978  -4.955  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   ARG B   1      -3.744  18.269  -3.488  0.00  0.00    +0.000 OA
+ATOM     10  H   ARG B   1      -3.679  18.737  -2.678  0.00  0.00    +0.000 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG B   1      -0.167  20.718  -4.633  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  NE  ARG B   1       0.927  20.900  -5.605  0.00  0.00    +0.000 NA
+ATOM     13  CZ  ARG B   1       1.256  22.118  -6.034  0.00  0.00    +0.000 C 
+ATOM     14  NH1 ARG B   1       0.613  23.178  -5.572  0.00  0.00    +0.000 N 
+ATOM     15  NH2 ARG B   1       2.218  22.231  -6.918  0.00  0.00    +0.000 N 
+ATOM     16  H   ARG B   1      -0.106  23.067  -4.908  0.00  0.00    +0.000 HD
+ATOM     17  H   ARG B   1       0.853  24.078  -5.892  0.00  0.00    +0.000 HD
+ATOM     18  H   ARG B   1       2.681  21.427  -7.247  0.00  0.00    +0.000 HD
+ATOM     19  H   ARG B   1       2.476  23.120  -7.254  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 7

@@ -1,0 +1,24 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/fulllength_shallow_pro_PRO/ligand.h.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  O_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   PRO C   1      41.206 -23.936  -4.341  0.00  0.00    +0.000 NA
+ATOM      2  CA  PRO C   1      40.843 -25.235  -3.788  0.00  0.00    +0.000 C 
+ATOM      3  CB  PRO C   1      40.600 -24.965  -2.346  0.00  0.00    +0.000 C 
+ATOM      4  CG  PRO C   1      40.244 -23.564  -2.295  0.00  0.00    +0.000 C 
+ATOM      5  CD  PRO C   1      41.004 -22.921  -3.365  0.00  0.00    +0.000 C 
+ATOM      6  H   PRO C   1      42.188 -23.947  -4.618  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   2   7
+ATOM      7  C   PRO C   1      39.580 -25.776  -4.441  0.00  0.00    +0.000 C 
+ATOM      8  OXT PRO C   1      38.773 -24.977  -4.900  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   PRO C   1      39.435 -27.001  -4.509  0.00  0.00    +0.000 OA
+ATOM     10  H   PRO C   1      40.083 -27.569  -4.142  0.00  0.00    +0.000 HD
+ENDBRANCH   7   9
+ENDBRANCH   2   7
+TORSDOF 2

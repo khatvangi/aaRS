@@ -1,0 +1,38 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/modern_thrrs_HIS_HIS/ligand.h.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  HIS B   1       5.767  15.575 -11.752  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   HIS B   1       5.238  14.224 -11.889  0.00  0.00    +0.000 NA
+ATOM      3  H   HIS B   1       4.305  14.264 -12.300  0.00  0.00    +0.000 HD
+ATOM      4  H   HIS B   1       5.185  13.785 -10.970  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   HIS B   1       5.829  16.278 -13.092  0.00  0.00    +0.000 C 
+ATOM      6  OXT HIS B   1       6.406  15.712 -14.044  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  O   HIS B   1       5.330  17.407 -13.216  0.00  0.00    +0.000 OA
+ATOM      8  H   HIS B   1       4.901  17.812 -12.488  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  HIS B   1       7.172  15.557 -11.135  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  HIS B   1       7.225  14.729  -9.900  0.00  0.00    +0.000 A 
+ATOM     11  ND1 HIS B   1       6.666  15.071  -8.729  0.00  0.00    +0.000 N 
+ATOM     12  CD2 HIS B   1       7.798  13.511  -9.737  0.00  0.00    +0.000 A 
+ATOM     13  CE1 HIS B   1       6.890  14.111  -7.866  0.00  0.00    +0.000 A 
+ATOM     14  NE2 HIS B   1       7.588  13.144  -8.471  0.00  0.00    +0.000 NA
+ATOM     15  H   HIS B   1       6.172  15.903  -8.549  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5

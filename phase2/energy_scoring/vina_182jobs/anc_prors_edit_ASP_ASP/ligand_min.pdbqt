@@ -1,0 +1,39 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_prors_edit_ASP_ASP/ligand.h.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  OXT_9
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK    6  A    between atoms: CG_6  and  OD2_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP B   1      -9.364  21.543  -4.994  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP B   1      -9.500  20.283  -5.738  0.00  0.00    +0.000 NA
+ATOM      3  H   ASP B   1      -8.638  20.095  -6.248  0.00  0.00    +0.000 HD
+ATOM      4  H   ASP B   1     -10.276  20.360  -6.397  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP B   1     -10.638  21.859  -4.216  0.00  0.00    +0.000 C 
+ATOM      6  O   ASP B   1     -11.623  21.108  -4.281  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  OXT ASP B   1     -10.685  22.894  -3.524  0.00  0.00    +0.000 OA
+ATOM      8  H   ASP B   1      -9.940  23.459  -3.476  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP B   1      -9.056  22.684  -5.927  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  ASP B   1      -8.021  22.349  -6.982  0.00  0.00    +0.000 C 
+ATOM     11  OD1 ASP B   1      -8.195  22.779  -8.140  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  OD2 ASP B   1      -7.049  21.671  -6.655  0.00  0.00    +0.000 OA
+ATOM     13  H   ASP B   1      -6.962  21.371  -5.771  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6

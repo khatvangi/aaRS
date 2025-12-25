@@ -10,27 +10,27 @@ REMARK    6  A    between atoms: CB_5  and  CG2_7
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1  CA  THR C   1       8.673  11.583  -3.918  0.00  0.00    +0.000 C 
+ATOM      1  CA  THR C   1       8.679  11.587  -3.903  0.00  0.00    +0.000 C 
 ENDROOT
 BRANCH   1   2
-ATOM      2  N   THR C   1       9.687  10.625  -4.325  0.00  0.00    +0.000 NA
-ATOM      3  H   THR C   1       9.257   9.708  -4.451  0.00  0.00    +0.000 HD
-ATOM      4  H   THR C   1      10.408  10.567  -3.606  0.00  0.00    +0.000 HD
+ATOM      2  N   THR C   1       9.704  10.639  -4.305  0.00  0.00    +0.000 NA
+ATOM      3  H   THR C   1       9.285   9.716  -4.426  0.00  0.00    +0.000 HD
+ATOM      4  H   THR C   1      10.427  10.594  -3.587  0.00  0.00    +0.000 HD
 ENDBRANCH   1   2
 BRANCH   1   5
-ATOM      5  C   THR C   1       7.557  11.670  -4.927  0.00  0.00    +0.000 C 
-ATOM      6  OXT THR C   1       7.802  11.524  -6.120  0.00  0.00    +0.000 OA
+ATOM      5  C   THR C   1       7.561  11.654  -4.911  0.00  0.00    +0.000 C 
+ATOM      6  OXT THR C   1       7.806  11.501  -6.104  0.00  0.00    +0.000 OA
 BRANCH   5   7
-ATOM      7  O   THR C   1       6.424  11.953  -4.513  0.00  0.00    +0.000 OA
-ATOM      8  H   THR C   1       6.274  12.056  -3.594  0.00  0.00    +0.000 HD
+ATOM      7  O   THR C   1       6.425  11.928  -4.498  0.00  0.00    +0.000 OA
+ATOM      8  H   THR C   1       6.275  12.038  -3.580  0.00  0.00    +0.000 HD
 ENDBRANCH   5   7
 ENDBRANCH   1   5
 BRANCH   1   9
-ATOM      9  CB  THR C   1       9.318  12.944  -3.732  0.00  0.00    +0.000 C 
-ATOM     10  CG2 THR C   1      10.147  12.969  -2.493  0.00  0.00    +0.000 C 
+ATOM      9  CB  THR C   1       9.307  12.956  -3.726  0.00  0.00    +0.000 C 
+ATOM     10  CG2 THR C   1      10.133  13.000  -2.485  0.00  0.00    +0.000 C 
 BRANCH   9  11
-ATOM     11  OG1 THR C   1      10.103  13.199  -4.892  0.00  0.00    +0.000 OA
-ATOM     12  H   THR C   1      10.773  12.504  -4.989  0.00  0.00    +0.000 HD
+ATOM     11  OG1 THR C   1      10.091  13.213  -4.886  0.00  0.00    +0.000 OA
+ATOM     12  H   THR C   1      10.769  12.525  -4.977  0.00  0.00    +0.000 HD
 ENDBRANCH   9  11
 ENDBRANCH   1   9
 TORSDOF 5

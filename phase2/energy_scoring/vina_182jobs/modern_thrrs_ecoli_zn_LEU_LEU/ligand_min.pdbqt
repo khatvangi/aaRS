@@ -1,0 +1,37 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/modern_thrrs_ecoli_zn_LEU_LEU/ligand.h.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  OXT_9
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK    6  A    between atoms: CG_6  and  CD1_7
+REMARK    7  A    between atoms: CG_6  and  CD2_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU B   1      -9.288  -4.627   9.716  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU B   1     -10.223  -3.566   9.314  0.00  0.00    +0.000 NA
+ATOM      3  H   LEU B   1     -10.819  -3.905   8.559  0.00  0.00    +0.000 HD
+ATOM      4  H   LEU B   1      -9.697  -2.753   8.992  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU B   1      -8.379  -4.178  10.834  0.00  0.00    +0.000 C 
+ATOM      6  O   LEU B   1      -7.767  -3.101  10.740  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  OXT LEU B   1      -8.214  -4.919  11.827  0.00  0.00    +0.000 OA
+ATOM      8  H   LEU B   1      -8.681  -5.730  11.889  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU B   1      -8.423  -5.005   8.512  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  LEU B   1      -9.116  -5.945   7.531  0.00  0.00    +0.000 C 
+ATOM     11  CD1 LEU B   1      -8.505  -5.759   6.147  0.00  0.00    +0.000 C 
+ATOM     12  CD2 LEU B   1      -8.982  -7.388   8.004  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5

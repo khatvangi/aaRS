@@ -1,0 +1,33 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_prors_edit_VAL_VAL/ligand.h.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  OXT_8
+REMARK    5  A    between atoms: CB_5  and  CG1_6
+REMARK    6  A    between atoms: CB_5  and  CG2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  VAL B   1       7.776  -5.426  -9.013  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   VAL B   1       6.674  -4.807  -8.272  0.00  0.00    +0.000 NA
+ATOM      3  H   VAL B   1       6.946  -3.868  -7.979  0.00  0.00    +0.000 HD
+ATOM      4  H   VAL B   1       6.459  -5.370  -7.448  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  CB  VAL B   1       7.370  -6.831  -9.451  0.00  0.00    +0.000 C 
+ATOM      6  CG1 VAL B   1       6.336  -6.755 -10.556  0.00  0.00    +0.000 C 
+ATOM      7  CG2 VAL B   1       6.844  -7.617  -8.273  0.00  0.00    +0.000 C 
+ENDBRANCH   1   5
+BRANCH   1   8
+ATOM      8  C   VAL B   1       8.172  -4.555 -10.171  0.00  0.00    +0.000 C 
+ATOM      9  O   VAL B   1       7.348  -4.168 -10.994  0.00  0.00    +0.000 OA
+BRANCH   8  10
+ATOM     10  OXT VAL B   1       9.375  -4.225 -10.259  0.00  0.00    +0.000 OA
+ATOM     11  H   VAL B   1       9.991  -4.529  -9.622  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 4

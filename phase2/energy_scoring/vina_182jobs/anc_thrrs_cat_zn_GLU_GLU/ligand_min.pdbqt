@@ -1,0 +1,43 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_thrrs_cat_zn_GLU_GLU/ligand.h.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK    6  A    between atoms: CG_6  and  CD_7
+REMARK    7  A    between atoms: CD_7  and  OE1_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLU B   1      -3.614   0.381   6.794  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLU B   1      -4.014  -0.474   5.698  0.00  0.00    +0.000 NA
+ATOM      3  H   GLU B   1      -4.474  -1.306   6.066  0.00  0.00    +0.000 HD
+ATOM      4  H   GLU B   1      -3.190  -0.748   5.163  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLU B   1      -2.925   1.630   6.282  0.00  0.00    +0.000 C 
+ATOM      6  OXT GLU B   1      -1.731   1.788   6.453  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  O   GLU B   1      -3.568   2.487   5.673  0.00  0.00    +0.000 OA
+ATOM      8  H   GLU B   1      -4.488   2.373   5.536  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  GLU B   1      -2.709  -0.383   7.750  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  GLU B   1      -3.416  -0.739   9.032  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  CD  GLU B   1      -2.408  -0.968  10.139  0.00  0.00    +0.000 C 
+ATOM     12  OE2 GLU B   1      -1.932  -2.089  10.275  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  OE1 GLU B   1      -2.083   0.001  10.859  0.00  0.00    +0.000 OA
+ATOM     14  H   GLU B   1      -2.473   0.842  10.718  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 7

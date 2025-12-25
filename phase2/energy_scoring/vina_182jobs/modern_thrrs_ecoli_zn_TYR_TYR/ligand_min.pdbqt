@@ -1,0 +1,43 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/modern_thrrs_ecoli_zn_TYR_TYR/ligand.h.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  OXT_13
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK    6  A    between atoms: CZ_11  and  OH_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR B   1      -8.080  -4.014   9.347  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR B   1      -8.378  -5.249   8.577  0.00  0.00    +0.000 A 
+ATOM      3  CD1 TYR B   1      -8.150  -5.266   7.218  0.00  0.00    +0.000 A 
+ATOM      4  CD2 TYR B   1      -8.888  -6.416   9.149  0.00  0.00    +0.000 A 
+ATOM      5  CE1 TYR B   1      -8.425  -6.405   6.461  0.00  0.00    +0.000 A 
+ATOM      6  CE2 TYR B   1      -9.163  -7.547   8.394  0.00  0.00    +0.000 A 
+ATOM      7  CZ  TYR B   1      -8.938  -7.554   7.044  0.00  0.00    +0.000 A 
+BRANCH   7   8
+ATOM      8  OH  TYR B   1      -9.209  -8.640   6.286  0.00  0.00    +0.000 OA
+ATOM      9  H   TYR B   1      -9.045  -8.620   5.363  0.00  0.00    +0.000 HD
+ENDBRANCH   7   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR B   1      -8.026  -4.146  10.822  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  N   TYR B   1      -9.349  -4.491  11.333  0.00  0.00    +0.000 NA
+ATOM     12  H   TYR B   1     -10.018  -3.773  11.056  0.00  0.00    +0.000 HD
+ATOM     13  H   TYR B   1      -9.316  -4.550  12.351  0.00  0.00    +0.000 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR B   1      -6.972  -5.167  11.193  0.00  0.00    +0.000 C 
+ATOM     15  O   TYR B   1      -5.875  -5.144  10.613  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  OXT TYR B   1      -7.179  -5.975  12.102  0.00  0.00    +0.000 OA
+ATOM     17  H   TYR B   1      -8.008  -5.989  12.537  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6

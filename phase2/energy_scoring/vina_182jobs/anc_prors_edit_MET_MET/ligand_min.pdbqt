@@ -1,0 +1,39 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/anc_prors_edit_MET_MET/ligand.h.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  OXT_9
+REMARK    5  A    between atoms: CB_5  and  CG_6
+REMARK    6  A    between atoms: CG_6  and  SD_7
+REMARK    7  A    between atoms: SD_7  and  CE_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  MET B   1      11.897 -12.905  -9.952  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   MET B   1      11.241 -13.866  -9.050  0.00  0.00    +0.000 NA
+ATOM      3  H   MET B   1      10.411 -14.248  -9.505  0.00  0.00    +0.000 HD
+ATOM      4  H   MET B   1      10.968 -13.393  -8.188  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   MET B   1      12.233 -13.563 -11.288  0.00  0.00    +0.000 C 
+ATOM      6  O   MET B   1      12.573 -12.881 -12.255  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  OXT MET B   1      12.142 -14.788 -11.423  0.00  0.00    +0.000 OA
+ATOM      8  H   MET B   1      11.885 -15.321 -10.697  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  MET B   1      13.129 -12.333  -9.283  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  CG  MET B   1      13.324 -10.857  -9.558  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  SD  MET B   1      13.973  -9.930  -8.181  0.00  0.00    +0.000 S 
+ATOM     12  CE  MET B   1      15.529 -10.716  -7.824  0.00  0.00    +0.000 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
