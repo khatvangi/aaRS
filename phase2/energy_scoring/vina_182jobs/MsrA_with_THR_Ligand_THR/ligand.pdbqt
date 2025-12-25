@@ -1,0 +1,36 @@
+REMARK  Name = /storage/kiran-stuff/aaRS/phase2/energy_scoring/vina_182jobs/MsrA_with_THR_Ligand_THR/ligand.h.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_3
+REMARK    3  A    between atoms: CA_2  and  CB_5
+REMARK    4  A    between atoms: C_3  and  OXT_8
+REMARK    5  A    between atoms: CB_5  and  OG1_6
+REMARK    6  A    between atoms: CB_5  and  CG2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  THR L   1      11.753 -11.339 -11.279  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   THR L   1      10.816 -10.804 -10.290  0.00  0.00    +0.000 NA
+ATOM      3  H   THR L   1       9.870 -11.111 -10.517  0.00  0.00    +0.000 HD
+ATOM      4  H   THR L   1      10.855  -9.785 -10.302  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   THR L   1      11.702 -12.845 -11.361  0.00  0.00    +0.000 C 
+ATOM      6  O   THR L   1      11.995 -13.381 -12.441  0.00  0.00    +0.000 OA
+BRANCH   5   7
+ATOM      7  OXT THR L   1      11.392 -13.523 -10.389  0.00  0.00    +0.000 OA
+ATOM      8  H   THR L   1      11.173 -13.107  -9.578  0.00  0.00    +0.000 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  THR L   1      13.156 -10.870 -10.923  0.00  0.00    +0.000 C 
+ATOM     10  CG2 THR L   1      13.520 -11.238  -9.522  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     11  OG1 THR L   1      13.223  -9.454 -11.145  0.00  0.00    +0.000 OA
+ATOM     12  H   THR L   1      12.573  -9.007 -10.580  0.00  0.00    +0.000 HD
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 5
